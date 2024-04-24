@@ -255,6 +255,7 @@ pub struct EnvVars {
     ffmpeg_dll_path: Option<PathBuf>,
     ffmpeg_pkg_config_path: Option<PathBuf>,
     ffmpeg_libs_dir: Option<PathBuf>,
+    ffmpeg_custom_libs_dir: Option<PathBuf>,//自定义路径
     ffmpeg_binding_path: Option<PathBuf>,
 }
 
@@ -266,6 +267,7 @@ impl EnvVars {
         println!("cargo:rerun-if-env-changed=FFMPEG_DLL_PATH");
         println!("cargo:rerun-if-env-changed=FFMPEG_PKG_CONFIG_PATH");
         println!("cargo:rerun-if-env-changed=FFMPEG_LIBS_DIR");
+        println!("cargo:rerun-if-env-changed=FFMPEG_CUSTOM_LIBS_DIR"); //自定义路径
         println!("cargo:rerun-if-env-changed=FFMPEG_BINDING_PATH");
         Self {
             docs_rs: env::var("DOCS_RS").ok(),
@@ -274,6 +276,7 @@ impl EnvVars {
             ffmpeg_dll_path: env::var("FFMPEG_DLL_PATH").ok().map(remove_verbatim),
             ffmpeg_pkg_config_path: env::var("FFMPEG_PKG_CONFIG_PATH").ok().map(remove_verbatim),
             ffmpeg_libs_dir: env::var("FFMPEG_LIBS_DIR").ok().map(remove_verbatim),
+            ffmpeg_custom_libs_dir: env::var("FFMPEG_CUSTOM_LIBS_DIR").ok().map(remove_verbatim),
             ffmpeg_binding_path: env::var("FFMPEG_BINDING_PATH").ok().map(remove_verbatim),
         }
     }
@@ -418,6 +421,9 @@ fn static_linking(env_vars: &EnvVars) {
     #[cfg(target_os = "windows")]
     {
         use windows::*;
+        if env_vars.ffmpeg_custom_libs_dir.as_ref().is_some(){
+            return
+        }
         if let Some(ffmpeg_libs_dir) = env_vars.ffmpeg_libs_dir.as_ref() {
             static_linking_with_libs_dir(&*LIBS, ffmpeg_libs_dir);
             if let Some(ffmpeg_binding_path) = env_vars.ffmpeg_binding_path.as_ref() {
