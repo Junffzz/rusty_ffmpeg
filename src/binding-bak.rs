@@ -12,8 +12,8 @@ impl<Storage> __BindgenBitfieldUnit<Storage> {
     }
 }
 impl<Storage> __BindgenBitfieldUnit<Storage>
-    where
-        Storage: AsRef<[u8]> + AsMut<[u8]>,
+where
+    Storage: AsRef<[u8]> + AsMut<[u8]>,
 {
     #[inline]
     pub fn get_bit(&self, index: usize) -> bool {
@@ -1461,20 +1461,20 @@ fn bindgen_test_layout_max_align_t() {
         unsafe { ::std::ptr::addr_of!((*ptr).__clang_max_align_nonce1) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(max_align_t),
-        "::",
-        stringify!(__clang_max_align_nonce1)
+            "Offset of field: ",
+            stringify!(max_align_t),
+            "::",
+            stringify!(__clang_max_align_nonce1)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__clang_max_align_nonce2) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(max_align_t),
-        "::",
-        stringify!(__clang_max_align_nonce2)
+            "Offset of field: ",
+            stringify!(max_align_t),
+            "::",
+            stringify!(__clang_max_align_nonce2)
         )
     );
 }
@@ -1535,10 +1535,10 @@ fn bindgen_test_layout___fsid_t() {
         unsafe { ::std::ptr::addr_of!((*ptr).__val) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__fsid_t),
-        "::",
-        stringify!(__val)
+            "Offset of field: ",
+            stringify!(__fsid_t),
+            "::",
+            stringify!(__val)
         )
     );
 }
@@ -1821,20 +1821,20 @@ fn bindgen_test_layout_imaxdiv_t() {
         unsafe { ::std::ptr::addr_of!((*ptr).quot) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(imaxdiv_t),
-        "::",
-        stringify!(quot)
+            "Offset of field: ",
+            stringify!(imaxdiv_t),
+            "::",
+            stringify!(quot)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).rem) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(imaxdiv_t),
-        "::",
-        stringify!(rem)
+            "Offset of field: ",
+            stringify!(imaxdiv_t),
+            "::",
+            stringify!(rem)
         )
     );
 }
@@ -3234,20 +3234,20 @@ fn bindgen_test_layout___mbstate_t__bindgen_ty_1() {
         unsafe { ::std::ptr::addr_of!((*ptr).__wch) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__mbstate_t__bindgen_ty_1),
-        "::",
-        stringify!(__wch)
+            "Offset of field: ",
+            stringify!(__mbstate_t__bindgen_ty_1),
+            "::",
+            stringify!(__wch)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__wchb) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__mbstate_t__bindgen_ty_1),
-        "::",
-        stringify!(__wchb)
+            "Offset of field: ",
+            stringify!(__mbstate_t__bindgen_ty_1),
+            "::",
+            stringify!(__wchb)
         )
     );
 }
@@ -3274,20 +3274,20 @@ fn bindgen_test_layout___mbstate_t() {
         unsafe { ::std::ptr::addr_of!((*ptr).__count) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__mbstate_t),
-        "::",
-        stringify!(__count)
+            "Offset of field: ",
+            stringify!(__mbstate_t),
+            "::",
+            stringify!(__count)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__value) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__mbstate_t),
-        "::",
-        stringify!(__value)
+            "Offset of field: ",
+            stringify!(__mbstate_t),
+            "::",
+            stringify!(__value)
         )
     );
 }
@@ -3324,20 +3324,20 @@ fn bindgen_test_layout__G_fpos_t() {
         unsafe { ::std::ptr::addr_of!((*ptr).__pos) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_G_fpos_t),
-        "::",
-        stringify!(__pos)
+            "Offset of field: ",
+            stringify!(_G_fpos_t),
+            "::",
+            stringify!(__pos)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__state) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_G_fpos_t),
-        "::",
-        stringify!(__state)
+            "Offset of field: ",
+            stringify!(_G_fpos_t),
+            "::",
+            stringify!(__state)
         )
     );
 }
@@ -3375,20 +3375,20 @@ fn bindgen_test_layout__G_fpos64_t() {
         unsafe { ::std::ptr::addr_of!((*ptr).__pos) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_G_fpos64_t),
-        "::",
-        stringify!(__pos)
+            "Offset of field: ",
+            stringify!(_G_fpos64_t),
+            "::",
+            stringify!(__pos)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__state) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_G_fpos64_t),
-        "::",
-        stringify!(__state)
+            "Offset of field: ",
+            stringify!(_G_fpos64_t),
+            "::",
+            stringify!(__state)
         )
     );
 }
@@ -3471,290 +3471,290 @@ fn bindgen_test_layout__IO_FILE() {
         unsafe { ::std::ptr::addr_of!((*ptr)._flags) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_IO_FILE),
-        "::",
-        stringify!(_flags)
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_flags)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr)._IO_read_ptr) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_IO_FILE),
-        "::",
-        stringify!(_IO_read_ptr)
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_IO_read_ptr)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr)._IO_read_end) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_IO_FILE),
-        "::",
-        stringify!(_IO_read_end)
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_IO_read_end)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr)._IO_read_base) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_IO_FILE),
-        "::",
-        stringify!(_IO_read_base)
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_IO_read_base)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr)._IO_write_base) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_IO_FILE),
-        "::",
-        stringify!(_IO_write_base)
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_IO_write_base)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr)._IO_write_ptr) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_IO_FILE),
-        "::",
-        stringify!(_IO_write_ptr)
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_IO_write_ptr)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr)._IO_write_end) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_IO_FILE),
-        "::",
-        stringify!(_IO_write_end)
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_IO_write_end)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr)._IO_buf_base) as usize - ptr as usize },
         56usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_IO_FILE),
-        "::",
-        stringify!(_IO_buf_base)
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_IO_buf_base)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr)._IO_buf_end) as usize - ptr as usize },
         64usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_IO_FILE),
-        "::",
-        stringify!(_IO_buf_end)
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_IO_buf_end)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr)._IO_save_base) as usize - ptr as usize },
         72usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_IO_FILE),
-        "::",
-        stringify!(_IO_save_base)
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_IO_save_base)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr)._IO_backup_base) as usize - ptr as usize },
         80usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_IO_FILE),
-        "::",
-        stringify!(_IO_backup_base)
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_IO_backup_base)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr)._IO_save_end) as usize - ptr as usize },
         88usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_IO_FILE),
-        "::",
-        stringify!(_IO_save_end)
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_IO_save_end)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr)._markers) as usize - ptr as usize },
         96usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_IO_FILE),
-        "::",
-        stringify!(_markers)
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_markers)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr)._chain) as usize - ptr as usize },
         104usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_IO_FILE),
-        "::",
-        stringify!(_chain)
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_chain)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr)._fileno) as usize - ptr as usize },
         112usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_IO_FILE),
-        "::",
-        stringify!(_fileno)
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_fileno)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr)._flags2) as usize - ptr as usize },
         116usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_IO_FILE),
-        "::",
-        stringify!(_flags2)
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_flags2)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr)._old_offset) as usize - ptr as usize },
         120usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_IO_FILE),
-        "::",
-        stringify!(_old_offset)
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_old_offset)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr)._cur_column) as usize - ptr as usize },
         128usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_IO_FILE),
-        "::",
-        stringify!(_cur_column)
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_cur_column)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr)._vtable_offset) as usize - ptr as usize },
         130usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_IO_FILE),
-        "::",
-        stringify!(_vtable_offset)
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_vtable_offset)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr)._shortbuf) as usize - ptr as usize },
         131usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_IO_FILE),
-        "::",
-        stringify!(_shortbuf)
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_shortbuf)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr)._lock) as usize - ptr as usize },
         136usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_IO_FILE),
-        "::",
-        stringify!(_lock)
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_lock)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr)._offset) as usize - ptr as usize },
         144usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_IO_FILE),
-        "::",
-        stringify!(_offset)
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_offset)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr)._codecvt) as usize - ptr as usize },
         152usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_IO_FILE),
-        "::",
-        stringify!(_codecvt)
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_codecvt)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr)._wide_data) as usize - ptr as usize },
         160usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_IO_FILE),
-        "::",
-        stringify!(_wide_data)
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_wide_data)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr)._freeres_list) as usize - ptr as usize },
         168usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_IO_FILE),
-        "::",
-        stringify!(_freeres_list)
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_freeres_list)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr)._freeres_buf) as usize - ptr as usize },
         176usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_IO_FILE),
-        "::",
-        stringify!(_freeres_buf)
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_freeres_buf)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__pad5) as usize - ptr as usize },
         184usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_IO_FILE),
-        "::",
-        stringify!(__pad5)
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(__pad5)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr)._mode) as usize - ptr as usize },
         192usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_IO_FILE),
-        "::",
-        stringify!(_mode)
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_mode)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr)._unused2) as usize - ptr as usize },
         196usize,
         concat!(
-        "Offset of field: ",
-        stringify!(_IO_FILE),
-        "::",
-        stringify!(_unused2)
+            "Offset of field: ",
+            stringify!(_IO_FILE),
+            "::",
+            stringify!(_unused2)
         )
     );
 }
@@ -3825,7 +3825,7 @@ extern "C" {
 }
 extern "C" {
     pub fn fdopen(__fd: ::std::os::raw::c_int, __modes: *const ::std::os::raw::c_char)
-                  -> *mut FILE;
+        -> *mut FILE;
 }
 extern "C" {
     pub fn fmemopen(
@@ -4033,7 +4033,7 @@ extern "C" {
 }
 extern "C" {
     pub fn fputc_unlocked(__c: ::std::os::raw::c_int, __stream: *mut FILE)
-                          -> ::std::os::raw::c_int;
+        -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn putc_unlocked(__c: ::std::os::raw::c_int, __stream: *mut FILE) -> ::std::os::raw::c_int;
@@ -4225,20 +4225,20 @@ fn bindgen_test_layout_div_t() {
         unsafe { ::std::ptr::addr_of!((*ptr).quot) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(div_t),
-        "::",
-        stringify!(quot)
+            "Offset of field: ",
+            stringify!(div_t),
+            "::",
+            stringify!(quot)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).rem) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(div_t),
-        "::",
-        stringify!(rem)
+            "Offset of field: ",
+            stringify!(div_t),
+            "::",
+            stringify!(rem)
         )
     );
 }
@@ -4266,20 +4266,20 @@ fn bindgen_test_layout_ldiv_t() {
         unsafe { ::std::ptr::addr_of!((*ptr).quot) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(ldiv_t),
-        "::",
-        stringify!(quot)
+            "Offset of field: ",
+            stringify!(ldiv_t),
+            "::",
+            stringify!(quot)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).rem) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(ldiv_t),
-        "::",
-        stringify!(rem)
+            "Offset of field: ",
+            stringify!(ldiv_t),
+            "::",
+            stringify!(rem)
         )
     );
 }
@@ -4307,20 +4307,20 @@ fn bindgen_test_layout_lldiv_t() {
         unsafe { ::std::ptr::addr_of!((*ptr).quot) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(lldiv_t),
-        "::",
-        stringify!(quot)
+            "Offset of field: ",
+            stringify!(lldiv_t),
+            "::",
+            stringify!(quot)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).rem) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(lldiv_t),
-        "::",
-        stringify!(rem)
+            "Offset of field: ",
+            stringify!(lldiv_t),
+            "::",
+            stringify!(rem)
         )
     );
 }
@@ -4459,10 +4459,10 @@ fn bindgen_test_layout___sigset_t() {
         unsafe { ::std::ptr::addr_of!((*ptr).__val) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__sigset_t),
-        "::",
-        stringify!(__val)
+            "Offset of field: ",
+            stringify!(__sigset_t),
+            "::",
+            stringify!(__val)
         )
     );
 }
@@ -4491,20 +4491,20 @@ fn bindgen_test_layout_timeval() {
         unsafe { ::std::ptr::addr_of!((*ptr).tv_sec) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(timeval),
-        "::",
-        stringify!(tv_sec)
+            "Offset of field: ",
+            stringify!(timeval),
+            "::",
+            stringify!(tv_sec)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).tv_usec) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(timeval),
-        "::",
-        stringify!(tv_usec)
+            "Offset of field: ",
+            stringify!(timeval),
+            "::",
+            stringify!(tv_usec)
         )
     );
 }
@@ -4532,20 +4532,20 @@ fn bindgen_test_layout_timespec() {
         unsafe { ::std::ptr::addr_of!((*ptr).tv_sec) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(timespec),
-        "::",
-        stringify!(tv_sec)
+            "Offset of field: ",
+            stringify!(timespec),
+            "::",
+            stringify!(tv_sec)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).tv_nsec) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(timespec),
-        "::",
-        stringify!(tv_nsec)
+            "Offset of field: ",
+            stringify!(timespec),
+            "::",
+            stringify!(tv_nsec)
         )
     );
 }
@@ -4574,10 +4574,10 @@ fn bindgen_test_layout_fd_set() {
         unsafe { ::std::ptr::addr_of!((*ptr).__fds_bits) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(fd_set),
-        "::",
-        stringify!(__fds_bits)
+            "Offset of field: ",
+            stringify!(fd_set),
+            "::",
+            stringify!(__fds_bits)
         )
     );
 }
@@ -4631,28 +4631,28 @@ fn bindgen_test_layout___atomic_wide_counter__bindgen_ty_1() {
         ::std::mem::align_of::<__atomic_wide_counter__bindgen_ty_1>(),
         4usize,
         concat!(
-        "Alignment of ",
-        stringify!(__atomic_wide_counter__bindgen_ty_1)
+            "Alignment of ",
+            stringify!(__atomic_wide_counter__bindgen_ty_1)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__low) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__atomic_wide_counter__bindgen_ty_1),
-        "::",
-        stringify!(__low)
+            "Offset of field: ",
+            stringify!(__atomic_wide_counter__bindgen_ty_1),
+            "::",
+            stringify!(__low)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__high) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__atomic_wide_counter__bindgen_ty_1),
-        "::",
-        stringify!(__high)
+            "Offset of field: ",
+            stringify!(__atomic_wide_counter__bindgen_ty_1),
+            "::",
+            stringify!(__high)
         )
     );
 }
@@ -4675,20 +4675,20 @@ fn bindgen_test_layout___atomic_wide_counter() {
         unsafe { ::std::ptr::addr_of!((*ptr).__value64) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__atomic_wide_counter),
-        "::",
-        stringify!(__value64)
+            "Offset of field: ",
+            stringify!(__atomic_wide_counter),
+            "::",
+            stringify!(__value64)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__value32) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__atomic_wide_counter),
-        "::",
-        stringify!(__value32)
+            "Offset of field: ",
+            stringify!(__atomic_wide_counter),
+            "::",
+            stringify!(__value32)
         )
     );
 }
@@ -4722,20 +4722,20 @@ fn bindgen_test_layout___pthread_internal_list() {
         unsafe { ::std::ptr::addr_of!((*ptr).__prev) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_internal_list),
-        "::",
-        stringify!(__prev)
+            "Offset of field: ",
+            stringify!(__pthread_internal_list),
+            "::",
+            stringify!(__prev)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__next) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_internal_list),
-        "::",
-        stringify!(__next)
+            "Offset of field: ",
+            stringify!(__pthread_internal_list),
+            "::",
+            stringify!(__next)
         )
     );
 }
@@ -4764,10 +4764,10 @@ fn bindgen_test_layout___pthread_internal_slist() {
         unsafe { ::std::ptr::addr_of!((*ptr).__next) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_internal_slist),
-        "::",
-        stringify!(__next)
+            "Offset of field: ",
+            stringify!(__pthread_internal_slist),
+            "::",
+            stringify!(__next)
         )
     );
 }
@@ -4802,80 +4802,80 @@ fn bindgen_test_layout___pthread_mutex_s() {
         unsafe { ::std::ptr::addr_of!((*ptr).__lock) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_mutex_s),
-        "::",
-        stringify!(__lock)
+            "Offset of field: ",
+            stringify!(__pthread_mutex_s),
+            "::",
+            stringify!(__lock)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__count) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_mutex_s),
-        "::",
-        stringify!(__count)
+            "Offset of field: ",
+            stringify!(__pthread_mutex_s),
+            "::",
+            stringify!(__count)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__owner) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_mutex_s),
-        "::",
-        stringify!(__owner)
+            "Offset of field: ",
+            stringify!(__pthread_mutex_s),
+            "::",
+            stringify!(__owner)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__nusers) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_mutex_s),
-        "::",
-        stringify!(__nusers)
+            "Offset of field: ",
+            stringify!(__pthread_mutex_s),
+            "::",
+            stringify!(__nusers)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__kind) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_mutex_s),
-        "::",
-        stringify!(__kind)
+            "Offset of field: ",
+            stringify!(__pthread_mutex_s),
+            "::",
+            stringify!(__kind)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__spins) as usize - ptr as usize },
         20usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_mutex_s),
-        "::",
-        stringify!(__spins)
+            "Offset of field: ",
+            stringify!(__pthread_mutex_s),
+            "::",
+            stringify!(__spins)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__elision) as usize - ptr as usize },
         22usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_mutex_s),
-        "::",
-        stringify!(__elision)
+            "Offset of field: ",
+            stringify!(__pthread_mutex_s),
+            "::",
+            stringify!(__elision)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__list) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_mutex_s),
-        "::",
-        stringify!(__list)
+            "Offset of field: ",
+            stringify!(__pthread_mutex_s),
+            "::",
+            stringify!(__list)
         )
     );
 }
@@ -4914,120 +4914,120 @@ fn bindgen_test_layout___pthread_rwlock_arch_t() {
         unsafe { ::std::ptr::addr_of!((*ptr).__readers) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_rwlock_arch_t),
-        "::",
-        stringify!(__readers)
+            "Offset of field: ",
+            stringify!(__pthread_rwlock_arch_t),
+            "::",
+            stringify!(__readers)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__writers) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_rwlock_arch_t),
-        "::",
-        stringify!(__writers)
+            "Offset of field: ",
+            stringify!(__pthread_rwlock_arch_t),
+            "::",
+            stringify!(__writers)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__wrphase_futex) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_rwlock_arch_t),
-        "::",
-        stringify!(__wrphase_futex)
+            "Offset of field: ",
+            stringify!(__pthread_rwlock_arch_t),
+            "::",
+            stringify!(__wrphase_futex)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__writers_futex) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_rwlock_arch_t),
-        "::",
-        stringify!(__writers_futex)
+            "Offset of field: ",
+            stringify!(__pthread_rwlock_arch_t),
+            "::",
+            stringify!(__writers_futex)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__pad3) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_rwlock_arch_t),
-        "::",
-        stringify!(__pad3)
+            "Offset of field: ",
+            stringify!(__pthread_rwlock_arch_t),
+            "::",
+            stringify!(__pad3)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__pad4) as usize - ptr as usize },
         20usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_rwlock_arch_t),
-        "::",
-        stringify!(__pad4)
+            "Offset of field: ",
+            stringify!(__pthread_rwlock_arch_t),
+            "::",
+            stringify!(__pad4)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__cur_writer) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_rwlock_arch_t),
-        "::",
-        stringify!(__cur_writer)
+            "Offset of field: ",
+            stringify!(__pthread_rwlock_arch_t),
+            "::",
+            stringify!(__cur_writer)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__shared) as usize - ptr as usize },
         28usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_rwlock_arch_t),
-        "::",
-        stringify!(__shared)
+            "Offset of field: ",
+            stringify!(__pthread_rwlock_arch_t),
+            "::",
+            stringify!(__shared)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__rwelision) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_rwlock_arch_t),
-        "::",
-        stringify!(__rwelision)
+            "Offset of field: ",
+            stringify!(__pthread_rwlock_arch_t),
+            "::",
+            stringify!(__rwelision)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__pad1) as usize - ptr as usize },
         33usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_rwlock_arch_t),
-        "::",
-        stringify!(__pad1)
+            "Offset of field: ",
+            stringify!(__pthread_rwlock_arch_t),
+            "::",
+            stringify!(__pad1)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__pad2) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_rwlock_arch_t),
-        "::",
-        stringify!(__pad2)
+            "Offset of field: ",
+            stringify!(__pthread_rwlock_arch_t),
+            "::",
+            stringify!(__pad2)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__flags) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_rwlock_arch_t),
-        "::",
-        stringify!(__flags)
+            "Offset of field: ",
+            stringify!(__pthread_rwlock_arch_t),
+            "::",
+            stringify!(__flags)
         )
     );
 }
@@ -5060,70 +5060,70 @@ fn bindgen_test_layout___pthread_cond_s() {
         unsafe { ::std::ptr::addr_of!((*ptr).__wseq) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_cond_s),
-        "::",
-        stringify!(__wseq)
+            "Offset of field: ",
+            stringify!(__pthread_cond_s),
+            "::",
+            stringify!(__wseq)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__g1_start) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_cond_s),
-        "::",
-        stringify!(__g1_start)
+            "Offset of field: ",
+            stringify!(__pthread_cond_s),
+            "::",
+            stringify!(__g1_start)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__g_refs) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_cond_s),
-        "::",
-        stringify!(__g_refs)
+            "Offset of field: ",
+            stringify!(__pthread_cond_s),
+            "::",
+            stringify!(__g_refs)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__g_size) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_cond_s),
-        "::",
-        stringify!(__g_size)
+            "Offset of field: ",
+            stringify!(__pthread_cond_s),
+            "::",
+            stringify!(__g_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__g1_orig_size) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_cond_s),
-        "::",
-        stringify!(__g1_orig_size)
+            "Offset of field: ",
+            stringify!(__pthread_cond_s),
+            "::",
+            stringify!(__g1_orig_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__wrefs) as usize - ptr as usize },
         36usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_cond_s),
-        "::",
-        stringify!(__wrefs)
+            "Offset of field: ",
+            stringify!(__pthread_cond_s),
+            "::",
+            stringify!(__wrefs)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__g_signals) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__pthread_cond_s),
-        "::",
-        stringify!(__g_signals)
+            "Offset of field: ",
+            stringify!(__pthread_cond_s),
+            "::",
+            stringify!(__g_signals)
         )
     );
 }
@@ -5157,10 +5157,10 @@ fn bindgen_test_layout___once_flag() {
         unsafe { ::std::ptr::addr_of!((*ptr).__data) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__once_flag),
-        "::",
-        stringify!(__data)
+            "Offset of field: ",
+            stringify!(__once_flag),
+            "::",
+            stringify!(__data)
         )
     );
 }
@@ -5189,20 +5189,20 @@ fn bindgen_test_layout_pthread_mutexattr_t() {
         unsafe { ::std::ptr::addr_of!((*ptr).__size) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(pthread_mutexattr_t),
-        "::",
-        stringify!(__size)
+            "Offset of field: ",
+            stringify!(pthread_mutexattr_t),
+            "::",
+            stringify!(__size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__align) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(pthread_mutexattr_t),
-        "::",
-        stringify!(__align)
+            "Offset of field: ",
+            stringify!(pthread_mutexattr_t),
+            "::",
+            stringify!(__align)
         )
     );
 }
@@ -5235,20 +5235,20 @@ fn bindgen_test_layout_pthread_condattr_t() {
         unsafe { ::std::ptr::addr_of!((*ptr).__size) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(pthread_condattr_t),
-        "::",
-        stringify!(__size)
+            "Offset of field: ",
+            stringify!(pthread_condattr_t),
+            "::",
+            stringify!(__size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__align) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(pthread_condattr_t),
-        "::",
-        stringify!(__align)
+            "Offset of field: ",
+            stringify!(pthread_condattr_t),
+            "::",
+            stringify!(__align)
         )
     );
 }
@@ -5283,20 +5283,20 @@ fn bindgen_test_layout_pthread_attr_t() {
         unsafe { ::std::ptr::addr_of!((*ptr).__size) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(pthread_attr_t),
-        "::",
-        stringify!(__size)
+            "Offset of field: ",
+            stringify!(pthread_attr_t),
+            "::",
+            stringify!(__size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__align) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(pthread_attr_t),
-        "::",
-        stringify!(__align)
+            "Offset of field: ",
+            stringify!(pthread_attr_t),
+            "::",
+            stringify!(__align)
         )
     );
 }
@@ -5330,30 +5330,30 @@ fn bindgen_test_layout_pthread_mutex_t() {
         unsafe { ::std::ptr::addr_of!((*ptr).__data) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(pthread_mutex_t),
-        "::",
-        stringify!(__data)
+            "Offset of field: ",
+            stringify!(pthread_mutex_t),
+            "::",
+            stringify!(__data)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__size) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(pthread_mutex_t),
-        "::",
-        stringify!(__size)
+            "Offset of field: ",
+            stringify!(pthread_mutex_t),
+            "::",
+            stringify!(__size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__align) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(pthread_mutex_t),
-        "::",
-        stringify!(__align)
+            "Offset of field: ",
+            stringify!(pthread_mutex_t),
+            "::",
+            stringify!(__align)
         )
     );
 }
@@ -5387,30 +5387,30 @@ fn bindgen_test_layout_pthread_cond_t() {
         unsafe { ::std::ptr::addr_of!((*ptr).__data) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(pthread_cond_t),
-        "::",
-        stringify!(__data)
+            "Offset of field: ",
+            stringify!(pthread_cond_t),
+            "::",
+            stringify!(__data)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__size) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(pthread_cond_t),
-        "::",
-        stringify!(__size)
+            "Offset of field: ",
+            stringify!(pthread_cond_t),
+            "::",
+            stringify!(__size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__align) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(pthread_cond_t),
-        "::",
-        stringify!(__align)
+            "Offset of field: ",
+            stringify!(pthread_cond_t),
+            "::",
+            stringify!(__align)
         )
     );
 }
@@ -5444,30 +5444,30 @@ fn bindgen_test_layout_pthread_rwlock_t() {
         unsafe { ::std::ptr::addr_of!((*ptr).__data) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(pthread_rwlock_t),
-        "::",
-        stringify!(__data)
+            "Offset of field: ",
+            stringify!(pthread_rwlock_t),
+            "::",
+            stringify!(__data)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__size) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(pthread_rwlock_t),
-        "::",
-        stringify!(__size)
+            "Offset of field: ",
+            stringify!(pthread_rwlock_t),
+            "::",
+            stringify!(__size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__align) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(pthread_rwlock_t),
-        "::",
-        stringify!(__align)
+            "Offset of field: ",
+            stringify!(pthread_rwlock_t),
+            "::",
+            stringify!(__align)
         )
     );
 }
@@ -5500,20 +5500,20 @@ fn bindgen_test_layout_pthread_rwlockattr_t() {
         unsafe { ::std::ptr::addr_of!((*ptr).__size) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(pthread_rwlockattr_t),
-        "::",
-        stringify!(__size)
+            "Offset of field: ",
+            stringify!(pthread_rwlockattr_t),
+            "::",
+            stringify!(__size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__align) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(pthread_rwlockattr_t),
-        "::",
-        stringify!(__align)
+            "Offset of field: ",
+            stringify!(pthread_rwlockattr_t),
+            "::",
+            stringify!(__align)
         )
     );
 }
@@ -5547,20 +5547,20 @@ fn bindgen_test_layout_pthread_barrier_t() {
         unsafe { ::std::ptr::addr_of!((*ptr).__size) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(pthread_barrier_t),
-        "::",
-        stringify!(__size)
+            "Offset of field: ",
+            stringify!(pthread_barrier_t),
+            "::",
+            stringify!(__size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__align) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(pthread_barrier_t),
-        "::",
-        stringify!(__align)
+            "Offset of field: ",
+            stringify!(pthread_barrier_t),
+            "::",
+            stringify!(__align)
         )
     );
 }
@@ -5594,20 +5594,20 @@ fn bindgen_test_layout_pthread_barrierattr_t() {
         unsafe { ::std::ptr::addr_of!((*ptr).__size) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(pthread_barrierattr_t),
-        "::",
-        stringify!(__size)
+            "Offset of field: ",
+            stringify!(pthread_barrierattr_t),
+            "::",
+            stringify!(__size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__align) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(pthread_barrierattr_t),
-        "::",
-        stringify!(__align)
+            "Offset of field: ",
+            stringify!(pthread_barrierattr_t),
+            "::",
+            stringify!(__align)
         )
     );
 }
@@ -5661,70 +5661,70 @@ fn bindgen_test_layout_random_data() {
         unsafe { ::std::ptr::addr_of!((*ptr).fptr) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(random_data),
-        "::",
-        stringify!(fptr)
+            "Offset of field: ",
+            stringify!(random_data),
+            "::",
+            stringify!(fptr)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).rptr) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(random_data),
-        "::",
-        stringify!(rptr)
+            "Offset of field: ",
+            stringify!(random_data),
+            "::",
+            stringify!(rptr)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).state) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(random_data),
-        "::",
-        stringify!(state)
+            "Offset of field: ",
+            stringify!(random_data),
+            "::",
+            stringify!(state)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).rand_type) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(random_data),
-        "::",
-        stringify!(rand_type)
+            "Offset of field: ",
+            stringify!(random_data),
+            "::",
+            stringify!(rand_type)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).rand_deg) as usize - ptr as usize },
         28usize,
         concat!(
-        "Offset of field: ",
-        stringify!(random_data),
-        "::",
-        stringify!(rand_deg)
+            "Offset of field: ",
+            stringify!(random_data),
+            "::",
+            stringify!(rand_deg)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).rand_sep) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(random_data),
-        "::",
-        stringify!(rand_sep)
+            "Offset of field: ",
+            stringify!(random_data),
+            "::",
+            stringify!(rand_sep)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).end_ptr) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(random_data),
-        "::",
-        stringify!(end_ptr)
+            "Offset of field: ",
+            stringify!(random_data),
+            "::",
+            stringify!(end_ptr)
         )
     );
 }
@@ -5814,50 +5814,50 @@ fn bindgen_test_layout_drand48_data() {
         unsafe { ::std::ptr::addr_of!((*ptr).__x) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(drand48_data),
-        "::",
-        stringify!(__x)
+            "Offset of field: ",
+            stringify!(drand48_data),
+            "::",
+            stringify!(__x)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__old_x) as usize - ptr as usize },
         6usize,
         concat!(
-        "Offset of field: ",
-        stringify!(drand48_data),
-        "::",
-        stringify!(__old_x)
+            "Offset of field: ",
+            stringify!(drand48_data),
+            "::",
+            stringify!(__old_x)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__c) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(drand48_data),
-        "::",
-        stringify!(__c)
+            "Offset of field: ",
+            stringify!(drand48_data),
+            "::",
+            stringify!(__c)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__init) as usize - ptr as usize },
         14usize,
         concat!(
-        "Offset of field: ",
-        stringify!(drand48_data),
-        "::",
-        stringify!(__init)
+            "Offset of field: ",
+            stringify!(drand48_data),
+            "::",
+            stringify!(__init)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__a) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(drand48_data),
-        "::",
-        stringify!(__a)
+            "Offset of field: ",
+            stringify!(drand48_data),
+            "::",
+            stringify!(__a)
         )
     );
 }
@@ -6194,7 +6194,7 @@ extern "C" {
 }
 extern "C" {
     pub fn getloadavg(__loadavg: *mut f64, __nelem: ::std::os::raw::c_int)
-                      -> ::std::os::raw::c_int;
+        -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn memcpy(
@@ -6325,50 +6325,50 @@ fn bindgen_test_layout___locale_struct() {
         unsafe { ::std::ptr::addr_of!((*ptr).__locales) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__locale_struct),
-        "::",
-        stringify!(__locales)
+            "Offset of field: ",
+            stringify!(__locale_struct),
+            "::",
+            stringify!(__locales)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__ctype_b) as usize - ptr as usize },
         104usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__locale_struct),
-        "::",
-        stringify!(__ctype_b)
+            "Offset of field: ",
+            stringify!(__locale_struct),
+            "::",
+            stringify!(__ctype_b)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__ctype_tolower) as usize - ptr as usize },
         112usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__locale_struct),
-        "::",
-        stringify!(__ctype_tolower)
+            "Offset of field: ",
+            stringify!(__locale_struct),
+            "::",
+            stringify!(__ctype_tolower)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__ctype_toupper) as usize - ptr as usize },
         120usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__locale_struct),
-        "::",
-        stringify!(__ctype_toupper)
+            "Offset of field: ",
+            stringify!(__locale_struct),
+            "::",
+            stringify!(__ctype_toupper)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).__names) as usize - ptr as usize },
         128usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__locale_struct),
-        "::",
-        stringify!(__names)
+            "Offset of field: ",
+            stringify!(__locale_struct),
+            "::",
+            stringify!(__names)
         )
     );
 }
@@ -6614,7 +6614,7 @@ extern "C" {
 extern "C" {
     #[doc = " Allocate, reallocate, or free a block of memory.\n\n If `ptr` is `NULL` and `size` > 0, allocate a new block. Otherwise, expand or\n shrink that block of memory according to `size`.\n\n @param ptr  Pointer to a memory block already allocated with\n             av_realloc() or `NULL`\n @param size Size in bytes of the memory block to be allocated or\n             reallocated\n\n @return Pointer to a newly-reallocated block or `NULL` if the block\n         cannot be reallocated\n\n @warning Unlike av_malloc(), the returned pointer is not guaranteed to be\n          correctly aligned. The returned pointer must be freed after even\n          if size is zero.\n @see av_fast_realloc()\n @see av_reallocp()"]
     pub fn av_realloc(ptr: *mut ::std::os::raw::c_void, size: usize)
-                      -> *mut ::std::os::raw::c_void;
+        -> *mut ::std::os::raw::c_void;
 }
 extern "C" {
     #[doc = " Allocate, reallocate, or free a block of memory through a pointer to a\n pointer.\n\n If `*ptr` is `NULL` and `size` > 0, allocate a new block. If `size` is\n zero, free the memory block pointed to by `*ptr`. Otherwise, expand or\n shrink that block of memory according to `size`.\n\n @param[in,out] ptr  Pointer to a pointer to a memory block already allocated\n                     with av_realloc(), or a pointer to `NULL`. The pointer\n                     is updated on success, or freed on failure.\n @param[in]     size Size in bytes for the memory block to be allocated or\n                     reallocated\n\n @return Zero on success, an AVERROR error code on failure\n\n @warning Unlike av_malloc(), the allocated memory is not guaranteed to be\n          correctly aligned."]
@@ -6752,20 +6752,20 @@ fn bindgen_test_layout_AVRational() {
         unsafe { ::std::ptr::addr_of!((*ptr).num) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVRational),
-        "::",
-        stringify!(num)
+            "Offset of field: ",
+            stringify!(AVRational),
+            "::",
+            stringify!(num)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).den) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVRational),
-        "::",
-        stringify!(den)
+            "Offset of field: ",
+            stringify!(AVRational),
+            "::",
+            stringify!(den)
         )
     );
 }
@@ -6806,7 +6806,7 @@ extern "C" {
 extern "C" {
     #[doc = " Find the value in a list of rationals nearest a given reference rational.\n\n @param q      Reference rational\n @param q_list Array of rationals terminated by `{0, 0}`\n @return Index of the nearest value found in the array"]
     pub fn av_find_nearest_q_idx(q: AVRational, q_list: *const AVRational)
-                                 -> ::std::os::raw::c_int;
+        -> ::std::os::raw::c_int;
 }
 extern "C" {
     #[doc = " Convert an AVRational to a IEEE 32-bit `float` expressed in fixed-point\n format.\n\n @param q Rational to be converted\n @return Equivalent floating-point value, expressed as an unsigned 32-bit\n         integer.\n @note The returned value is platform-indepedant."]
@@ -6845,20 +6845,20 @@ fn bindgen_test_layout_av_intfloat32() {
         unsafe { ::std::ptr::addr_of!((*ptr).i) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(av_intfloat32),
-        "::",
-        stringify!(i)
+            "Offset of field: ",
+            stringify!(av_intfloat32),
+            "::",
+            stringify!(i)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).f) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(av_intfloat32),
-        "::",
-        stringify!(f)
+            "Offset of field: ",
+            stringify!(av_intfloat32),
+            "::",
+            stringify!(f)
         )
     );
 }
@@ -6891,20 +6891,20 @@ fn bindgen_test_layout_av_intfloat64() {
         unsafe { ::std::ptr::addr_of!((*ptr).i) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(av_intfloat64),
-        "::",
-        stringify!(i)
+            "Offset of field: ",
+            stringify!(av_intfloat64),
+            "::",
+            stringify!(i)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).f) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(av_intfloat64),
-        "::",
-        stringify!(f)
+            "Offset of field: ",
+            stringify!(av_intfloat64),
+            "::",
+            stringify!(f)
         )
     );
 }
@@ -7062,110 +7062,110 @@ fn bindgen_test_layout_AVClass() {
         unsafe { ::std::ptr::addr_of!((*ptr).class_name) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVClass),
-        "::",
-        stringify!(class_name)
+            "Offset of field: ",
+            stringify!(AVClass),
+            "::",
+            stringify!(class_name)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).item_name) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVClass),
-        "::",
-        stringify!(item_name)
+            "Offset of field: ",
+            stringify!(AVClass),
+            "::",
+            stringify!(item_name)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).option) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVClass),
-        "::",
-        stringify!(option)
+            "Offset of field: ",
+            stringify!(AVClass),
+            "::",
+            stringify!(option)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).version) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVClass),
-        "::",
-        stringify!(version)
+            "Offset of field: ",
+            stringify!(AVClass),
+            "::",
+            stringify!(version)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).log_level_offset_offset) as usize - ptr as usize },
         28usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVClass),
-        "::",
-        stringify!(log_level_offset_offset)
+            "Offset of field: ",
+            stringify!(AVClass),
+            "::",
+            stringify!(log_level_offset_offset)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).parent_log_context_offset) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVClass),
-        "::",
-        stringify!(parent_log_context_offset)
+            "Offset of field: ",
+            stringify!(AVClass),
+            "::",
+            stringify!(parent_log_context_offset)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).category) as usize - ptr as usize },
         36usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVClass),
-        "::",
-        stringify!(category)
+            "Offset of field: ",
+            stringify!(AVClass),
+            "::",
+            stringify!(category)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).get_category) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVClass),
-        "::",
-        stringify!(get_category)
+            "Offset of field: ",
+            stringify!(AVClass),
+            "::",
+            stringify!(get_category)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).query_ranges) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVClass),
-        "::",
-        stringify!(query_ranges)
+            "Offset of field: ",
+            stringify!(AVClass),
+            "::",
+            stringify!(query_ranges)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).child_next) as usize - ptr as usize },
         56usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVClass),
-        "::",
-        stringify!(child_next)
+            "Offset of field: ",
+            stringify!(AVClass),
+            "::",
+            stringify!(child_next)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).child_class_iterate) as usize - ptr as usize },
         64usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVClass),
-        "::",
-        stringify!(child_class_iterate)
+            "Offset of field: ",
+            stringify!(AVClass),
+            "::",
+            stringify!(child_class_iterate)
         )
     );
 }
@@ -7918,30 +7918,30 @@ fn bindgen_test_layout_AVBufferRef() {
         unsafe { ::std::ptr::addr_of!((*ptr).buffer) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBufferRef),
-        "::",
-        stringify!(buffer)
+            "Offset of field: ",
+            stringify!(AVBufferRef),
+            "::",
+            stringify!(buffer)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).data) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBufferRef),
-        "::",
-        stringify!(data)
+            "Offset of field: ",
+            stringify!(AVBufferRef),
+            "::",
+            stringify!(data)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).size) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBufferRef),
-        "::",
-        stringify!(size)
+            "Offset of field: ",
+            stringify!(AVBufferRef),
+            "::",
+            stringify!(size)
         )
     );
 }
@@ -8140,30 +8140,30 @@ fn bindgen_test_layout_AVChannelCustom() {
         unsafe { ::std::ptr::addr_of!((*ptr).id) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVChannelCustom),
-        "::",
-        stringify!(id)
+            "Offset of field: ",
+            stringify!(AVChannelCustom),
+            "::",
+            stringify!(id)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).name) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVChannelCustom),
-        "::",
-        stringify!(name)
+            "Offset of field: ",
+            stringify!(AVChannelCustom),
+            "::",
+            stringify!(name)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).opaque) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVChannelCustom),
-        "::",
-        stringify!(opaque)
+            "Offset of field: ",
+            stringify!(AVChannelCustom),
+            "::",
+            stringify!(opaque)
         )
     );
 }
@@ -8207,20 +8207,20 @@ fn bindgen_test_layout_AVChannelLayout__bindgen_ty_1() {
         unsafe { ::std::ptr::addr_of!((*ptr).mask) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVChannelLayout__bindgen_ty_1),
-        "::",
-        stringify!(mask)
+            "Offset of field: ",
+            stringify!(AVChannelLayout__bindgen_ty_1),
+            "::",
+            stringify!(mask)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).map) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVChannelLayout__bindgen_ty_1),
-        "::",
-        stringify!(map)
+            "Offset of field: ",
+            stringify!(AVChannelLayout__bindgen_ty_1),
+            "::",
+            stringify!(map)
         )
     );
 }
@@ -8247,40 +8247,40 @@ fn bindgen_test_layout_AVChannelLayout() {
         unsafe { ::std::ptr::addr_of!((*ptr).order) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVChannelLayout),
-        "::",
-        stringify!(order)
+            "Offset of field: ",
+            stringify!(AVChannelLayout),
+            "::",
+            stringify!(order)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_channels) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVChannelLayout),
-        "::",
-        stringify!(nb_channels)
+            "Offset of field: ",
+            stringify!(AVChannelLayout),
+            "::",
+            stringify!(nb_channels)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).u) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVChannelLayout),
-        "::",
-        stringify!(u)
+            "Offset of field: ",
+            stringify!(AVChannelLayout),
+            "::",
+            stringify!(u)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).opaque) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVChannelLayout),
-        "::",
-        stringify!(opaque)
+            "Offset of field: ",
+            stringify!(AVChannelLayout),
+            "::",
+            stringify!(opaque)
         )
     );
 }
@@ -8476,7 +8476,7 @@ extern "C" {
 extern "C" {
     #[doc = " Check whether a channel layout is valid, i.e. can possibly describe audio\n data.\n\n @param channel_layout input channel layout\n @return 1 if channel_layout is valid, 0 otherwise."]
     pub fn av_channel_layout_check(channel_layout: *const AVChannelLayout)
-                                   -> ::std::os::raw::c_int;
+        -> ::std::os::raw::c_int;
 }
 extern "C" {
     #[doc = " Check whether two channel layouts are semantically the same, i.e. the same\n channels are present on the same positions in both.\n\n If one of the channel layouts is AV_CHANNEL_ORDER_UNSPEC, while the other is\n not, they are considered to be unequal. If both are AV_CHANNEL_ORDER_UNSPEC,\n they are considered equal iff the channel counts are the same in both.\n\n @param chl input channel layout\n @param chl1 input channel layout\n @return 0 if chl and chl1 are equal, 1 if they are not equal. A negative\n         AVERROR code if one or both are invalid."]
@@ -8510,20 +8510,20 @@ fn bindgen_test_layout_AVDictionaryEntry() {
         unsafe { ::std::ptr::addr_of!((*ptr).key) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDictionaryEntry),
-        "::",
-        stringify!(key)
+            "Offset of field: ",
+            stringify!(AVDictionaryEntry),
+            "::",
+            stringify!(key)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).value) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDictionaryEntry),
-        "::",
-        stringify!(value)
+            "Offset of field: ",
+            stringify!(AVDictionaryEntry),
+            "::",
+            stringify!(value)
         )
     );
 }
@@ -8541,7 +8541,13 @@ extern "C" {
         flags: ::std::os::raw::c_int,
     ) -> *mut AVDictionaryEntry;
 }
-
+extern "C" {
+    #[doc = " Iterate over a dictionary\n\n Iterates through all entries in the dictionary.\n\n @warning The returned AVDictionaryEntry key/value must not be changed.\n\n @warning As av_dict_set() invalidates all previous entries returned\n by this function, it must not be called while iterating over the dict.\n\n Typical usage:\n @code\n const AVDictionaryEntry *e = NULL;\n while ((e = av_dict_iterate(m, e))) {\n     // ...\n }\n @endcode\n\n @param m     The dictionary to iterate over\n @param prev  Pointer to the previous AVDictionaryEntry, NULL initially\n\n @retval AVDictionaryEntry* The next element in the dictionary\n @retval NULL               No more elements in the dictionary"]
+    pub fn av_dict_iterate(
+        m: *const AVDictionary,
+        prev: *const AVDictionaryEntry,
+    ) -> *const AVDictionaryEntry;
+}
 extern "C" {
     #[doc = " Get number of entries in dictionary.\n\n @param m dictionary\n @return  number of entries in dictionary"]
     pub fn av_dict_count(m: *const AVDictionary) -> ::std::os::raw::c_int;
@@ -8689,50 +8695,50 @@ fn bindgen_test_layout_AVFrameSideData() {
         unsafe { ::std::ptr::addr_of!((*ptr).type_) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrameSideData),
-        "::",
-        stringify!(type_)
+            "Offset of field: ",
+            stringify!(AVFrameSideData),
+            "::",
+            stringify!(type_)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).data) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrameSideData),
-        "::",
-        stringify!(data)
+            "Offset of field: ",
+            stringify!(AVFrameSideData),
+            "::",
+            stringify!(data)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).size) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrameSideData),
-        "::",
-        stringify!(size)
+            "Offset of field: ",
+            stringify!(AVFrameSideData),
+            "::",
+            stringify!(size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).metadata) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrameSideData),
-        "::",
-        stringify!(metadata)
+            "Offset of field: ",
+            stringify!(AVFrameSideData),
+            "::",
+            stringify!(metadata)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).buf) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrameSideData),
-        "::",
-        stringify!(buf)
+            "Offset of field: ",
+            stringify!(AVFrameSideData),
+            "::",
+            stringify!(buf)
         )
     );
 }
@@ -8768,60 +8774,60 @@ fn bindgen_test_layout_AVRegionOfInterest() {
         unsafe { ::std::ptr::addr_of!((*ptr).self_size) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVRegionOfInterest),
-        "::",
-        stringify!(self_size)
+            "Offset of field: ",
+            stringify!(AVRegionOfInterest),
+            "::",
+            stringify!(self_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).top) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVRegionOfInterest),
-        "::",
-        stringify!(top)
+            "Offset of field: ",
+            stringify!(AVRegionOfInterest),
+            "::",
+            stringify!(top)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).bottom) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVRegionOfInterest),
-        "::",
-        stringify!(bottom)
+            "Offset of field: ",
+            stringify!(AVRegionOfInterest),
+            "::",
+            stringify!(bottom)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).left) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVRegionOfInterest),
-        "::",
-        stringify!(left)
+            "Offset of field: ",
+            stringify!(AVRegionOfInterest),
+            "::",
+            stringify!(left)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).right) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVRegionOfInterest),
-        "::",
-        stringify!(right)
+            "Offset of field: ",
+            stringify!(AVRegionOfInterest),
+            "::",
+            stringify!(right)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).qoffset) as usize - ptr as usize },
         20usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVRegionOfInterest),
-        "::",
-        stringify!(qoffset)
+            "Offset of field: ",
+            stringify!(AVRegionOfInterest),
+            "::",
+            stringify!(qoffset)
         )
     );
 }
@@ -8942,510 +8948,510 @@ fn bindgen_test_layout_AVFrame() {
         unsafe { ::std::ptr::addr_of!((*ptr).data) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(data)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(data)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).linesize) as usize - ptr as usize },
         64usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(linesize)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(linesize)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).extended_data) as usize - ptr as usize },
         96usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(extended_data)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(extended_data)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).width) as usize - ptr as usize },
         104usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(width)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(width)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).height) as usize - ptr as usize },
         108usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(height)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(height)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_samples) as usize - ptr as usize },
         112usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(nb_samples)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(nb_samples)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).format) as usize - ptr as usize },
         116usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(format)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(format)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).key_frame) as usize - ptr as usize },
         120usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(key_frame)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(key_frame)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pict_type) as usize - ptr as usize },
         124usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(pict_type)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(pict_type)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).sample_aspect_ratio) as usize - ptr as usize },
         128usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(sample_aspect_ratio)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(sample_aspect_ratio)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pts) as usize - ptr as usize },
         136usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(pts)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(pts)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pkt_dts) as usize - ptr as usize },
         144usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(pkt_dts)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(pkt_dts)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).time_base) as usize - ptr as usize },
         152usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(time_base)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(time_base)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).coded_picture_number) as usize - ptr as usize },
         160usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(coded_picture_number)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(coded_picture_number)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).display_picture_number) as usize - ptr as usize },
         164usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(display_picture_number)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(display_picture_number)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).quality) as usize - ptr as usize },
         168usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(quality)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(quality)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).opaque) as usize - ptr as usize },
         176usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(opaque)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(opaque)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).repeat_pict) as usize - ptr as usize },
         184usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(repeat_pict)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(repeat_pict)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).interlaced_frame) as usize - ptr as usize },
         188usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(interlaced_frame)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(interlaced_frame)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).top_field_first) as usize - ptr as usize },
         192usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(top_field_first)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(top_field_first)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).palette_has_changed) as usize - ptr as usize },
         196usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(palette_has_changed)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(palette_has_changed)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).reordered_opaque) as usize - ptr as usize },
         200usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(reordered_opaque)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(reordered_opaque)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).sample_rate) as usize - ptr as usize },
         208usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(sample_rate)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(sample_rate)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).channel_layout) as usize - ptr as usize },
         216usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(channel_layout)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(channel_layout)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).buf) as usize - ptr as usize },
         224usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(buf)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(buf)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).extended_buf) as usize - ptr as usize },
         288usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(extended_buf)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(extended_buf)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_extended_buf) as usize - ptr as usize },
         296usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(nb_extended_buf)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(nb_extended_buf)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).side_data) as usize - ptr as usize },
         304usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(side_data)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(side_data)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_side_data) as usize - ptr as usize },
         312usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(nb_side_data)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(nb_side_data)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).flags) as usize - ptr as usize },
         316usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(flags)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(flags)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).color_range) as usize - ptr as usize },
         320usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(color_range)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(color_range)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).color_primaries) as usize - ptr as usize },
         324usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(color_primaries)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(color_primaries)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).color_trc) as usize - ptr as usize },
         328usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(color_trc)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(color_trc)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).colorspace) as usize - ptr as usize },
         332usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(colorspace)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(colorspace)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).chroma_location) as usize - ptr as usize },
         336usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(chroma_location)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(chroma_location)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).best_effort_timestamp) as usize - ptr as usize },
         344usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(best_effort_timestamp)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(best_effort_timestamp)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pkt_pos) as usize - ptr as usize },
         352usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(pkt_pos)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(pkt_pos)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pkt_duration) as usize - ptr as usize },
         360usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(pkt_duration)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(pkt_duration)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).metadata) as usize - ptr as usize },
         368usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(metadata)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(metadata)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).decode_error_flags) as usize - ptr as usize },
         376usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(decode_error_flags)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(decode_error_flags)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).channels) as usize - ptr as usize },
         380usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(channels)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(channels)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pkt_size) as usize - ptr as usize },
         384usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(pkt_size)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(pkt_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).hw_frames_ctx) as usize - ptr as usize },
         392usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(hw_frames_ctx)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(hw_frames_ctx)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).opaque_ref) as usize - ptr as usize },
         400usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(opaque_ref)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(opaque_ref)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).crop_top) as usize - ptr as usize },
         408usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(crop_top)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(crop_top)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).crop_bottom) as usize - ptr as usize },
         416usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(crop_bottom)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(crop_bottom)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).crop_left) as usize - ptr as usize },
         424usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(crop_left)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(crop_left)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).crop_right) as usize - ptr as usize },
         432usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(crop_right)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(crop_right)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).private_ref) as usize - ptr as usize },
         440usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(private_ref)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(private_ref)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).ch_layout) as usize - ptr as usize },
         448usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(ch_layout)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(ch_layout)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).duration) as usize - ptr as usize },
         472usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFrame),
-        "::",
-        stringify!(duration)
+            "Offset of field: ",
+            stringify!(AVFrame),
+            "::",
+            stringify!(duration)
         )
     );
 }
@@ -9607,60 +9613,60 @@ fn bindgen_test_layout_AVHWDeviceContext() {
         unsafe { ::std::ptr::addr_of!((*ptr).av_class) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWDeviceContext),
-        "::",
-        stringify!(av_class)
+            "Offset of field: ",
+            stringify!(AVHWDeviceContext),
+            "::",
+            stringify!(av_class)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).internal) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWDeviceContext),
-        "::",
-        stringify!(internal)
+            "Offset of field: ",
+            stringify!(AVHWDeviceContext),
+            "::",
+            stringify!(internal)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).type_) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWDeviceContext),
-        "::",
-        stringify!(type_)
+            "Offset of field: ",
+            stringify!(AVHWDeviceContext),
+            "::",
+            stringify!(type_)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).hwctx) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWDeviceContext),
-        "::",
-        stringify!(hwctx)
+            "Offset of field: ",
+            stringify!(AVHWDeviceContext),
+            "::",
+            stringify!(hwctx)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).free) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWDeviceContext),
-        "::",
-        stringify!(free)
+            "Offset of field: ",
+            stringify!(AVHWDeviceContext),
+            "::",
+            stringify!(free)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).user_opaque) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWDeviceContext),
-        "::",
-        stringify!(user_opaque)
+            "Offset of field: ",
+            stringify!(AVHWDeviceContext),
+            "::",
+            stringify!(user_opaque)
         )
     );
 }
@@ -9718,130 +9724,130 @@ fn bindgen_test_layout_AVHWFramesContext() {
         unsafe { ::std::ptr::addr_of!((*ptr).av_class) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWFramesContext),
-        "::",
-        stringify!(av_class)
+            "Offset of field: ",
+            stringify!(AVHWFramesContext),
+            "::",
+            stringify!(av_class)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).internal) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWFramesContext),
-        "::",
-        stringify!(internal)
+            "Offset of field: ",
+            stringify!(AVHWFramesContext),
+            "::",
+            stringify!(internal)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).device_ref) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWFramesContext),
-        "::",
-        stringify!(device_ref)
+            "Offset of field: ",
+            stringify!(AVHWFramesContext),
+            "::",
+            stringify!(device_ref)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).device_ctx) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWFramesContext),
-        "::",
-        stringify!(device_ctx)
+            "Offset of field: ",
+            stringify!(AVHWFramesContext),
+            "::",
+            stringify!(device_ctx)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).hwctx) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWFramesContext),
-        "::",
-        stringify!(hwctx)
+            "Offset of field: ",
+            stringify!(AVHWFramesContext),
+            "::",
+            stringify!(hwctx)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).free) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWFramesContext),
-        "::",
-        stringify!(free)
+            "Offset of field: ",
+            stringify!(AVHWFramesContext),
+            "::",
+            stringify!(free)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).user_opaque) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWFramesContext),
-        "::",
-        stringify!(user_opaque)
+            "Offset of field: ",
+            stringify!(AVHWFramesContext),
+            "::",
+            stringify!(user_opaque)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pool) as usize - ptr as usize },
         56usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWFramesContext),
-        "::",
-        stringify!(pool)
+            "Offset of field: ",
+            stringify!(AVHWFramesContext),
+            "::",
+            stringify!(pool)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).initial_pool_size) as usize - ptr as usize },
         64usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWFramesContext),
-        "::",
-        stringify!(initial_pool_size)
+            "Offset of field: ",
+            stringify!(AVHWFramesContext),
+            "::",
+            stringify!(initial_pool_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).format) as usize - ptr as usize },
         68usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWFramesContext),
-        "::",
-        stringify!(format)
+            "Offset of field: ",
+            stringify!(AVHWFramesContext),
+            "::",
+            stringify!(format)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).sw_format) as usize - ptr as usize },
         72usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWFramesContext),
-        "::",
-        stringify!(sw_format)
+            "Offset of field: ",
+            stringify!(AVHWFramesContext),
+            "::",
+            stringify!(sw_format)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).width) as usize - ptr as usize },
         76usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWFramesContext),
-        "::",
-        stringify!(width)
+            "Offset of field: ",
+            stringify!(AVHWFramesContext),
+            "::",
+            stringify!(width)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).height) as usize - ptr as usize },
         80usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWFramesContext),
-        "::",
-        stringify!(height)
+            "Offset of field: ",
+            stringify!(AVHWFramesContext),
+            "::",
+            stringify!(height)
         )
     );
 }
@@ -9966,60 +9972,60 @@ fn bindgen_test_layout_AVHWFramesConstraints() {
         unsafe { ::std::ptr::addr_of!((*ptr).valid_hw_formats) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWFramesConstraints),
-        "::",
-        stringify!(valid_hw_formats)
+            "Offset of field: ",
+            stringify!(AVHWFramesConstraints),
+            "::",
+            stringify!(valid_hw_formats)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).valid_sw_formats) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWFramesConstraints),
-        "::",
-        stringify!(valid_sw_formats)
+            "Offset of field: ",
+            stringify!(AVHWFramesConstraints),
+            "::",
+            stringify!(valid_sw_formats)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).min_width) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWFramesConstraints),
-        "::",
-        stringify!(min_width)
+            "Offset of field: ",
+            stringify!(AVHWFramesConstraints),
+            "::",
+            stringify!(min_width)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).min_height) as usize - ptr as usize },
         20usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWFramesConstraints),
-        "::",
-        stringify!(min_height)
+            "Offset of field: ",
+            stringify!(AVHWFramesConstraints),
+            "::",
+            stringify!(min_height)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).max_width) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWFramesConstraints),
-        "::",
-        stringify!(max_width)
+            "Offset of field: ",
+            stringify!(AVHWFramesConstraints),
+            "::",
+            stringify!(max_width)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).max_height) as usize - ptr as usize },
         28usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWFramesConstraints),
-        "::",
-        stringify!(max_height)
+            "Offset of field: ",
+            stringify!(AVHWFramesConstraints),
+            "::",
+            stringify!(max_height)
         )
     );
 }
@@ -10661,20 +10667,20 @@ fn bindgen_test_layout_AVProfile() {
         unsafe { ::std::ptr::addr_of!((*ptr).profile) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVProfile),
-        "::",
-        stringify!(profile)
+            "Offset of field: ",
+            stringify!(AVProfile),
+            "::",
+            stringify!(profile)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).name) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVProfile),
-        "::",
-        stringify!(name)
+            "Offset of field: ",
+            stringify!(AVProfile),
+            "::",
+            stringify!(name)
         )
     );
 }
@@ -10729,150 +10735,150 @@ fn bindgen_test_layout_AVCodec() {
         unsafe { ::std::ptr::addr_of!((*ptr).name) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodec),
-        "::",
-        stringify!(name)
+            "Offset of field: ",
+            stringify!(AVCodec),
+            "::",
+            stringify!(name)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).long_name) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodec),
-        "::",
-        stringify!(long_name)
+            "Offset of field: ",
+            stringify!(AVCodec),
+            "::",
+            stringify!(long_name)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).type_) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodec),
-        "::",
-        stringify!(type_)
+            "Offset of field: ",
+            stringify!(AVCodec),
+            "::",
+            stringify!(type_)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).id) as usize - ptr as usize },
         20usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodec),
-        "::",
-        stringify!(id)
+            "Offset of field: ",
+            stringify!(AVCodec),
+            "::",
+            stringify!(id)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).capabilities) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodec),
-        "::",
-        stringify!(capabilities)
+            "Offset of field: ",
+            stringify!(AVCodec),
+            "::",
+            stringify!(capabilities)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).max_lowres) as usize - ptr as usize },
         28usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodec),
-        "::",
-        stringify!(max_lowres)
+            "Offset of field: ",
+            stringify!(AVCodec),
+            "::",
+            stringify!(max_lowres)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).supported_framerates) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodec),
-        "::",
-        stringify!(supported_framerates)
+            "Offset of field: ",
+            stringify!(AVCodec),
+            "::",
+            stringify!(supported_framerates)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pix_fmts) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodec),
-        "::",
-        stringify!(pix_fmts)
+            "Offset of field: ",
+            stringify!(AVCodec),
+            "::",
+            stringify!(pix_fmts)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).supported_samplerates) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodec),
-        "::",
-        stringify!(supported_samplerates)
+            "Offset of field: ",
+            stringify!(AVCodec),
+            "::",
+            stringify!(supported_samplerates)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).sample_fmts) as usize - ptr as usize },
         56usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodec),
-        "::",
-        stringify!(sample_fmts)
+            "Offset of field: ",
+            stringify!(AVCodec),
+            "::",
+            stringify!(sample_fmts)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).channel_layouts) as usize - ptr as usize },
         64usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodec),
-        "::",
-        stringify!(channel_layouts)
+            "Offset of field: ",
+            stringify!(AVCodec),
+            "::",
+            stringify!(channel_layouts)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).priv_class) as usize - ptr as usize },
         72usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodec),
-        "::",
-        stringify!(priv_class)
+            "Offset of field: ",
+            stringify!(AVCodec),
+            "::",
+            stringify!(priv_class)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).profiles) as usize - ptr as usize },
         80usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodec),
-        "::",
-        stringify!(profiles)
+            "Offset of field: ",
+            stringify!(AVCodec),
+            "::",
+            stringify!(profiles)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).wrapper_name) as usize - ptr as usize },
         88usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodec),
-        "::",
-        stringify!(wrapper_name)
+            "Offset of field: ",
+            stringify!(AVCodec),
+            "::",
+            stringify!(wrapper_name)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).ch_layouts) as usize - ptr as usize },
         96usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodec),
-        "::",
-        stringify!(ch_layouts)
+            "Offset of field: ",
+            stringify!(AVCodec),
+            "::",
+            stringify!(ch_layouts)
         )
     );
 }
@@ -10948,30 +10954,30 @@ fn bindgen_test_layout_AVCodecHWConfig() {
         unsafe { ::std::ptr::addr_of!((*ptr).pix_fmt) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecHWConfig),
-        "::",
-        stringify!(pix_fmt)
+            "Offset of field: ",
+            stringify!(AVCodecHWConfig),
+            "::",
+            stringify!(pix_fmt)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).methods) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecHWConfig),
-        "::",
-        stringify!(methods)
+            "Offset of field: ",
+            stringify!(AVCodecHWConfig),
+            "::",
+            stringify!(methods)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).device_type) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecHWConfig),
-        "::",
-        stringify!(device_type)
+            "Offset of field: ",
+            stringify!(AVCodecHWConfig),
+            "::",
+            stringify!(device_type)
         )
     );
 }
@@ -11051,40 +11057,40 @@ fn bindgen_test_layout_AVPanScan() {
         unsafe { ::std::ptr::addr_of!((*ptr).id) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPanScan),
-        "::",
-        stringify!(id)
+            "Offset of field: ",
+            stringify!(AVPanScan),
+            "::",
+            stringify!(id)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).width) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPanScan),
-        "::",
-        stringify!(width)
+            "Offset of field: ",
+            stringify!(AVPanScan),
+            "::",
+            stringify!(width)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).height) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPanScan),
-        "::",
-        stringify!(height)
+            "Offset of field: ",
+            stringify!(AVPanScan),
+            "::",
+            stringify!(height)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).position) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPanScan),
-        "::",
-        stringify!(position)
+            "Offset of field: ",
+            stringify!(AVPanScan),
+            "::",
+            stringify!(position)
         )
     );
 }
@@ -11121,50 +11127,50 @@ fn bindgen_test_layout_AVCPBProperties() {
         unsafe { ::std::ptr::addr_of!((*ptr).max_bitrate) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCPBProperties),
-        "::",
-        stringify!(max_bitrate)
+            "Offset of field: ",
+            stringify!(AVCPBProperties),
+            "::",
+            stringify!(max_bitrate)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).min_bitrate) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCPBProperties),
-        "::",
-        stringify!(min_bitrate)
+            "Offset of field: ",
+            stringify!(AVCPBProperties),
+            "::",
+            stringify!(min_bitrate)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).avg_bitrate) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCPBProperties),
-        "::",
-        stringify!(avg_bitrate)
+            "Offset of field: ",
+            stringify!(AVCPBProperties),
+            "::",
+            stringify!(avg_bitrate)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).buffer_size) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCPBProperties),
-        "::",
-        stringify!(buffer_size)
+            "Offset of field: ",
+            stringify!(AVCPBProperties),
+            "::",
+            stringify!(buffer_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).vbv_delay) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCPBProperties),
-        "::",
-        stringify!(vbv_delay)
+            "Offset of field: ",
+            stringify!(AVCPBProperties),
+            "::",
+            stringify!(vbv_delay)
         )
     );
 }
@@ -11199,20 +11205,20 @@ fn bindgen_test_layout_AVProducerReferenceTime() {
         unsafe { ::std::ptr::addr_of!((*ptr).wallclock) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVProducerReferenceTime),
-        "::",
-        stringify!(wallclock)
+            "Offset of field: ",
+            stringify!(AVProducerReferenceTime),
+            "::",
+            stringify!(wallclock)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).flags) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVProducerReferenceTime),
-        "::",
-        stringify!(flags)
+            "Offset of field: ",
+            stringify!(AVProducerReferenceTime),
+            "::",
+            stringify!(flags)
         )
     );
 }
@@ -11317,30 +11323,30 @@ fn bindgen_test_layout_AVPacketSideData() {
         unsafe { ::std::ptr::addr_of!((*ptr).data) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPacketSideData),
-        "::",
-        stringify!(data)
+            "Offset of field: ",
+            stringify!(AVPacketSideData),
+            "::",
+            stringify!(data)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).size) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPacketSideData),
-        "::",
-        stringify!(size)
+            "Offset of field: ",
+            stringify!(AVPacketSideData),
+            "::",
+            stringify!(size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).type_) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPacketSideData),
-        "::",
-        stringify!(type_)
+            "Offset of field: ",
+            stringify!(AVPacketSideData),
+            "::",
+            stringify!(type_)
         )
     );
 }
@@ -11438,140 +11444,140 @@ fn bindgen_test_layout_AVPacket() {
         unsafe { ::std::ptr::addr_of!((*ptr).buf) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPacket),
-        "::",
-        stringify!(buf)
+            "Offset of field: ",
+            stringify!(AVPacket),
+            "::",
+            stringify!(buf)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pts) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPacket),
-        "::",
-        stringify!(pts)
+            "Offset of field: ",
+            stringify!(AVPacket),
+            "::",
+            stringify!(pts)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).dts) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPacket),
-        "::",
-        stringify!(dts)
+            "Offset of field: ",
+            stringify!(AVPacket),
+            "::",
+            stringify!(dts)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).data) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPacket),
-        "::",
-        stringify!(data)
+            "Offset of field: ",
+            stringify!(AVPacket),
+            "::",
+            stringify!(data)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).size) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPacket),
-        "::",
-        stringify!(size)
+            "Offset of field: ",
+            stringify!(AVPacket),
+            "::",
+            stringify!(size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).stream_index) as usize - ptr as usize },
         36usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPacket),
-        "::",
-        stringify!(stream_index)
+            "Offset of field: ",
+            stringify!(AVPacket),
+            "::",
+            stringify!(stream_index)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).flags) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPacket),
-        "::",
-        stringify!(flags)
+            "Offset of field: ",
+            stringify!(AVPacket),
+            "::",
+            stringify!(flags)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).side_data) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPacket),
-        "::",
-        stringify!(side_data)
+            "Offset of field: ",
+            stringify!(AVPacket),
+            "::",
+            stringify!(side_data)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).side_data_elems) as usize - ptr as usize },
         56usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPacket),
-        "::",
-        stringify!(side_data_elems)
+            "Offset of field: ",
+            stringify!(AVPacket),
+            "::",
+            stringify!(side_data_elems)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).duration) as usize - ptr as usize },
         64usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPacket),
-        "::",
-        stringify!(duration)
+            "Offset of field: ",
+            stringify!(AVPacket),
+            "::",
+            stringify!(duration)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pos) as usize - ptr as usize },
         72usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPacket),
-        "::",
-        stringify!(pos)
+            "Offset of field: ",
+            stringify!(AVPacket),
+            "::",
+            stringify!(pos)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).opaque) as usize - ptr as usize },
         80usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPacket),
-        "::",
-        stringify!(opaque)
+            "Offset of field: ",
+            stringify!(AVPacket),
+            "::",
+            stringify!(opaque)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).opaque_ref) as usize - ptr as usize },
         88usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPacket),
-        "::",
-        stringify!(opaque_ref)
+            "Offset of field: ",
+            stringify!(AVPacket),
+            "::",
+            stringify!(opaque_ref)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).time_base) as usize - ptr as usize },
         96usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPacket),
-        "::",
-        stringify!(time_base)
+            "Offset of field: ",
+            stringify!(AVPacket),
+            "::",
+            stringify!(time_base)
         )
     );
 }
@@ -11599,20 +11605,20 @@ fn bindgen_test_layout_AVPacketList() {
         unsafe { ::std::ptr::addr_of!((*ptr).pkt) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPacketList),
-        "::",
-        stringify!(pkt)
+            "Offset of field: ",
+            stringify!(AVPacketList),
+            "::",
+            stringify!(pkt)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).next) as usize - ptr as usize },
         104usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPacketList),
-        "::",
-        stringify!(next)
+            "Offset of field: ",
+            stringify!(AVPacketList),
+            "::",
+            stringify!(next)
         )
     );
 }
@@ -11774,70 +11780,70 @@ fn bindgen_test_layout_AVCodecDescriptor() {
         unsafe { ::std::ptr::addr_of!((*ptr).id) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecDescriptor),
-        "::",
-        stringify!(id)
+            "Offset of field: ",
+            stringify!(AVCodecDescriptor),
+            "::",
+            stringify!(id)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).type_) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecDescriptor),
-        "::",
-        stringify!(type_)
+            "Offset of field: ",
+            stringify!(AVCodecDescriptor),
+            "::",
+            stringify!(type_)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).name) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecDescriptor),
-        "::",
-        stringify!(name)
+            "Offset of field: ",
+            stringify!(AVCodecDescriptor),
+            "::",
+            stringify!(name)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).long_name) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecDescriptor),
-        "::",
-        stringify!(long_name)
+            "Offset of field: ",
+            stringify!(AVCodecDescriptor),
+            "::",
+            stringify!(long_name)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).props) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecDescriptor),
-        "::",
-        stringify!(props)
+            "Offset of field: ",
+            stringify!(AVCodecDescriptor),
+            "::",
+            stringify!(props)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).mime_types) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecDescriptor),
-        "::",
-        stringify!(mime_types)
+            "Offset of field: ",
+            stringify!(AVCodecDescriptor),
+            "::",
+            stringify!(mime_types)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).profiles) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecDescriptor),
-        "::",
-        stringify!(profiles)
+            "Offset of field: ",
+            stringify!(AVCodecDescriptor),
+            "::",
+            stringify!(profiles)
         )
     );
 }
@@ -11938,330 +11944,330 @@ fn bindgen_test_layout_AVCodecParameters() {
         unsafe { ::std::ptr::addr_of!((*ptr).codec_type) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(codec_type)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(codec_type)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).codec_id) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(codec_id)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(codec_id)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).codec_tag) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(codec_tag)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(codec_tag)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).extradata) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(extradata)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(extradata)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).extradata_size) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(extradata_size)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(extradata_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).format) as usize - ptr as usize },
         28usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(format)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(format)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).bit_rate) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(bit_rate)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(bit_rate)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).bits_per_coded_sample) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(bits_per_coded_sample)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(bits_per_coded_sample)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).bits_per_raw_sample) as usize - ptr as usize },
         44usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(bits_per_raw_sample)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(bits_per_raw_sample)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).profile) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(profile)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(profile)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).level) as usize - ptr as usize },
         52usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(level)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(level)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).width) as usize - ptr as usize },
         56usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(width)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(width)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).height) as usize - ptr as usize },
         60usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(height)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(height)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).sample_aspect_ratio) as usize - ptr as usize },
         64usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(sample_aspect_ratio)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(sample_aspect_ratio)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).field_order) as usize - ptr as usize },
         72usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(field_order)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(field_order)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).color_range) as usize - ptr as usize },
         76usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(color_range)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(color_range)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).color_primaries) as usize - ptr as usize },
         80usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(color_primaries)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(color_primaries)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).color_trc) as usize - ptr as usize },
         84usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(color_trc)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(color_trc)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).color_space) as usize - ptr as usize },
         88usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(color_space)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(color_space)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).chroma_location) as usize - ptr as usize },
         92usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(chroma_location)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(chroma_location)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).video_delay) as usize - ptr as usize },
         96usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(video_delay)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(video_delay)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).channel_layout) as usize - ptr as usize },
         104usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(channel_layout)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(channel_layout)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).channels) as usize - ptr as usize },
         112usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(channels)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(channels)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).sample_rate) as usize - ptr as usize },
         116usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(sample_rate)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(sample_rate)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).block_align) as usize - ptr as usize },
         120usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(block_align)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(block_align)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).frame_size) as usize - ptr as usize },
         124usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(frame_size)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(frame_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).initial_padding) as usize - ptr as usize },
         128usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(initial_padding)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(initial_padding)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).trailing_padding) as usize - ptr as usize },
         132usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(trailing_padding)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(trailing_padding)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).seek_preroll) as usize - ptr as usize },
         136usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(seek_preroll)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(seek_preroll)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).ch_layout) as usize - ptr as usize },
         144usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(ch_layout)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(ch_layout)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).framerate) as usize - ptr as usize },
         168usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(framerate)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(framerate)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).coded_side_data) as usize - ptr as usize },
         176usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(coded_side_data)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(coded_side_data)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_coded_side_data) as usize - ptr as usize },
         184usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParameters),
-        "::",
-        stringify!(nb_coded_side_data)
+            "Offset of field: ",
+            stringify!(AVCodecParameters),
+            "::",
+            stringify!(nb_coded_side_data)
         )
     );
 }
@@ -12319,40 +12325,40 @@ fn bindgen_test_layout_RcOverride() {
         unsafe { ::std::ptr::addr_of!((*ptr).start_frame) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(RcOverride),
-        "::",
-        stringify!(start_frame)
+            "Offset of field: ",
+            stringify!(RcOverride),
+            "::",
+            stringify!(start_frame)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).end_frame) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(RcOverride),
-        "::",
-        stringify!(end_frame)
+            "Offset of field: ",
+            stringify!(RcOverride),
+            "::",
+            stringify!(end_frame)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).qscale) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(RcOverride),
-        "::",
-        stringify!(qscale)
+            "Offset of field: ",
+            stringify!(RcOverride),
+            "::",
+            stringify!(qscale)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).quality_factor) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(RcOverride),
-        "::",
-        stringify!(quality_factor)
+            "Offset of field: ",
+            stringify!(RcOverride),
+            "::",
+            stringify!(quality_factor)
         )
     );
 }
@@ -12739,1320 +12745,1320 @@ fn bindgen_test_layout_AVCodecContext() {
         unsafe { ::std::ptr::addr_of!((*ptr).av_class) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(av_class)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(av_class)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).log_level_offset) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(log_level_offset)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(log_level_offset)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).codec_type) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(codec_type)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(codec_type)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).codec) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(codec)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(codec)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).codec_id) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(codec_id)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(codec_id)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).codec_tag) as usize - ptr as usize },
         28usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(codec_tag)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(codec_tag)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).priv_data) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(priv_data)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(priv_data)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).internal) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(internal)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(internal)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).opaque) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(opaque)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(opaque)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).bit_rate) as usize - ptr as usize },
         56usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(bit_rate)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(bit_rate)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).bit_rate_tolerance) as usize - ptr as usize },
         64usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(bit_rate_tolerance)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(bit_rate_tolerance)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).global_quality) as usize - ptr as usize },
         68usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(global_quality)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(global_quality)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).compression_level) as usize - ptr as usize },
         72usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(compression_level)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(compression_level)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).flags) as usize - ptr as usize },
         76usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(flags)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(flags)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).flags2) as usize - ptr as usize },
         80usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(flags2)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(flags2)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).extradata) as usize - ptr as usize },
         88usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(extradata)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(extradata)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).extradata_size) as usize - ptr as usize },
         96usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(extradata_size)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(extradata_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).time_base) as usize - ptr as usize },
         100usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(time_base)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(time_base)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).ticks_per_frame) as usize - ptr as usize },
         108usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(ticks_per_frame)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(ticks_per_frame)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).delay) as usize - ptr as usize },
         112usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(delay)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(delay)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).width) as usize - ptr as usize },
         116usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(width)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(width)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).height) as usize - ptr as usize },
         120usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(height)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(height)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).coded_width) as usize - ptr as usize },
         124usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(coded_width)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(coded_width)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).coded_height) as usize - ptr as usize },
         128usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(coded_height)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(coded_height)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).gop_size) as usize - ptr as usize },
         132usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(gop_size)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(gop_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pix_fmt) as usize - ptr as usize },
         136usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(pix_fmt)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(pix_fmt)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).draw_horiz_band) as usize - ptr as usize },
         144usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(draw_horiz_band)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(draw_horiz_band)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).get_format) as usize - ptr as usize },
         152usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(get_format)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(get_format)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).max_b_frames) as usize - ptr as usize },
         160usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(max_b_frames)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(max_b_frames)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).b_quant_factor) as usize - ptr as usize },
         164usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(b_quant_factor)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(b_quant_factor)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).b_quant_offset) as usize - ptr as usize },
         168usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(b_quant_offset)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(b_quant_offset)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).has_b_frames) as usize - ptr as usize },
         172usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(has_b_frames)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(has_b_frames)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).i_quant_factor) as usize - ptr as usize },
         176usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(i_quant_factor)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(i_quant_factor)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).i_quant_offset) as usize - ptr as usize },
         180usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(i_quant_offset)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(i_quant_offset)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).lumi_masking) as usize - ptr as usize },
         184usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(lumi_masking)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(lumi_masking)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).temporal_cplx_masking) as usize - ptr as usize },
         188usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(temporal_cplx_masking)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(temporal_cplx_masking)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).spatial_cplx_masking) as usize - ptr as usize },
         192usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(spatial_cplx_masking)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(spatial_cplx_masking)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).p_masking) as usize - ptr as usize },
         196usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(p_masking)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(p_masking)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).dark_masking) as usize - ptr as usize },
         200usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(dark_masking)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(dark_masking)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).slice_count) as usize - ptr as usize },
         204usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(slice_count)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(slice_count)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).slice_offset) as usize - ptr as usize },
         208usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(slice_offset)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(slice_offset)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).sample_aspect_ratio) as usize - ptr as usize },
         216usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(sample_aspect_ratio)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(sample_aspect_ratio)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).me_cmp) as usize - ptr as usize },
         224usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(me_cmp)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(me_cmp)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).me_sub_cmp) as usize - ptr as usize },
         228usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(me_sub_cmp)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(me_sub_cmp)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).mb_cmp) as usize - ptr as usize },
         232usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(mb_cmp)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(mb_cmp)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).ildct_cmp) as usize - ptr as usize },
         236usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(ildct_cmp)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(ildct_cmp)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).dia_size) as usize - ptr as usize },
         240usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(dia_size)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(dia_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).last_predictor_count) as usize - ptr as usize },
         244usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(last_predictor_count)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(last_predictor_count)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).me_pre_cmp) as usize - ptr as usize },
         248usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(me_pre_cmp)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(me_pre_cmp)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pre_dia_size) as usize - ptr as usize },
         252usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(pre_dia_size)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(pre_dia_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).me_subpel_quality) as usize - ptr as usize },
         256usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(me_subpel_quality)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(me_subpel_quality)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).me_range) as usize - ptr as usize },
         260usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(me_range)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(me_range)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).slice_flags) as usize - ptr as usize },
         264usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(slice_flags)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(slice_flags)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).mb_decision) as usize - ptr as usize },
         268usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(mb_decision)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(mb_decision)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).intra_matrix) as usize - ptr as usize },
         272usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(intra_matrix)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(intra_matrix)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).inter_matrix) as usize - ptr as usize },
         280usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(inter_matrix)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(inter_matrix)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).intra_dc_precision) as usize - ptr as usize },
         288usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(intra_dc_precision)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(intra_dc_precision)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).skip_top) as usize - ptr as usize },
         292usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(skip_top)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(skip_top)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).skip_bottom) as usize - ptr as usize },
         296usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(skip_bottom)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(skip_bottom)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).mb_lmin) as usize - ptr as usize },
         300usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(mb_lmin)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(mb_lmin)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).mb_lmax) as usize - ptr as usize },
         304usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(mb_lmax)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(mb_lmax)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).bidir_refine) as usize - ptr as usize },
         308usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(bidir_refine)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(bidir_refine)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).keyint_min) as usize - ptr as usize },
         312usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(keyint_min)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(keyint_min)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).refs) as usize - ptr as usize },
         316usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(refs)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(refs)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).mv0_threshold) as usize - ptr as usize },
         320usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(mv0_threshold)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(mv0_threshold)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).color_primaries) as usize - ptr as usize },
         324usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(color_primaries)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(color_primaries)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).color_trc) as usize - ptr as usize },
         328usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(color_trc)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(color_trc)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).colorspace) as usize - ptr as usize },
         332usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(colorspace)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(colorspace)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).color_range) as usize - ptr as usize },
         336usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(color_range)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(color_range)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).chroma_sample_location) as usize - ptr as usize },
         340usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(chroma_sample_location)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(chroma_sample_location)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).slices) as usize - ptr as usize },
         344usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(slices)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(slices)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).field_order) as usize - ptr as usize },
         348usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(field_order)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(field_order)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).sample_rate) as usize - ptr as usize },
         352usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(sample_rate)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(sample_rate)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).channels) as usize - ptr as usize },
         356usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(channels)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(channels)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).sample_fmt) as usize - ptr as usize },
         360usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(sample_fmt)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(sample_fmt)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).frame_size) as usize - ptr as usize },
         364usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(frame_size)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(frame_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).frame_number) as usize - ptr as usize },
         368usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(frame_number)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(frame_number)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).block_align) as usize - ptr as usize },
         372usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(block_align)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(block_align)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).cutoff) as usize - ptr as usize },
         376usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(cutoff)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(cutoff)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).channel_layout) as usize - ptr as usize },
         384usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(channel_layout)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(channel_layout)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).request_channel_layout) as usize - ptr as usize },
         392usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(request_channel_layout)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(request_channel_layout)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).audio_service_type) as usize - ptr as usize },
         400usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(audio_service_type)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(audio_service_type)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).request_sample_fmt) as usize - ptr as usize },
         404usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(request_sample_fmt)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(request_sample_fmt)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).get_buffer2) as usize - ptr as usize },
         408usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(get_buffer2)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(get_buffer2)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).qcompress) as usize - ptr as usize },
         416usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(qcompress)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(qcompress)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).qblur) as usize - ptr as usize },
         420usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(qblur)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(qblur)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).qmin) as usize - ptr as usize },
         424usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(qmin)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(qmin)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).qmax) as usize - ptr as usize },
         428usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(qmax)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(qmax)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).max_qdiff) as usize - ptr as usize },
         432usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(max_qdiff)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(max_qdiff)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).rc_buffer_size) as usize - ptr as usize },
         436usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(rc_buffer_size)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(rc_buffer_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).rc_override_count) as usize - ptr as usize },
         440usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(rc_override_count)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(rc_override_count)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).rc_override) as usize - ptr as usize },
         448usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(rc_override)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(rc_override)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).rc_max_rate) as usize - ptr as usize },
         456usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(rc_max_rate)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(rc_max_rate)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).rc_min_rate) as usize - ptr as usize },
         464usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(rc_min_rate)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(rc_min_rate)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).rc_max_available_vbv_use) as usize - ptr as usize },
         472usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(rc_max_available_vbv_use)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(rc_max_available_vbv_use)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).rc_min_vbv_overflow_use) as usize - ptr as usize },
         476usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(rc_min_vbv_overflow_use)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(rc_min_vbv_overflow_use)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).rc_initial_buffer_occupancy) as usize - ptr as usize },
         480usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(rc_initial_buffer_occupancy)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(rc_initial_buffer_occupancy)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).trellis) as usize - ptr as usize },
         484usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(trellis)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(trellis)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).stats_out) as usize - ptr as usize },
         488usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(stats_out)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(stats_out)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).stats_in) as usize - ptr as usize },
         496usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(stats_in)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(stats_in)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).workaround_bugs) as usize - ptr as usize },
         504usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(workaround_bugs)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(workaround_bugs)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).strict_std_compliance) as usize - ptr as usize },
         508usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(strict_std_compliance)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(strict_std_compliance)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).error_concealment) as usize - ptr as usize },
         512usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(error_concealment)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(error_concealment)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).debug) as usize - ptr as usize },
         516usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(debug)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(debug)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).err_recognition) as usize - ptr as usize },
         520usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(err_recognition)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(err_recognition)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).reordered_opaque) as usize - ptr as usize },
         528usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(reordered_opaque)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(reordered_opaque)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).hwaccel) as usize - ptr as usize },
         536usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(hwaccel)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(hwaccel)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).hwaccel_context) as usize - ptr as usize },
         544usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(hwaccel_context)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(hwaccel_context)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).error) as usize - ptr as usize },
         552usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(error)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(error)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).dct_algo) as usize - ptr as usize },
         616usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(dct_algo)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(dct_algo)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).idct_algo) as usize - ptr as usize },
         620usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(idct_algo)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(idct_algo)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).bits_per_coded_sample) as usize - ptr as usize },
         624usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(bits_per_coded_sample)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(bits_per_coded_sample)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).bits_per_raw_sample) as usize - ptr as usize },
         628usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(bits_per_raw_sample)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(bits_per_raw_sample)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).lowres) as usize - ptr as usize },
         632usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(lowres)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(lowres)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).thread_count) as usize - ptr as usize },
         636usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(thread_count)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(thread_count)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).thread_type) as usize - ptr as usize },
         640usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(thread_type)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(thread_type)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).active_thread_type) as usize - ptr as usize },
         644usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(active_thread_type)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(active_thread_type)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).execute) as usize - ptr as usize },
         648usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(execute)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(execute)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).execute2) as usize - ptr as usize },
         656usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(execute2)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(execute2)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nsse_weight) as usize - ptr as usize },
         664usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(nsse_weight)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(nsse_weight)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).profile) as usize - ptr as usize },
         668usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(profile)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(profile)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).level) as usize - ptr as usize },
         672usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(level)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(level)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).skip_loop_filter) as usize - ptr as usize },
         676usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(skip_loop_filter)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(skip_loop_filter)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).skip_idct) as usize - ptr as usize },
         680usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(skip_idct)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(skip_idct)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).skip_frame) as usize - ptr as usize },
         684usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(skip_frame)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(skip_frame)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).subtitle_header) as usize - ptr as usize },
         688usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(subtitle_header)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(subtitle_header)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).subtitle_header_size) as usize - ptr as usize },
         696usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(subtitle_header_size)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(subtitle_header_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).initial_padding) as usize - ptr as usize },
         700usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(initial_padding)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(initial_padding)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).framerate) as usize - ptr as usize },
         704usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(framerate)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(framerate)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).sw_pix_fmt) as usize - ptr as usize },
         712usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(sw_pix_fmt)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(sw_pix_fmt)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pkt_timebase) as usize - ptr as usize },
         716usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(pkt_timebase)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(pkt_timebase)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).codec_descriptor) as usize - ptr as usize },
         728usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(codec_descriptor)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(codec_descriptor)
         )
     );
     assert_eq!(
@@ -14061,10 +14067,10 @@ fn bindgen_test_layout_AVCodecContext() {
         },
         736usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(pts_correction_num_faulty_pts)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(pts_correction_num_faulty_pts)
         )
     );
     assert_eq!(
@@ -14073,260 +14079,260 @@ fn bindgen_test_layout_AVCodecContext() {
         },
         744usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(pts_correction_num_faulty_dts)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(pts_correction_num_faulty_dts)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pts_correction_last_pts) as usize - ptr as usize },
         752usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(pts_correction_last_pts)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(pts_correction_last_pts)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pts_correction_last_dts) as usize - ptr as usize },
         760usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(pts_correction_last_dts)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(pts_correction_last_dts)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).sub_charenc) as usize - ptr as usize },
         768usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(sub_charenc)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(sub_charenc)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).sub_charenc_mode) as usize - ptr as usize },
         776usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(sub_charenc_mode)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(sub_charenc_mode)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).skip_alpha) as usize - ptr as usize },
         780usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(skip_alpha)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(skip_alpha)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).seek_preroll) as usize - ptr as usize },
         784usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(seek_preroll)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(seek_preroll)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).chroma_intra_matrix) as usize - ptr as usize },
         792usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(chroma_intra_matrix)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(chroma_intra_matrix)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).dump_separator) as usize - ptr as usize },
         800usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(dump_separator)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(dump_separator)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).codec_whitelist) as usize - ptr as usize },
         808usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(codec_whitelist)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(codec_whitelist)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).properties) as usize - ptr as usize },
         816usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(properties)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(properties)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).coded_side_data) as usize - ptr as usize },
         824usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(coded_side_data)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(coded_side_data)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_coded_side_data) as usize - ptr as usize },
         832usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(nb_coded_side_data)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(nb_coded_side_data)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).hw_frames_ctx) as usize - ptr as usize },
         840usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(hw_frames_ctx)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(hw_frames_ctx)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).trailing_padding) as usize - ptr as usize },
         848usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(trailing_padding)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(trailing_padding)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).max_pixels) as usize - ptr as usize },
         856usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(max_pixels)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(max_pixels)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).hw_device_ctx) as usize - ptr as usize },
         864usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(hw_device_ctx)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(hw_device_ctx)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).hwaccel_flags) as usize - ptr as usize },
         872usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(hwaccel_flags)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(hwaccel_flags)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).apply_cropping) as usize - ptr as usize },
         876usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(apply_cropping)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(apply_cropping)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).extra_hw_frames) as usize - ptr as usize },
         880usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(extra_hw_frames)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(extra_hw_frames)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).discard_damaged_percentage) as usize - ptr as usize },
         884usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(discard_damaged_percentage)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(discard_damaged_percentage)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).max_samples) as usize - ptr as usize },
         888usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(max_samples)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(max_samples)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).export_side_data) as usize - ptr as usize },
         896usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(export_side_data)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(export_side_data)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).get_encode_buffer) as usize - ptr as usize },
         904usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(get_encode_buffer)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(get_encode_buffer)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).ch_layout) as usize - ptr as usize },
         912usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(ch_layout)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(ch_layout)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).frame_num) as usize - ptr as usize },
         936usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecContext),
-        "::",
-        stringify!(frame_num)
+            "Offset of field: ",
+            stringify!(AVCodecContext),
+            "::",
+            stringify!(frame_num)
         )
     );
 }
@@ -14368,50 +14374,50 @@ fn bindgen_test_layout_AVHWAccel() {
         unsafe { ::std::ptr::addr_of!((*ptr).name) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWAccel),
-        "::",
-        stringify!(name)
+            "Offset of field: ",
+            stringify!(AVHWAccel),
+            "::",
+            stringify!(name)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).type_) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWAccel),
-        "::",
-        stringify!(type_)
+            "Offset of field: ",
+            stringify!(AVHWAccel),
+            "::",
+            stringify!(type_)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).id) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWAccel),
-        "::",
-        stringify!(id)
+            "Offset of field: ",
+            stringify!(AVHWAccel),
+            "::",
+            stringify!(id)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pix_fmt) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWAccel),
-        "::",
-        stringify!(pix_fmt)
+            "Offset of field: ",
+            stringify!(AVHWAccel),
+            "::",
+            stringify!(pix_fmt)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).capabilities) as usize - ptr as usize },
         20usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHWAccel),
-        "::",
-        stringify!(capabilities)
+            "Offset of field: ",
+            stringify!(AVHWAccel),
+            "::",
+            stringify!(capabilities)
         )
     );
 }
@@ -14465,110 +14471,110 @@ fn bindgen_test_layout_AVSubtitleRect() {
         unsafe { ::std::ptr::addr_of!((*ptr).x) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVSubtitleRect),
-        "::",
-        stringify!(x)
+            "Offset of field: ",
+            stringify!(AVSubtitleRect),
+            "::",
+            stringify!(x)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).y) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVSubtitleRect),
-        "::",
-        stringify!(y)
+            "Offset of field: ",
+            stringify!(AVSubtitleRect),
+            "::",
+            stringify!(y)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).w) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVSubtitleRect),
-        "::",
-        stringify!(w)
+            "Offset of field: ",
+            stringify!(AVSubtitleRect),
+            "::",
+            stringify!(w)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).h) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVSubtitleRect),
-        "::",
-        stringify!(h)
+            "Offset of field: ",
+            stringify!(AVSubtitleRect),
+            "::",
+            stringify!(h)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_colors) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVSubtitleRect),
-        "::",
-        stringify!(nb_colors)
+            "Offset of field: ",
+            stringify!(AVSubtitleRect),
+            "::",
+            stringify!(nb_colors)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).data) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVSubtitleRect),
-        "::",
-        stringify!(data)
+            "Offset of field: ",
+            stringify!(AVSubtitleRect),
+            "::",
+            stringify!(data)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).linesize) as usize - ptr as usize },
         56usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVSubtitleRect),
-        "::",
-        stringify!(linesize)
+            "Offset of field: ",
+            stringify!(AVSubtitleRect),
+            "::",
+            stringify!(linesize)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).type_) as usize - ptr as usize },
         72usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVSubtitleRect),
-        "::",
-        stringify!(type_)
+            "Offset of field: ",
+            stringify!(AVSubtitleRect),
+            "::",
+            stringify!(type_)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).text) as usize - ptr as usize },
         80usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVSubtitleRect),
-        "::",
-        stringify!(text)
+            "Offset of field: ",
+            stringify!(AVSubtitleRect),
+            "::",
+            stringify!(text)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).ass) as usize - ptr as usize },
         88usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVSubtitleRect),
-        "::",
-        stringify!(ass)
+            "Offset of field: ",
+            stringify!(AVSubtitleRect),
+            "::",
+            stringify!(ass)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).flags) as usize - ptr as usize },
         96usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVSubtitleRect),
-        "::",
-        stringify!(flags)
+            "Offset of field: ",
+            stringify!(AVSubtitleRect),
+            "::",
+            stringify!(flags)
         )
     );
 }
@@ -14601,60 +14607,60 @@ fn bindgen_test_layout_AVSubtitle() {
         unsafe { ::std::ptr::addr_of!((*ptr).format) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVSubtitle),
-        "::",
-        stringify!(format)
+            "Offset of field: ",
+            stringify!(AVSubtitle),
+            "::",
+            stringify!(format)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).start_display_time) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVSubtitle),
-        "::",
-        stringify!(start_display_time)
+            "Offset of field: ",
+            stringify!(AVSubtitle),
+            "::",
+            stringify!(start_display_time)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).end_display_time) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVSubtitle),
-        "::",
-        stringify!(end_display_time)
+            "Offset of field: ",
+            stringify!(AVSubtitle),
+            "::",
+            stringify!(end_display_time)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).num_rects) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVSubtitle),
-        "::",
-        stringify!(num_rects)
+            "Offset of field: ",
+            stringify!(AVSubtitle),
+            "::",
+            stringify!(num_rects)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).rects) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVSubtitle),
-        "::",
-        stringify!(rects)
+            "Offset of field: ",
+            stringify!(AVSubtitle),
+            "::",
+            stringify!(rects)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pts) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVSubtitle),
-        "::",
-        stringify!(pts)
+            "Offset of field: ",
+            stringify!(AVSubtitle),
+            "::",
+            stringify!(pts)
         )
     );
 }
@@ -14892,350 +14898,350 @@ fn bindgen_test_layout_AVCodecParserContext() {
         unsafe { ::std::ptr::addr_of!((*ptr).priv_data) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(priv_data)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(priv_data)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).parser) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(parser)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(parser)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).frame_offset) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(frame_offset)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(frame_offset)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).cur_offset) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(cur_offset)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(cur_offset)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).next_frame_offset) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(next_frame_offset)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(next_frame_offset)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pict_type) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(pict_type)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(pict_type)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).repeat_pict) as usize - ptr as usize },
         44usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(repeat_pict)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(repeat_pict)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pts) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(pts)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(pts)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).dts) as usize - ptr as usize },
         56usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(dts)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(dts)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).last_pts) as usize - ptr as usize },
         64usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(last_pts)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(last_pts)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).last_dts) as usize - ptr as usize },
         72usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(last_dts)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(last_dts)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).fetch_timestamp) as usize - ptr as usize },
         80usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(fetch_timestamp)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(fetch_timestamp)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).cur_frame_start_index) as usize - ptr as usize },
         84usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(cur_frame_start_index)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(cur_frame_start_index)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).cur_frame_offset) as usize - ptr as usize },
         88usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(cur_frame_offset)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(cur_frame_offset)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).cur_frame_pts) as usize - ptr as usize },
         120usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(cur_frame_pts)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(cur_frame_pts)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).cur_frame_dts) as usize - ptr as usize },
         152usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(cur_frame_dts)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(cur_frame_dts)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).flags) as usize - ptr as usize },
         184usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(flags)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(flags)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).offset) as usize - ptr as usize },
         192usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(offset)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(offset)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).cur_frame_end) as usize - ptr as usize },
         200usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(cur_frame_end)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(cur_frame_end)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).key_frame) as usize - ptr as usize },
         232usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(key_frame)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(key_frame)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).dts_sync_point) as usize - ptr as usize },
         236usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(dts_sync_point)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(dts_sync_point)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).dts_ref_dts_delta) as usize - ptr as usize },
         240usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(dts_ref_dts_delta)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(dts_ref_dts_delta)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pts_dts_delta) as usize - ptr as usize },
         244usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(pts_dts_delta)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(pts_dts_delta)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).cur_frame_pos) as usize - ptr as usize },
         248usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(cur_frame_pos)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(cur_frame_pos)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pos) as usize - ptr as usize },
         280usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(pos)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(pos)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).last_pos) as usize - ptr as usize },
         288usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(last_pos)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(last_pos)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).duration) as usize - ptr as usize },
         296usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(duration)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(duration)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).field_order) as usize - ptr as usize },
         300usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(field_order)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(field_order)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).picture_structure) as usize - ptr as usize },
         304usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(picture_structure)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(picture_structure)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).output_picture_number) as usize - ptr as usize },
         308usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(output_picture_number)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(output_picture_number)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).width) as usize - ptr as usize },
         312usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(width)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(width)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).height) as usize - ptr as usize },
         316usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(height)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(height)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).coded_width) as usize - ptr as usize },
         320usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(coded_width)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(coded_width)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).coded_height) as usize - ptr as usize },
         324usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(coded_height)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(coded_height)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).format) as usize - ptr as usize },
         328usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParserContext),
-        "::",
-        stringify!(format)
+            "Offset of field: ",
+            stringify!(AVCodecParserContext),
+            "::",
+            stringify!(format)
         )
     );
 }
@@ -15284,60 +15290,60 @@ fn bindgen_test_layout_AVCodecParser() {
         unsafe { ::std::ptr::addr_of!((*ptr).codec_ids) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParser),
-        "::",
-        stringify!(codec_ids)
+            "Offset of field: ",
+            stringify!(AVCodecParser),
+            "::",
+            stringify!(codec_ids)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).priv_data_size) as usize - ptr as usize },
         28usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParser),
-        "::",
-        stringify!(priv_data_size)
+            "Offset of field: ",
+            stringify!(AVCodecParser),
+            "::",
+            stringify!(priv_data_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).parser_init) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParser),
-        "::",
-        stringify!(parser_init)
+            "Offset of field: ",
+            stringify!(AVCodecParser),
+            "::",
+            stringify!(parser_init)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).parser_parse) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParser),
-        "::",
-        stringify!(parser_parse)
+            "Offset of field: ",
+            stringify!(AVCodecParser),
+            "::",
+            stringify!(parser_parse)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).parser_close) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParser),
-        "::",
-        stringify!(parser_close)
+            "Offset of field: ",
+            stringify!(AVCodecParser),
+            "::",
+            stringify!(parser_close)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).split) as usize - ptr as usize },
         56usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCodecParser),
-        "::",
-        stringify!(split)
+            "Offset of field: ",
+            stringify!(AVCodecParser),
+            "::",
+            stringify!(split)
         )
     );
 }
@@ -15547,40 +15553,40 @@ fn bindgen_test_layout_AVOption__bindgen_ty_1() {
         unsafe { ::std::ptr::addr_of!((*ptr).i64_) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOption__bindgen_ty_1),
-        "::",
-        stringify!(i64_)
+            "Offset of field: ",
+            stringify!(AVOption__bindgen_ty_1),
+            "::",
+            stringify!(i64_)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).dbl) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOption__bindgen_ty_1),
-        "::",
-        stringify!(dbl)
+            "Offset of field: ",
+            stringify!(AVOption__bindgen_ty_1),
+            "::",
+            stringify!(dbl)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).str_) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOption__bindgen_ty_1),
-        "::",
-        stringify!(str_)
+            "Offset of field: ",
+            stringify!(AVOption__bindgen_ty_1),
+            "::",
+            stringify!(str_)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).q) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOption__bindgen_ty_1),
-        "::",
-        stringify!(q)
+            "Offset of field: ",
+            stringify!(AVOption__bindgen_ty_1),
+            "::",
+            stringify!(q)
         )
     );
 }
@@ -15607,90 +15613,90 @@ fn bindgen_test_layout_AVOption() {
         unsafe { ::std::ptr::addr_of!((*ptr).name) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOption),
-        "::",
-        stringify!(name)
+            "Offset of field: ",
+            stringify!(AVOption),
+            "::",
+            stringify!(name)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).help) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOption),
-        "::",
-        stringify!(help)
+            "Offset of field: ",
+            stringify!(AVOption),
+            "::",
+            stringify!(help)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).offset) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOption),
-        "::",
-        stringify!(offset)
+            "Offset of field: ",
+            stringify!(AVOption),
+            "::",
+            stringify!(offset)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).type_) as usize - ptr as usize },
         20usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOption),
-        "::",
-        stringify!(type_)
+            "Offset of field: ",
+            stringify!(AVOption),
+            "::",
+            stringify!(type_)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).default_val) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOption),
-        "::",
-        stringify!(default_val)
+            "Offset of field: ",
+            stringify!(AVOption),
+            "::",
+            stringify!(default_val)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).min) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOption),
-        "::",
-        stringify!(min)
+            "Offset of field: ",
+            stringify!(AVOption),
+            "::",
+            stringify!(min)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).max) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOption),
-        "::",
-        stringify!(max)
+            "Offset of field: ",
+            stringify!(AVOption),
+            "::",
+            stringify!(max)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).flags) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOption),
-        "::",
-        stringify!(flags)
+            "Offset of field: ",
+            stringify!(AVOption),
+            "::",
+            stringify!(flags)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).unit) as usize - ptr as usize },
         56usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOption),
-        "::",
-        stringify!(unit)
+            "Offset of field: ",
+            stringify!(AVOption),
+            "::",
+            stringify!(unit)
         )
     );
 }
@@ -15733,60 +15739,60 @@ fn bindgen_test_layout_AVOptionRange() {
         unsafe { ::std::ptr::addr_of!((*ptr).str_) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOptionRange),
-        "::",
-        stringify!(str_)
+            "Offset of field: ",
+            stringify!(AVOptionRange),
+            "::",
+            stringify!(str_)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).value_min) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOptionRange),
-        "::",
-        stringify!(value_min)
+            "Offset of field: ",
+            stringify!(AVOptionRange),
+            "::",
+            stringify!(value_min)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).value_max) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOptionRange),
-        "::",
-        stringify!(value_max)
+            "Offset of field: ",
+            stringify!(AVOptionRange),
+            "::",
+            stringify!(value_max)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).component_min) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOptionRange),
-        "::",
-        stringify!(component_min)
+            "Offset of field: ",
+            stringify!(AVOptionRange),
+            "::",
+            stringify!(component_min)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).component_max) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOptionRange),
-        "::",
-        stringify!(component_max)
+            "Offset of field: ",
+            stringify!(AVOptionRange),
+            "::",
+            stringify!(component_max)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).is_range) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOptionRange),
-        "::",
-        stringify!(is_range)
+            "Offset of field: ",
+            stringify!(AVOptionRange),
+            "::",
+            stringify!(is_range)
         )
     );
 }
@@ -15819,30 +15825,30 @@ fn bindgen_test_layout_AVOptionRanges() {
         unsafe { ::std::ptr::addr_of!((*ptr).range) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOptionRanges),
-        "::",
-        stringify!(range)
+            "Offset of field: ",
+            stringify!(AVOptionRanges),
+            "::",
+            stringify!(range)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_ranges) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOptionRanges),
-        "::",
-        stringify!(nb_ranges)
+            "Offset of field: ",
+            stringify!(AVOptionRanges),
+            "::",
+            stringify!(nb_ranges)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_components) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOptionRanges),
-        "::",
-        stringify!(nb_components)
+            "Offset of field: ",
+            stringify!(AVOptionRanges),
+            "::",
+            stringify!(nb_components)
         )
     );
 }
@@ -16311,90 +16317,90 @@ fn bindgen_test_layout_AVDCT() {
         unsafe { ::std::ptr::addr_of!((*ptr).av_class) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDCT),
-        "::",
-        stringify!(av_class)
+            "Offset of field: ",
+            stringify!(AVDCT),
+            "::",
+            stringify!(av_class)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).idct) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDCT),
-        "::",
-        stringify!(idct)
+            "Offset of field: ",
+            stringify!(AVDCT),
+            "::",
+            stringify!(idct)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).idct_permutation) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDCT),
-        "::",
-        stringify!(idct_permutation)
+            "Offset of field: ",
+            stringify!(AVDCT),
+            "::",
+            stringify!(idct_permutation)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).fdct) as usize - ptr as usize },
         80usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDCT),
-        "::",
-        stringify!(fdct)
+            "Offset of field: ",
+            stringify!(AVDCT),
+            "::",
+            stringify!(fdct)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).dct_algo) as usize - ptr as usize },
         88usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDCT),
-        "::",
-        stringify!(dct_algo)
+            "Offset of field: ",
+            stringify!(AVDCT),
+            "::",
+            stringify!(dct_algo)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).idct_algo) as usize - ptr as usize },
         92usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDCT),
-        "::",
-        stringify!(idct_algo)
+            "Offset of field: ",
+            stringify!(AVDCT),
+            "::",
+            stringify!(idct_algo)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).get_pixels) as usize - ptr as usize },
         96usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDCT),
-        "::",
-        stringify!(get_pixels)
+            "Offset of field: ",
+            stringify!(AVDCT),
+            "::",
+            stringify!(get_pixels)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).bits_per_sample) as usize - ptr as usize },
         104usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDCT),
-        "::",
-        stringify!(bits_per_sample)
+            "Offset of field: ",
+            stringify!(AVDCT),
+            "::",
+            stringify!(bits_per_sample)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).get_pixels_unaligned) as usize - ptr as usize },
         112usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDCT),
-        "::",
-        stringify!(get_pixels_unaligned)
+            "Offset of field: ",
+            stringify!(AVDCT),
+            "::",
+            stringify!(get_pixels_unaligned)
         )
     );
 }
@@ -16434,20 +16440,20 @@ fn bindgen_test_layout_FFTComplex() {
         unsafe { ::std::ptr::addr_of!((*ptr).re) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(FFTComplex),
-        "::",
-        stringify!(re)
+            "Offset of field: ",
+            stringify!(FFTComplex),
+            "::",
+            stringify!(re)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).im) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(FFTComplex),
-        "::",
-        stringify!(im)
+            "Offset of field: ",
+            stringify!(FFTComplex),
+            "::",
+            stringify!(im)
         )
     );
 }
@@ -16571,70 +16577,70 @@ fn bindgen_test_layout_AVBSFContext() {
         unsafe { ::std::ptr::addr_of!((*ptr).av_class) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBSFContext),
-        "::",
-        stringify!(av_class)
+            "Offset of field: ",
+            stringify!(AVBSFContext),
+            "::",
+            stringify!(av_class)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).filter) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBSFContext),
-        "::",
-        stringify!(filter)
+            "Offset of field: ",
+            stringify!(AVBSFContext),
+            "::",
+            stringify!(filter)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).priv_data) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBSFContext),
-        "::",
-        stringify!(priv_data)
+            "Offset of field: ",
+            stringify!(AVBSFContext),
+            "::",
+            stringify!(priv_data)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).par_in) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBSFContext),
-        "::",
-        stringify!(par_in)
+            "Offset of field: ",
+            stringify!(AVBSFContext),
+            "::",
+            stringify!(par_in)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).par_out) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBSFContext),
-        "::",
-        stringify!(par_out)
+            "Offset of field: ",
+            stringify!(AVBSFContext),
+            "::",
+            stringify!(par_out)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).time_base_in) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBSFContext),
-        "::",
-        stringify!(time_base_in)
+            "Offset of field: ",
+            stringify!(AVBSFContext),
+            "::",
+            stringify!(time_base_in)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).time_base_out) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBSFContext),
-        "::",
-        stringify!(time_base_out)
+            "Offset of field: ",
+            stringify!(AVBSFContext),
+            "::",
+            stringify!(time_base_out)
         )
     );
 }
@@ -16665,30 +16671,30 @@ fn bindgen_test_layout_AVBitStreamFilter() {
         unsafe { ::std::ptr::addr_of!((*ptr).name) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBitStreamFilter),
-        "::",
-        stringify!(name)
+            "Offset of field: ",
+            stringify!(AVBitStreamFilter),
+            "::",
+            stringify!(name)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).codec_ids) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBitStreamFilter),
-        "::",
-        stringify!(codec_ids)
+            "Offset of field: ",
+            stringify!(AVBitStreamFilter),
+            "::",
+            stringify!(codec_ids)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).priv_class) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBitStreamFilter),
-        "::",
-        stringify!(priv_class)
+            "Offset of field: ",
+            stringify!(AVBitStreamFilter),
+            "::",
+            stringify!(priv_class)
         )
     );
 }
@@ -16750,7 +16756,7 @@ extern "C" {
 extern "C" {
     #[doc = " Append bitstream filter to the list of bitstream filters.\n\n @param lst List to append to\n @param bsf Filter context to be appended\n\n @return >=0 on success, negative AVERROR in case of failure"]
     pub fn av_bsf_list_append(lst: *mut AVBSFList, bsf: *mut AVBSFContext)
-                              -> ::std::os::raw::c_int;
+        -> ::std::os::raw::c_int;
 }
 extern "C" {
     #[doc = " Construct new bitstream filter context given it's name and options\n and append it to the list of bitstream filters.\n\n @param lst      List to append to\n @param bsf_name Name of the bitstream filter\n @param options  Options for the bitstream filter, can be set to NULL\n\n @return >=0 on success, negative AVERROR in case of failure"]
@@ -16820,20 +16826,20 @@ fn bindgen_test_layout_DiracVersionInfo() {
         unsafe { ::std::ptr::addr_of!((*ptr).major) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(DiracVersionInfo),
-        "::",
-        stringify!(major)
+            "Offset of field: ",
+            stringify!(DiracVersionInfo),
+            "::",
+            stringify!(major)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).minor) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(DiracVersionInfo),
-        "::",
-        stringify!(minor)
+            "Offset of field: ",
+            stringify!(DiracVersionInfo),
+            "::",
+            stringify!(minor)
         )
     );
 }
@@ -16888,240 +16894,240 @@ fn bindgen_test_layout_AVDiracSeqHeader() {
         unsafe { ::std::ptr::addr_of!((*ptr).width) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDiracSeqHeader),
-        "::",
-        stringify!(width)
+            "Offset of field: ",
+            stringify!(AVDiracSeqHeader),
+            "::",
+            stringify!(width)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).height) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDiracSeqHeader),
-        "::",
-        stringify!(height)
+            "Offset of field: ",
+            stringify!(AVDiracSeqHeader),
+            "::",
+            stringify!(height)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).chroma_format) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDiracSeqHeader),
-        "::",
-        stringify!(chroma_format)
+            "Offset of field: ",
+            stringify!(AVDiracSeqHeader),
+            "::",
+            stringify!(chroma_format)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).interlaced) as usize - ptr as usize },
         9usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDiracSeqHeader),
-        "::",
-        stringify!(interlaced)
+            "Offset of field: ",
+            stringify!(AVDiracSeqHeader),
+            "::",
+            stringify!(interlaced)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).top_field_first) as usize - ptr as usize },
         10usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDiracSeqHeader),
-        "::",
-        stringify!(top_field_first)
+            "Offset of field: ",
+            stringify!(AVDiracSeqHeader),
+            "::",
+            stringify!(top_field_first)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).frame_rate_index) as usize - ptr as usize },
         11usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDiracSeqHeader),
-        "::",
-        stringify!(frame_rate_index)
+            "Offset of field: ",
+            stringify!(AVDiracSeqHeader),
+            "::",
+            stringify!(frame_rate_index)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).aspect_ratio_index) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDiracSeqHeader),
-        "::",
-        stringify!(aspect_ratio_index)
+            "Offset of field: ",
+            stringify!(AVDiracSeqHeader),
+            "::",
+            stringify!(aspect_ratio_index)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).clean_width) as usize - ptr as usize },
         14usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDiracSeqHeader),
-        "::",
-        stringify!(clean_width)
+            "Offset of field: ",
+            stringify!(AVDiracSeqHeader),
+            "::",
+            stringify!(clean_width)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).clean_height) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDiracSeqHeader),
-        "::",
-        stringify!(clean_height)
+            "Offset of field: ",
+            stringify!(AVDiracSeqHeader),
+            "::",
+            stringify!(clean_height)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).clean_left_offset) as usize - ptr as usize },
         18usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDiracSeqHeader),
-        "::",
-        stringify!(clean_left_offset)
+            "Offset of field: ",
+            stringify!(AVDiracSeqHeader),
+            "::",
+            stringify!(clean_left_offset)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).clean_right_offset) as usize - ptr as usize },
         20usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDiracSeqHeader),
-        "::",
-        stringify!(clean_right_offset)
+            "Offset of field: ",
+            stringify!(AVDiracSeqHeader),
+            "::",
+            stringify!(clean_right_offset)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pixel_range_index) as usize - ptr as usize },
         22usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDiracSeqHeader),
-        "::",
-        stringify!(pixel_range_index)
+            "Offset of field: ",
+            stringify!(AVDiracSeqHeader),
+            "::",
+            stringify!(pixel_range_index)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).color_spec_index) as usize - ptr as usize },
         23usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDiracSeqHeader),
-        "::",
-        stringify!(color_spec_index)
+            "Offset of field: ",
+            stringify!(AVDiracSeqHeader),
+            "::",
+            stringify!(color_spec_index)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).profile) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDiracSeqHeader),
-        "::",
-        stringify!(profile)
+            "Offset of field: ",
+            stringify!(AVDiracSeqHeader),
+            "::",
+            stringify!(profile)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).level) as usize - ptr as usize },
         28usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDiracSeqHeader),
-        "::",
-        stringify!(level)
+            "Offset of field: ",
+            stringify!(AVDiracSeqHeader),
+            "::",
+            stringify!(level)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).framerate) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDiracSeqHeader),
-        "::",
-        stringify!(framerate)
+            "Offset of field: ",
+            stringify!(AVDiracSeqHeader),
+            "::",
+            stringify!(framerate)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).sample_aspect_ratio) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDiracSeqHeader),
-        "::",
-        stringify!(sample_aspect_ratio)
+            "Offset of field: ",
+            stringify!(AVDiracSeqHeader),
+            "::",
+            stringify!(sample_aspect_ratio)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pix_fmt) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDiracSeqHeader),
-        "::",
-        stringify!(pix_fmt)
+            "Offset of field: ",
+            stringify!(AVDiracSeqHeader),
+            "::",
+            stringify!(pix_fmt)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).color_range) as usize - ptr as usize },
         52usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDiracSeqHeader),
-        "::",
-        stringify!(color_range)
+            "Offset of field: ",
+            stringify!(AVDiracSeqHeader),
+            "::",
+            stringify!(color_range)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).color_primaries) as usize - ptr as usize },
         56usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDiracSeqHeader),
-        "::",
-        stringify!(color_primaries)
+            "Offset of field: ",
+            stringify!(AVDiracSeqHeader),
+            "::",
+            stringify!(color_primaries)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).color_trc) as usize - ptr as usize },
         60usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDiracSeqHeader),
-        "::",
-        stringify!(color_trc)
+            "Offset of field: ",
+            stringify!(AVDiracSeqHeader),
+            "::",
+            stringify!(color_trc)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).colorspace) as usize - ptr as usize },
         64usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDiracSeqHeader),
-        "::",
-        stringify!(colorspace)
+            "Offset of field: ",
+            stringify!(AVDiracSeqHeader),
+            "::",
+            stringify!(colorspace)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).version) as usize - ptr as usize },
         68usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDiracSeqHeader),
-        "::",
-        stringify!(version)
+            "Offset of field: ",
+            stringify!(AVDiracSeqHeader),
+            "::",
+            stringify!(version)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).bit_depth) as usize - ptr as usize },
         76usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDiracSeqHeader),
-        "::",
-        stringify!(bit_depth)
+            "Offset of field: ",
+            stringify!(AVDiracSeqHeader),
+            "::",
+            stringify!(bit_depth)
         )
     );
 }
@@ -17173,170 +17179,170 @@ fn bindgen_test_layout_AVDVProfile() {
         unsafe { ::std::ptr::addr_of!((*ptr).dsf) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDVProfile),
-        "::",
-        stringify!(dsf)
+            "Offset of field: ",
+            stringify!(AVDVProfile),
+            "::",
+            stringify!(dsf)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).video_stype) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDVProfile),
-        "::",
-        stringify!(video_stype)
+            "Offset of field: ",
+            stringify!(AVDVProfile),
+            "::",
+            stringify!(video_stype)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).frame_size) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDVProfile),
-        "::",
-        stringify!(frame_size)
+            "Offset of field: ",
+            stringify!(AVDVProfile),
+            "::",
+            stringify!(frame_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).difseg_size) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDVProfile),
-        "::",
-        stringify!(difseg_size)
+            "Offset of field: ",
+            stringify!(AVDVProfile),
+            "::",
+            stringify!(difseg_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).n_difchan) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDVProfile),
-        "::",
-        stringify!(n_difchan)
+            "Offset of field: ",
+            stringify!(AVDVProfile),
+            "::",
+            stringify!(n_difchan)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).time_base) as usize - ptr as usize },
         20usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDVProfile),
-        "::",
-        stringify!(time_base)
+            "Offset of field: ",
+            stringify!(AVDVProfile),
+            "::",
+            stringify!(time_base)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).ltc_divisor) as usize - ptr as usize },
         28usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDVProfile),
-        "::",
-        stringify!(ltc_divisor)
+            "Offset of field: ",
+            stringify!(AVDVProfile),
+            "::",
+            stringify!(ltc_divisor)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).height) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDVProfile),
-        "::",
-        stringify!(height)
+            "Offset of field: ",
+            stringify!(AVDVProfile),
+            "::",
+            stringify!(height)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).width) as usize - ptr as usize },
         36usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDVProfile),
-        "::",
-        stringify!(width)
+            "Offset of field: ",
+            stringify!(AVDVProfile),
+            "::",
+            stringify!(width)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).sar) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDVProfile),
-        "::",
-        stringify!(sar)
+            "Offset of field: ",
+            stringify!(AVDVProfile),
+            "::",
+            stringify!(sar)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pix_fmt) as usize - ptr as usize },
         56usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDVProfile),
-        "::",
-        stringify!(pix_fmt)
+            "Offset of field: ",
+            stringify!(AVDVProfile),
+            "::",
+            stringify!(pix_fmt)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).bpm) as usize - ptr as usize },
         60usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDVProfile),
-        "::",
-        stringify!(bpm)
+            "Offset of field: ",
+            stringify!(AVDVProfile),
+            "::",
+            stringify!(bpm)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).block_sizes) as usize - ptr as usize },
         64usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDVProfile),
-        "::",
-        stringify!(block_sizes)
+            "Offset of field: ",
+            stringify!(AVDVProfile),
+            "::",
+            stringify!(block_sizes)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).audio_stride) as usize - ptr as usize },
         72usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDVProfile),
-        "::",
-        stringify!(audio_stride)
+            "Offset of field: ",
+            stringify!(AVDVProfile),
+            "::",
+            stringify!(audio_stride)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).audio_min_samples) as usize - ptr as usize },
         76usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDVProfile),
-        "::",
-        stringify!(audio_min_samples)
+            "Offset of field: ",
+            stringify!(AVDVProfile),
+            "::",
+            stringify!(audio_min_samples)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).audio_samples_dist) as usize - ptr as usize },
         88usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDVProfile),
-        "::",
-        stringify!(audio_samples_dist)
+            "Offset of field: ",
+            stringify!(AVDVProfile),
+            "::",
+            stringify!(audio_samples_dist)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).audio_shuffle) as usize - ptr as usize },
         112usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDVProfile),
-        "::",
-        stringify!(audio_shuffle)
+            "Offset of field: ",
+            stringify!(AVDVProfile),
+            "::",
+            stringify!(audio_shuffle)
         )
     );
 }
@@ -17399,10 +17405,10 @@ fn bindgen_test_layout_AVMediaCodecContext() {
         unsafe { ::std::ptr::addr_of!((*ptr).surface) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVMediaCodecContext),
-        "::",
-        stringify!(surface)
+            "Offset of field: ",
+            stringify!(AVMediaCodecContext),
+            "::",
+            stringify!(surface)
         )
     );
 }
@@ -17506,20 +17512,20 @@ fn bindgen_test_layout_AVIOInterruptCB() {
         unsafe { ::std::ptr::addr_of!((*ptr).callback) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOInterruptCB),
-        "::",
-        stringify!(callback)
+            "Offset of field: ",
+            stringify!(AVIOInterruptCB),
+            "::",
+            stringify!(callback)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).opaque) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOInterruptCB),
-        "::",
-        stringify!(opaque)
+            "Offset of field: ",
+            stringify!(AVIOInterruptCB),
+            "::",
+            stringify!(opaque)
         )
     );
 }
@@ -17579,100 +17585,100 @@ fn bindgen_test_layout_AVIODirEntry() {
         unsafe { ::std::ptr::addr_of!((*ptr).name) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIODirEntry),
-        "::",
-        stringify!(name)
+            "Offset of field: ",
+            stringify!(AVIODirEntry),
+            "::",
+            stringify!(name)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).type_) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIODirEntry),
-        "::",
-        stringify!(type_)
+            "Offset of field: ",
+            stringify!(AVIODirEntry),
+            "::",
+            stringify!(type_)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).utf8) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIODirEntry),
-        "::",
-        stringify!(utf8)
+            "Offset of field: ",
+            stringify!(AVIODirEntry),
+            "::",
+            stringify!(utf8)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).size) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIODirEntry),
-        "::",
-        stringify!(size)
+            "Offset of field: ",
+            stringify!(AVIODirEntry),
+            "::",
+            stringify!(size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).modification_timestamp) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIODirEntry),
-        "::",
-        stringify!(modification_timestamp)
+            "Offset of field: ",
+            stringify!(AVIODirEntry),
+            "::",
+            stringify!(modification_timestamp)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).access_timestamp) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIODirEntry),
-        "::",
-        stringify!(access_timestamp)
+            "Offset of field: ",
+            stringify!(AVIODirEntry),
+            "::",
+            stringify!(access_timestamp)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).status_change_timestamp) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIODirEntry),
-        "::",
-        stringify!(status_change_timestamp)
+            "Offset of field: ",
+            stringify!(AVIODirEntry),
+            "::",
+            stringify!(status_change_timestamp)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).user_id) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIODirEntry),
-        "::",
-        stringify!(user_id)
+            "Offset of field: ",
+            stringify!(AVIODirEntry),
+            "::",
+            stringify!(user_id)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).group_id) as usize - ptr as usize },
         56usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIODirEntry),
-        "::",
-        stringify!(group_id)
+            "Offset of field: ",
+            stringify!(AVIODirEntry),
+            "::",
+            stringify!(group_id)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).filemode) as usize - ptr as usize },
         64usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIODirEntry),
-        "::",
-        stringify!(filemode)
+            "Offset of field: ",
+            stringify!(AVIODirEntry),
+            "::",
+            stringify!(filemode)
         )
     );
 }
@@ -17699,10 +17705,10 @@ fn bindgen_test_layout_AVIODirContext() {
         unsafe { ::std::ptr::addr_of!((*ptr).url_context) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIODirContext),
-        "::",
-        stringify!(url_context)
+            "Offset of field: ",
+            stringify!(AVIODirContext),
+            "::",
+            stringify!(url_context)
         )
     );
 }
@@ -17837,290 +17843,290 @@ fn bindgen_test_layout_AVIOContext() {
         unsafe { ::std::ptr::addr_of!((*ptr).av_class) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOContext),
-        "::",
-        stringify!(av_class)
+            "Offset of field: ",
+            stringify!(AVIOContext),
+            "::",
+            stringify!(av_class)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).buffer) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOContext),
-        "::",
-        stringify!(buffer)
+            "Offset of field: ",
+            stringify!(AVIOContext),
+            "::",
+            stringify!(buffer)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).buffer_size) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOContext),
-        "::",
-        stringify!(buffer_size)
+            "Offset of field: ",
+            stringify!(AVIOContext),
+            "::",
+            stringify!(buffer_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).buf_ptr) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOContext),
-        "::",
-        stringify!(buf_ptr)
+            "Offset of field: ",
+            stringify!(AVIOContext),
+            "::",
+            stringify!(buf_ptr)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).buf_end) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOContext),
-        "::",
-        stringify!(buf_end)
+            "Offset of field: ",
+            stringify!(AVIOContext),
+            "::",
+            stringify!(buf_end)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).opaque) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOContext),
-        "::",
-        stringify!(opaque)
+            "Offset of field: ",
+            stringify!(AVIOContext),
+            "::",
+            stringify!(opaque)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).read_packet) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOContext),
-        "::",
-        stringify!(read_packet)
+            "Offset of field: ",
+            stringify!(AVIOContext),
+            "::",
+            stringify!(read_packet)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).write_packet) as usize - ptr as usize },
         56usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOContext),
-        "::",
-        stringify!(write_packet)
+            "Offset of field: ",
+            stringify!(AVIOContext),
+            "::",
+            stringify!(write_packet)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).seek) as usize - ptr as usize },
         64usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOContext),
-        "::",
-        stringify!(seek)
+            "Offset of field: ",
+            stringify!(AVIOContext),
+            "::",
+            stringify!(seek)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pos) as usize - ptr as usize },
         72usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOContext),
-        "::",
-        stringify!(pos)
+            "Offset of field: ",
+            stringify!(AVIOContext),
+            "::",
+            stringify!(pos)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).eof_reached) as usize - ptr as usize },
         80usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOContext),
-        "::",
-        stringify!(eof_reached)
+            "Offset of field: ",
+            stringify!(AVIOContext),
+            "::",
+            stringify!(eof_reached)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).error) as usize - ptr as usize },
         84usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOContext),
-        "::",
-        stringify!(error)
+            "Offset of field: ",
+            stringify!(AVIOContext),
+            "::",
+            stringify!(error)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).write_flag) as usize - ptr as usize },
         88usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOContext),
-        "::",
-        stringify!(write_flag)
+            "Offset of field: ",
+            stringify!(AVIOContext),
+            "::",
+            stringify!(write_flag)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).max_packet_size) as usize - ptr as usize },
         92usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOContext),
-        "::",
-        stringify!(max_packet_size)
+            "Offset of field: ",
+            stringify!(AVIOContext),
+            "::",
+            stringify!(max_packet_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).min_packet_size) as usize - ptr as usize },
         96usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOContext),
-        "::",
-        stringify!(min_packet_size)
+            "Offset of field: ",
+            stringify!(AVIOContext),
+            "::",
+            stringify!(min_packet_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).checksum) as usize - ptr as usize },
         104usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOContext),
-        "::",
-        stringify!(checksum)
+            "Offset of field: ",
+            stringify!(AVIOContext),
+            "::",
+            stringify!(checksum)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).checksum_ptr) as usize - ptr as usize },
         112usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOContext),
-        "::",
-        stringify!(checksum_ptr)
+            "Offset of field: ",
+            stringify!(AVIOContext),
+            "::",
+            stringify!(checksum_ptr)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).update_checksum) as usize - ptr as usize },
         120usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOContext),
-        "::",
-        stringify!(update_checksum)
+            "Offset of field: ",
+            stringify!(AVIOContext),
+            "::",
+            stringify!(update_checksum)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).read_pause) as usize - ptr as usize },
         128usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOContext),
-        "::",
-        stringify!(read_pause)
+            "Offset of field: ",
+            stringify!(AVIOContext),
+            "::",
+            stringify!(read_pause)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).read_seek) as usize - ptr as usize },
         136usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOContext),
-        "::",
-        stringify!(read_seek)
+            "Offset of field: ",
+            stringify!(AVIOContext),
+            "::",
+            stringify!(read_seek)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).seekable) as usize - ptr as usize },
         144usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOContext),
-        "::",
-        stringify!(seekable)
+            "Offset of field: ",
+            stringify!(AVIOContext),
+            "::",
+            stringify!(seekable)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).direct) as usize - ptr as usize },
         148usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOContext),
-        "::",
-        stringify!(direct)
+            "Offset of field: ",
+            stringify!(AVIOContext),
+            "::",
+            stringify!(direct)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).protocol_whitelist) as usize - ptr as usize },
         152usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOContext),
-        "::",
-        stringify!(protocol_whitelist)
+            "Offset of field: ",
+            stringify!(AVIOContext),
+            "::",
+            stringify!(protocol_whitelist)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).protocol_blacklist) as usize - ptr as usize },
         160usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOContext),
-        "::",
-        stringify!(protocol_blacklist)
+            "Offset of field: ",
+            stringify!(AVIOContext),
+            "::",
+            stringify!(protocol_blacklist)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).write_data_type) as usize - ptr as usize },
         168usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOContext),
-        "::",
-        stringify!(write_data_type)
+            "Offset of field: ",
+            stringify!(AVIOContext),
+            "::",
+            stringify!(write_data_type)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).ignore_boundary_point) as usize - ptr as usize },
         176usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOContext),
-        "::",
-        stringify!(ignore_boundary_point)
+            "Offset of field: ",
+            stringify!(AVIOContext),
+            "::",
+            stringify!(ignore_boundary_point)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).buf_ptr_max) as usize - ptr as usize },
         184usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOContext),
-        "::",
-        stringify!(buf_ptr_max)
+            "Offset of field: ",
+            stringify!(AVIOContext),
+            "::",
+            stringify!(buf_ptr_max)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).bytes_read) as usize - ptr as usize },
         192usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOContext),
-        "::",
-        stringify!(bytes_read)
+            "Offset of field: ",
+            stringify!(AVIOContext),
+            "::",
+            stringify!(bytes_read)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).bytes_written) as usize - ptr as usize },
         200usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIOContext),
-        "::",
-        stringify!(bytes_written)
+            "Offset of field: ",
+            stringify!(AVIOContext),
+            "::",
+            stringify!(bytes_written)
         )
     );
 }
@@ -18495,40 +18501,40 @@ fn bindgen_test_layout_AVProbeData() {
         unsafe { ::std::ptr::addr_of!((*ptr).filename) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVProbeData),
-        "::",
-        stringify!(filename)
+            "Offset of field: ",
+            stringify!(AVProbeData),
+            "::",
+            stringify!(filename)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).buf) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVProbeData),
-        "::",
-        stringify!(buf)
+            "Offset of field: ",
+            stringify!(AVProbeData),
+            "::",
+            stringify!(buf)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).buf_size) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVProbeData),
-        "::",
-        stringify!(buf_size)
+            "Offset of field: ",
+            stringify!(AVProbeData),
+            "::",
+            stringify!(buf_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).mime_type) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVProbeData),
-        "::",
-        stringify!(mime_type)
+            "Offset of field: ",
+            stringify!(AVProbeData),
+            "::",
+            stringify!(mime_type)
         )
     );
 }
@@ -18573,100 +18579,100 @@ fn bindgen_test_layout_AVOutputFormat() {
         unsafe { ::std::ptr::addr_of!((*ptr).name) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOutputFormat),
-        "::",
-        stringify!(name)
+            "Offset of field: ",
+            stringify!(AVOutputFormat),
+            "::",
+            stringify!(name)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).long_name) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOutputFormat),
-        "::",
-        stringify!(long_name)
+            "Offset of field: ",
+            stringify!(AVOutputFormat),
+            "::",
+            stringify!(long_name)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).mime_type) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOutputFormat),
-        "::",
-        stringify!(mime_type)
+            "Offset of field: ",
+            stringify!(AVOutputFormat),
+            "::",
+            stringify!(mime_type)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).extensions) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOutputFormat),
-        "::",
-        stringify!(extensions)
+            "Offset of field: ",
+            stringify!(AVOutputFormat),
+            "::",
+            stringify!(extensions)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).audio_codec) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOutputFormat),
-        "::",
-        stringify!(audio_codec)
+            "Offset of field: ",
+            stringify!(AVOutputFormat),
+            "::",
+            stringify!(audio_codec)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).video_codec) as usize - ptr as usize },
         36usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOutputFormat),
-        "::",
-        stringify!(video_codec)
+            "Offset of field: ",
+            stringify!(AVOutputFormat),
+            "::",
+            stringify!(video_codec)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).subtitle_codec) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOutputFormat),
-        "::",
-        stringify!(subtitle_codec)
+            "Offset of field: ",
+            stringify!(AVOutputFormat),
+            "::",
+            stringify!(subtitle_codec)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).flags) as usize - ptr as usize },
         44usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOutputFormat),
-        "::",
-        stringify!(flags)
+            "Offset of field: ",
+            stringify!(AVOutputFormat),
+            "::",
+            stringify!(flags)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).codec_tag) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOutputFormat),
-        "::",
-        stringify!(codec_tag)
+            "Offset of field: ",
+            stringify!(AVOutputFormat),
+            "::",
+            stringify!(codec_tag)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).priv_class) as usize - ptr as usize },
         56usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVOutputFormat),
-        "::",
-        stringify!(priv_class)
+            "Offset of field: ",
+            stringify!(AVOutputFormat),
+            "::",
+            stringify!(priv_class)
         )
     );
 }
@@ -18775,200 +18781,200 @@ fn bindgen_test_layout_AVInputFormat() {
         unsafe { ::std::ptr::addr_of!((*ptr).name) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVInputFormat),
-        "::",
-        stringify!(name)
+            "Offset of field: ",
+            stringify!(AVInputFormat),
+            "::",
+            stringify!(name)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).long_name) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVInputFormat),
-        "::",
-        stringify!(long_name)
+            "Offset of field: ",
+            stringify!(AVInputFormat),
+            "::",
+            stringify!(long_name)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).flags) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVInputFormat),
-        "::",
-        stringify!(flags)
+            "Offset of field: ",
+            stringify!(AVInputFormat),
+            "::",
+            stringify!(flags)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).extensions) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVInputFormat),
-        "::",
-        stringify!(extensions)
+            "Offset of field: ",
+            stringify!(AVInputFormat),
+            "::",
+            stringify!(extensions)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).codec_tag) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVInputFormat),
-        "::",
-        stringify!(codec_tag)
+            "Offset of field: ",
+            stringify!(AVInputFormat),
+            "::",
+            stringify!(codec_tag)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).priv_class) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVInputFormat),
-        "::",
-        stringify!(priv_class)
+            "Offset of field: ",
+            stringify!(AVInputFormat),
+            "::",
+            stringify!(priv_class)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).mime_type) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVInputFormat),
-        "::",
-        stringify!(mime_type)
+            "Offset of field: ",
+            stringify!(AVInputFormat),
+            "::",
+            stringify!(mime_type)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).raw_codec_id) as usize - ptr as usize },
         56usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVInputFormat),
-        "::",
-        stringify!(raw_codec_id)
+            "Offset of field: ",
+            stringify!(AVInputFormat),
+            "::",
+            stringify!(raw_codec_id)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).priv_data_size) as usize - ptr as usize },
         60usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVInputFormat),
-        "::",
-        stringify!(priv_data_size)
+            "Offset of field: ",
+            stringify!(AVInputFormat),
+            "::",
+            stringify!(priv_data_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).flags_internal) as usize - ptr as usize },
         64usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVInputFormat),
-        "::",
-        stringify!(flags_internal)
+            "Offset of field: ",
+            stringify!(AVInputFormat),
+            "::",
+            stringify!(flags_internal)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).read_probe) as usize - ptr as usize },
         72usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVInputFormat),
-        "::",
-        stringify!(read_probe)
+            "Offset of field: ",
+            stringify!(AVInputFormat),
+            "::",
+            stringify!(read_probe)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).read_header) as usize - ptr as usize },
         80usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVInputFormat),
-        "::",
-        stringify!(read_header)
+            "Offset of field: ",
+            stringify!(AVInputFormat),
+            "::",
+            stringify!(read_header)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).read_packet) as usize - ptr as usize },
         88usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVInputFormat),
-        "::",
-        stringify!(read_packet)
+            "Offset of field: ",
+            stringify!(AVInputFormat),
+            "::",
+            stringify!(read_packet)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).read_close) as usize - ptr as usize },
         96usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVInputFormat),
-        "::",
-        stringify!(read_close)
+            "Offset of field: ",
+            stringify!(AVInputFormat),
+            "::",
+            stringify!(read_close)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).read_seek) as usize - ptr as usize },
         104usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVInputFormat),
-        "::",
-        stringify!(read_seek)
+            "Offset of field: ",
+            stringify!(AVInputFormat),
+            "::",
+            stringify!(read_seek)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).read_timestamp) as usize - ptr as usize },
         112usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVInputFormat),
-        "::",
-        stringify!(read_timestamp)
+            "Offset of field: ",
+            stringify!(AVInputFormat),
+            "::",
+            stringify!(read_timestamp)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).read_play) as usize - ptr as usize },
         120usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVInputFormat),
-        "::",
-        stringify!(read_play)
+            "Offset of field: ",
+            stringify!(AVInputFormat),
+            "::",
+            stringify!(read_play)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).read_pause) as usize - ptr as usize },
         128usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVInputFormat),
-        "::",
-        stringify!(read_pause)
+            "Offset of field: ",
+            stringify!(AVInputFormat),
+            "::",
+            stringify!(read_pause)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).read_seek2) as usize - ptr as usize },
         136usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVInputFormat),
-        "::",
-        stringify!(read_seek2)
+            "Offset of field: ",
+            stringify!(AVInputFormat),
+            "::",
+            stringify!(read_seek2)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).get_device_list) as usize - ptr as usize },
         144usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVInputFormat),
-        "::",
-        stringify!(get_device_list)
+            "Offset of field: ",
+            stringify!(AVInputFormat),
+            "::",
+            stringify!(get_device_list)
         )
     );
 }
@@ -19014,30 +19020,30 @@ fn bindgen_test_layout_AVIndexEntry() {
         unsafe { ::std::ptr::addr_of!((*ptr).pos) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIndexEntry),
-        "::",
-        stringify!(pos)
+            "Offset of field: ",
+            stringify!(AVIndexEntry),
+            "::",
+            stringify!(pos)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).timestamp) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIndexEntry),
-        "::",
-        stringify!(timestamp)
+            "Offset of field: ",
+            stringify!(AVIndexEntry),
+            "::",
+            stringify!(timestamp)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).min_distance) as usize - ptr as usize },
         20usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVIndexEntry),
-        "::",
-        stringify!(min_distance)
+            "Offset of field: ",
+            stringify!(AVIndexEntry),
+            "::",
+            stringify!(min_distance)
         )
     );
 }
@@ -19084,7 +19090,7 @@ impl AVIndexEntry {
 extern "C" {
     #[doc = " @return The AV_DISPOSITION_* flag corresponding to disp or a negative error\n         code if disp does not correspond to a known stream disposition."]
     pub fn av_disposition_from_string(disp: *const ::std::os::raw::c_char)
-                                      -> ::std::os::raw::c_int;
+        -> ::std::os::raw::c_int;
 }
 extern "C" {
     #[doc = " @param disposition a combination of AV_DISPOSITION_* values\n @return The string description corresponding to the lowest set bit in\n         disposition. NULL when the lowest set bit does not correspond\n         to a known disposition or when disposition is 0."]
@@ -19153,200 +19159,200 @@ fn bindgen_test_layout_AVStream() {
         unsafe { ::std::ptr::addr_of!((*ptr).av_class) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVStream),
-        "::",
-        stringify!(av_class)
+            "Offset of field: ",
+            stringify!(AVStream),
+            "::",
+            stringify!(av_class)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).index) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVStream),
-        "::",
-        stringify!(index)
+            "Offset of field: ",
+            stringify!(AVStream),
+            "::",
+            stringify!(index)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).id) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVStream),
-        "::",
-        stringify!(id)
+            "Offset of field: ",
+            stringify!(AVStream),
+            "::",
+            stringify!(id)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).codecpar) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVStream),
-        "::",
-        stringify!(codecpar)
+            "Offset of field: ",
+            stringify!(AVStream),
+            "::",
+            stringify!(codecpar)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).priv_data) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVStream),
-        "::",
-        stringify!(priv_data)
+            "Offset of field: ",
+            stringify!(AVStream),
+            "::",
+            stringify!(priv_data)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).time_base) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVStream),
-        "::",
-        stringify!(time_base)
+            "Offset of field: ",
+            stringify!(AVStream),
+            "::",
+            stringify!(time_base)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).start_time) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVStream),
-        "::",
-        stringify!(start_time)
+            "Offset of field: ",
+            stringify!(AVStream),
+            "::",
+            stringify!(start_time)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).duration) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVStream),
-        "::",
-        stringify!(duration)
+            "Offset of field: ",
+            stringify!(AVStream),
+            "::",
+            stringify!(duration)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_frames) as usize - ptr as usize },
         56usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVStream),
-        "::",
-        stringify!(nb_frames)
+            "Offset of field: ",
+            stringify!(AVStream),
+            "::",
+            stringify!(nb_frames)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).disposition) as usize - ptr as usize },
         64usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVStream),
-        "::",
-        stringify!(disposition)
+            "Offset of field: ",
+            stringify!(AVStream),
+            "::",
+            stringify!(disposition)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).discard) as usize - ptr as usize },
         68usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVStream),
-        "::",
-        stringify!(discard)
+            "Offset of field: ",
+            stringify!(AVStream),
+            "::",
+            stringify!(discard)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).sample_aspect_ratio) as usize - ptr as usize },
         72usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVStream),
-        "::",
-        stringify!(sample_aspect_ratio)
+            "Offset of field: ",
+            stringify!(AVStream),
+            "::",
+            stringify!(sample_aspect_ratio)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).metadata) as usize - ptr as usize },
         80usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVStream),
-        "::",
-        stringify!(metadata)
+            "Offset of field: ",
+            stringify!(AVStream),
+            "::",
+            stringify!(metadata)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).avg_frame_rate) as usize - ptr as usize },
         88usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVStream),
-        "::",
-        stringify!(avg_frame_rate)
+            "Offset of field: ",
+            stringify!(AVStream),
+            "::",
+            stringify!(avg_frame_rate)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).attached_pic) as usize - ptr as usize },
         96usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVStream),
-        "::",
-        stringify!(attached_pic)
+            "Offset of field: ",
+            stringify!(AVStream),
+            "::",
+            stringify!(attached_pic)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).side_data) as usize - ptr as usize },
         200usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVStream),
-        "::",
-        stringify!(side_data)
+            "Offset of field: ",
+            stringify!(AVStream),
+            "::",
+            stringify!(side_data)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_side_data) as usize - ptr as usize },
         208usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVStream),
-        "::",
-        stringify!(nb_side_data)
+            "Offset of field: ",
+            stringify!(AVStream),
+            "::",
+            stringify!(nb_side_data)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).event_flags) as usize - ptr as usize },
         212usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVStream),
-        "::",
-        stringify!(event_flags)
+            "Offset of field: ",
+            stringify!(AVStream),
+            "::",
+            stringify!(event_flags)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).r_frame_rate) as usize - ptr as usize },
         216usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVStream),
-        "::",
-        stringify!(r_frame_rate)
+            "Offset of field: ",
+            stringify!(AVStream),
+            "::",
+            stringify!(r_frame_rate)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pts_wrap_bits) as usize - ptr as usize },
         224usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVStream),
-        "::",
-        stringify!(pts_wrap_bits)
+            "Offset of field: ",
+            stringify!(AVStream),
+            "::",
+            stringify!(pts_wrap_bits)
         )
     );
 }
@@ -19398,140 +19404,140 @@ fn bindgen_test_layout_AVProgram() {
         unsafe { ::std::ptr::addr_of!((*ptr).id) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVProgram),
-        "::",
-        stringify!(id)
+            "Offset of field: ",
+            stringify!(AVProgram),
+            "::",
+            stringify!(id)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).flags) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVProgram),
-        "::",
-        stringify!(flags)
+            "Offset of field: ",
+            stringify!(AVProgram),
+            "::",
+            stringify!(flags)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).discard) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVProgram),
-        "::",
-        stringify!(discard)
+            "Offset of field: ",
+            stringify!(AVProgram),
+            "::",
+            stringify!(discard)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).stream_index) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVProgram),
-        "::",
-        stringify!(stream_index)
+            "Offset of field: ",
+            stringify!(AVProgram),
+            "::",
+            stringify!(stream_index)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_stream_indexes) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVProgram),
-        "::",
-        stringify!(nb_stream_indexes)
+            "Offset of field: ",
+            stringify!(AVProgram),
+            "::",
+            stringify!(nb_stream_indexes)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).metadata) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVProgram),
-        "::",
-        stringify!(metadata)
+            "Offset of field: ",
+            stringify!(AVProgram),
+            "::",
+            stringify!(metadata)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).program_num) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVProgram),
-        "::",
-        stringify!(program_num)
+            "Offset of field: ",
+            stringify!(AVProgram),
+            "::",
+            stringify!(program_num)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pmt_pid) as usize - ptr as usize },
         44usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVProgram),
-        "::",
-        stringify!(pmt_pid)
+            "Offset of field: ",
+            stringify!(AVProgram),
+            "::",
+            stringify!(pmt_pid)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pcr_pid) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVProgram),
-        "::",
-        stringify!(pcr_pid)
+            "Offset of field: ",
+            stringify!(AVProgram),
+            "::",
+            stringify!(pcr_pid)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pmt_version) as usize - ptr as usize },
         52usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVProgram),
-        "::",
-        stringify!(pmt_version)
+            "Offset of field: ",
+            stringify!(AVProgram),
+            "::",
+            stringify!(pmt_version)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).start_time) as usize - ptr as usize },
         56usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVProgram),
-        "::",
-        stringify!(start_time)
+            "Offset of field: ",
+            stringify!(AVProgram),
+            "::",
+            stringify!(start_time)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).end_time) as usize - ptr as usize },
         64usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVProgram),
-        "::",
-        stringify!(end_time)
+            "Offset of field: ",
+            stringify!(AVProgram),
+            "::",
+            stringify!(end_time)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pts_wrap_reference) as usize - ptr as usize },
         72usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVProgram),
-        "::",
-        stringify!(pts_wrap_reference)
+            "Offset of field: ",
+            stringify!(AVProgram),
+            "::",
+            stringify!(pts_wrap_reference)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pts_wrap_behavior) as usize - ptr as usize },
         80usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVProgram),
-        "::",
-        stringify!(pts_wrap_behavior)
+            "Offset of field: ",
+            stringify!(AVProgram),
+            "::",
+            stringify!(pts_wrap_behavior)
         )
     );
 }
@@ -19566,50 +19572,50 @@ fn bindgen_test_layout_AVChapter() {
         unsafe { ::std::ptr::addr_of!((*ptr).id) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVChapter),
-        "::",
-        stringify!(id)
+            "Offset of field: ",
+            stringify!(AVChapter),
+            "::",
+            stringify!(id)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).time_base) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVChapter),
-        "::",
-        stringify!(time_base)
+            "Offset of field: ",
+            stringify!(AVChapter),
+            "::",
+            stringify!(time_base)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).start) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVChapter),
-        "::",
-        stringify!(start)
+            "Offset of field: ",
+            stringify!(AVChapter),
+            "::",
+            stringify!(start)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).end) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVChapter),
-        "::",
-        stringify!(end)
+            "Offset of field: ",
+            stringify!(AVChapter),
+            "::",
+            stringify!(end)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).metadata) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVChapter),
-        "::",
-        stringify!(metadata)
+            "Offset of field: ",
+            stringify!(AVChapter),
+            "::",
+            stringify!(metadata)
         )
     );
 }
@@ -19781,7 +19787,7 @@ pub struct AVFormatContext {
     >,
     #[doc = " A callback for closing the streams opened with AVFormatContext.io_open().\n\n @deprecated use io_close2"]
     pub io_close:
-    ::std::option::Option<unsafe extern "C" fn(s: *mut AVFormatContext, pb: *mut AVIOContext)>,
+        ::std::option::Option<unsafe extern "C" fn(s: *mut AVFormatContext, pb: *mut AVIOContext)>,
     #[doc = " ',' separated list of disallowed protocols.\n - encoding: unused\n - decoding: set by user"]
     pub protocol_blacklist: *mut ::std::os::raw::c_char,
     #[doc = " The maximum number of streams.\n - encoding: unused\n - decoding: set by user"]
@@ -19816,700 +19822,700 @@ fn bindgen_test_layout_AVFormatContext() {
         unsafe { ::std::ptr::addr_of!((*ptr).av_class) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(av_class)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(av_class)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).iformat) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(iformat)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(iformat)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).oformat) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(oformat)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(oformat)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).priv_data) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(priv_data)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(priv_data)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pb) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(pb)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(pb)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).ctx_flags) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(ctx_flags)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(ctx_flags)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_streams) as usize - ptr as usize },
         44usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(nb_streams)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(nb_streams)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).streams) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(streams)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(streams)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).url) as usize - ptr as usize },
         56usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(url)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(url)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).start_time) as usize - ptr as usize },
         64usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(start_time)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(start_time)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).duration) as usize - ptr as usize },
         72usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(duration)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(duration)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).bit_rate) as usize - ptr as usize },
         80usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(bit_rate)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(bit_rate)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).packet_size) as usize - ptr as usize },
         88usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(packet_size)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(packet_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).max_delay) as usize - ptr as usize },
         92usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(max_delay)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(max_delay)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).flags) as usize - ptr as usize },
         96usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(flags)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(flags)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).probesize) as usize - ptr as usize },
         104usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(probesize)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(probesize)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).max_analyze_duration) as usize - ptr as usize },
         112usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(max_analyze_duration)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(max_analyze_duration)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).key) as usize - ptr as usize },
         120usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(key)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(key)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).keylen) as usize - ptr as usize },
         128usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(keylen)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(keylen)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_programs) as usize - ptr as usize },
         132usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(nb_programs)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(nb_programs)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).programs) as usize - ptr as usize },
         136usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(programs)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(programs)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).video_codec_id) as usize - ptr as usize },
         144usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(video_codec_id)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(video_codec_id)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).audio_codec_id) as usize - ptr as usize },
         148usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(audio_codec_id)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(audio_codec_id)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).subtitle_codec_id) as usize - ptr as usize },
         152usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(subtitle_codec_id)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(subtitle_codec_id)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).max_index_size) as usize - ptr as usize },
         156usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(max_index_size)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(max_index_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).max_picture_buffer) as usize - ptr as usize },
         160usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(max_picture_buffer)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(max_picture_buffer)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_chapters) as usize - ptr as usize },
         164usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(nb_chapters)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(nb_chapters)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).chapters) as usize - ptr as usize },
         168usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(chapters)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(chapters)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).metadata) as usize - ptr as usize },
         176usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(metadata)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(metadata)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).start_time_realtime) as usize - ptr as usize },
         184usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(start_time_realtime)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(start_time_realtime)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).fps_probe_size) as usize - ptr as usize },
         192usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(fps_probe_size)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(fps_probe_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).error_recognition) as usize - ptr as usize },
         196usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(error_recognition)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(error_recognition)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).interrupt_callback) as usize - ptr as usize },
         200usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(interrupt_callback)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(interrupt_callback)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).debug) as usize - ptr as usize },
         216usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(debug)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(debug)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).max_interleave_delta) as usize - ptr as usize },
         224usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(max_interleave_delta)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(max_interleave_delta)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).strict_std_compliance) as usize - ptr as usize },
         232usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(strict_std_compliance)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(strict_std_compliance)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).event_flags) as usize - ptr as usize },
         236usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(event_flags)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(event_flags)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).max_ts_probe) as usize - ptr as usize },
         240usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(max_ts_probe)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(max_ts_probe)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).avoid_negative_ts) as usize - ptr as usize },
         244usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(avoid_negative_ts)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(avoid_negative_ts)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).ts_id) as usize - ptr as usize },
         248usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(ts_id)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(ts_id)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).audio_preload) as usize - ptr as usize },
         252usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(audio_preload)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(audio_preload)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).max_chunk_duration) as usize - ptr as usize },
         256usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(max_chunk_duration)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(max_chunk_duration)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).max_chunk_size) as usize - ptr as usize },
         260usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(max_chunk_size)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(max_chunk_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).use_wallclock_as_timestamps) as usize - ptr as usize },
         264usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(use_wallclock_as_timestamps)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(use_wallclock_as_timestamps)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).avio_flags) as usize - ptr as usize },
         268usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(avio_flags)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(avio_flags)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).duration_estimation_method) as usize - ptr as usize },
         272usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(duration_estimation_method)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(duration_estimation_method)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).skip_initial_bytes) as usize - ptr as usize },
         280usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(skip_initial_bytes)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(skip_initial_bytes)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).correct_ts_overflow) as usize - ptr as usize },
         288usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(correct_ts_overflow)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(correct_ts_overflow)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).seek2any) as usize - ptr as usize },
         292usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(seek2any)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(seek2any)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).flush_packets) as usize - ptr as usize },
         296usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(flush_packets)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(flush_packets)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).probe_score) as usize - ptr as usize },
         300usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(probe_score)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(probe_score)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).format_probesize) as usize - ptr as usize },
         304usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(format_probesize)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(format_probesize)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).codec_whitelist) as usize - ptr as usize },
         312usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(codec_whitelist)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(codec_whitelist)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).format_whitelist) as usize - ptr as usize },
         320usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(format_whitelist)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(format_whitelist)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).io_repositioned) as usize - ptr as usize },
         328usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(io_repositioned)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(io_repositioned)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).video_codec) as usize - ptr as usize },
         336usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(video_codec)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(video_codec)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).audio_codec) as usize - ptr as usize },
         344usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(audio_codec)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(audio_codec)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).subtitle_codec) as usize - ptr as usize },
         352usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(subtitle_codec)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(subtitle_codec)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).data_codec) as usize - ptr as usize },
         360usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(data_codec)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(data_codec)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).metadata_header_padding) as usize - ptr as usize },
         368usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(metadata_header_padding)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(metadata_header_padding)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).opaque) as usize - ptr as usize },
         376usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(opaque)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(opaque)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).control_message_cb) as usize - ptr as usize },
         384usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(control_message_cb)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(control_message_cb)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).output_ts_offset) as usize - ptr as usize },
         392usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(output_ts_offset)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(output_ts_offset)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).dump_separator) as usize - ptr as usize },
         400usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(dump_separator)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(dump_separator)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).data_codec_id) as usize - ptr as usize },
         408usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(data_codec_id)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(data_codec_id)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).protocol_whitelist) as usize - ptr as usize },
         416usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(protocol_whitelist)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(protocol_whitelist)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).io_open) as usize - ptr as usize },
         424usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(io_open)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(io_open)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).io_close) as usize - ptr as usize },
         432usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(io_close)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(io_close)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).protocol_blacklist) as usize - ptr as usize },
         440usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(protocol_blacklist)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(protocol_blacklist)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).max_streams) as usize - ptr as usize },
         448usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(max_streams)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(max_streams)
         )
     );
     assert_eq!(
@@ -20518,30 +20524,30 @@ fn bindgen_test_layout_AVFormatContext() {
         },
         452usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(skip_estimate_duration_from_pts)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(skip_estimate_duration_from_pts)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).max_probe_packets) as usize - ptr as usize },
         456usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(max_probe_packets)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(max_probe_packets)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).io_close2) as usize - ptr as usize },
         464usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFormatContext),
-        "::",
-        stringify!(io_close2)
+            "Offset of field: ",
+            stringify!(AVFormatContext),
+            "::",
+            stringify!(io_close2)
         )
     );
 }
@@ -21140,40 +21146,40 @@ fn bindgen_test_layout_AVDeviceRect() {
         unsafe { ::std::ptr::addr_of!((*ptr).x) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDeviceRect),
-        "::",
-        stringify!(x)
+            "Offset of field: ",
+            stringify!(AVDeviceRect),
+            "::",
+            stringify!(x)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).y) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDeviceRect),
-        "::",
-        stringify!(y)
+            "Offset of field: ",
+            stringify!(AVDeviceRect),
+            "::",
+            stringify!(y)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).width) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDeviceRect),
-        "::",
-        stringify!(width)
+            "Offset of field: ",
+            stringify!(AVDeviceRect),
+            "::",
+            stringify!(width)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).height) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDeviceRect),
-        "::",
-        stringify!(height)
+            "Offset of field: ",
+            stringify!(AVDeviceRect),
+            "::",
+            stringify!(height)
         )
     );
 }
@@ -21276,40 +21282,40 @@ fn bindgen_test_layout_AVDeviceInfo() {
         unsafe { ::std::ptr::addr_of!((*ptr).device_name) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDeviceInfo),
-        "::",
-        stringify!(device_name)
+            "Offset of field: ",
+            stringify!(AVDeviceInfo),
+            "::",
+            stringify!(device_name)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).device_description) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDeviceInfo),
-        "::",
-        stringify!(device_description)
+            "Offset of field: ",
+            stringify!(AVDeviceInfo),
+            "::",
+            stringify!(device_description)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).media_types) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDeviceInfo),
-        "::",
-        stringify!(media_types)
+            "Offset of field: ",
+            stringify!(AVDeviceInfo),
+            "::",
+            stringify!(media_types)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_media_types) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDeviceInfo),
-        "::",
-        stringify!(nb_media_types)
+            "Offset of field: ",
+            stringify!(AVDeviceInfo),
+            "::",
+            stringify!(nb_media_types)
         )
     );
 }
@@ -21342,30 +21348,30 @@ fn bindgen_test_layout_AVDeviceInfoList() {
         unsafe { ::std::ptr::addr_of!((*ptr).devices) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDeviceInfoList),
-        "::",
-        stringify!(devices)
+            "Offset of field: ",
+            stringify!(AVDeviceInfoList),
+            "::",
+            stringify!(devices)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_devices) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDeviceInfoList),
-        "::",
-        stringify!(nb_devices)
+            "Offset of field: ",
+            stringify!(AVDeviceInfoList),
+            "::",
+            stringify!(nb_devices)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).default_device) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDeviceInfoList),
-        "::",
-        stringify!(default_device)
+            "Offset of field: ",
+            stringify!(AVDeviceInfoList),
+            "::",
+            stringify!(default_device)
         )
     );
 }
@@ -21527,50 +21533,50 @@ fn bindgen_test_layout_AVFilter__bindgen_ty_1() {
         unsafe { ::std::ptr::addr_of!((*ptr).query_func) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilter__bindgen_ty_1),
-        "::",
-        stringify!(query_func)
+            "Offset of field: ",
+            stringify!(AVFilter__bindgen_ty_1),
+            "::",
+            stringify!(query_func)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pixels_list) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilter__bindgen_ty_1),
-        "::",
-        stringify!(pixels_list)
+            "Offset of field: ",
+            stringify!(AVFilter__bindgen_ty_1),
+            "::",
+            stringify!(pixels_list)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).samples_list) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilter__bindgen_ty_1),
-        "::",
-        stringify!(samples_list)
+            "Offset of field: ",
+            stringify!(AVFilter__bindgen_ty_1),
+            "::",
+            stringify!(samples_list)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pix_fmt) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilter__bindgen_ty_1),
-        "::",
-        stringify!(pix_fmt)
+            "Offset of field: ",
+            stringify!(AVFilter__bindgen_ty_1),
+            "::",
+            stringify!(pix_fmt)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).sample_fmt) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilter__bindgen_ty_1),
-        "::",
-        stringify!(sample_fmt)
+            "Offset of field: ",
+            stringify!(AVFilter__bindgen_ty_1),
+            "::",
+            stringify!(sample_fmt)
         )
     );
 }
@@ -21597,170 +21603,170 @@ fn bindgen_test_layout_AVFilter() {
         unsafe { ::std::ptr::addr_of!((*ptr).name) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilter),
-        "::",
-        stringify!(name)
+            "Offset of field: ",
+            stringify!(AVFilter),
+            "::",
+            stringify!(name)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).description) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilter),
-        "::",
-        stringify!(description)
+            "Offset of field: ",
+            stringify!(AVFilter),
+            "::",
+            stringify!(description)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).inputs) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilter),
-        "::",
-        stringify!(inputs)
+            "Offset of field: ",
+            stringify!(AVFilter),
+            "::",
+            stringify!(inputs)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).outputs) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilter),
-        "::",
-        stringify!(outputs)
+            "Offset of field: ",
+            stringify!(AVFilter),
+            "::",
+            stringify!(outputs)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).priv_class) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilter),
-        "::",
-        stringify!(priv_class)
+            "Offset of field: ",
+            stringify!(AVFilter),
+            "::",
+            stringify!(priv_class)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).flags) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilter),
-        "::",
-        stringify!(flags)
+            "Offset of field: ",
+            stringify!(AVFilter),
+            "::",
+            stringify!(flags)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_inputs) as usize - ptr as usize },
         44usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilter),
-        "::",
-        stringify!(nb_inputs)
+            "Offset of field: ",
+            stringify!(AVFilter),
+            "::",
+            stringify!(nb_inputs)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_outputs) as usize - ptr as usize },
         45usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilter),
-        "::",
-        stringify!(nb_outputs)
+            "Offset of field: ",
+            stringify!(AVFilter),
+            "::",
+            stringify!(nb_outputs)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).formats_state) as usize - ptr as usize },
         46usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilter),
-        "::",
-        stringify!(formats_state)
+            "Offset of field: ",
+            stringify!(AVFilter),
+            "::",
+            stringify!(formats_state)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).preinit) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilter),
-        "::",
-        stringify!(preinit)
+            "Offset of field: ",
+            stringify!(AVFilter),
+            "::",
+            stringify!(preinit)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).init) as usize - ptr as usize },
         56usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilter),
-        "::",
-        stringify!(init)
+            "Offset of field: ",
+            stringify!(AVFilter),
+            "::",
+            stringify!(init)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).uninit) as usize - ptr as usize },
         64usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilter),
-        "::",
-        stringify!(uninit)
+            "Offset of field: ",
+            stringify!(AVFilter),
+            "::",
+            stringify!(uninit)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).formats) as usize - ptr as usize },
         72usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilter),
-        "::",
-        stringify!(formats)
+            "Offset of field: ",
+            stringify!(AVFilter),
+            "::",
+            stringify!(formats)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).priv_size) as usize - ptr as usize },
         80usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilter),
-        "::",
-        stringify!(priv_size)
+            "Offset of field: ",
+            stringify!(AVFilter),
+            "::",
+            stringify!(priv_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).flags_internal) as usize - ptr as usize },
         84usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilter),
-        "::",
-        stringify!(flags_internal)
+            "Offset of field: ",
+            stringify!(AVFilter),
+            "::",
+            stringify!(flags_internal)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).process_command) as usize - ptr as usize },
         88usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilter),
-        "::",
-        stringify!(process_command)
+            "Offset of field: ",
+            stringify!(AVFilter),
+            "::",
+            stringify!(process_command)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).activate) as usize - ptr as usize },
         96usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilter),
-        "::",
-        stringify!(activate)
+            "Offset of field: ",
+            stringify!(AVFilter),
+            "::",
+            stringify!(activate)
         )
     );
 }
@@ -21847,220 +21853,220 @@ fn bindgen_test_layout_AVFilterContext() {
         unsafe { ::std::ptr::addr_of!((*ptr).av_class) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterContext),
-        "::",
-        stringify!(av_class)
+            "Offset of field: ",
+            stringify!(AVFilterContext),
+            "::",
+            stringify!(av_class)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).filter) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterContext),
-        "::",
-        stringify!(filter)
+            "Offset of field: ",
+            stringify!(AVFilterContext),
+            "::",
+            stringify!(filter)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).name) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterContext),
-        "::",
-        stringify!(name)
+            "Offset of field: ",
+            stringify!(AVFilterContext),
+            "::",
+            stringify!(name)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).input_pads) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterContext),
-        "::",
-        stringify!(input_pads)
+            "Offset of field: ",
+            stringify!(AVFilterContext),
+            "::",
+            stringify!(input_pads)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).inputs) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterContext),
-        "::",
-        stringify!(inputs)
+            "Offset of field: ",
+            stringify!(AVFilterContext),
+            "::",
+            stringify!(inputs)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_inputs) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterContext),
-        "::",
-        stringify!(nb_inputs)
+            "Offset of field: ",
+            stringify!(AVFilterContext),
+            "::",
+            stringify!(nb_inputs)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).output_pads) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterContext),
-        "::",
-        stringify!(output_pads)
+            "Offset of field: ",
+            stringify!(AVFilterContext),
+            "::",
+            stringify!(output_pads)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).outputs) as usize - ptr as usize },
         56usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterContext),
-        "::",
-        stringify!(outputs)
+            "Offset of field: ",
+            stringify!(AVFilterContext),
+            "::",
+            stringify!(outputs)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_outputs) as usize - ptr as usize },
         64usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterContext),
-        "::",
-        stringify!(nb_outputs)
+            "Offset of field: ",
+            stringify!(AVFilterContext),
+            "::",
+            stringify!(nb_outputs)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).priv_) as usize - ptr as usize },
         72usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterContext),
-        "::",
-        stringify!(priv_)
+            "Offset of field: ",
+            stringify!(AVFilterContext),
+            "::",
+            stringify!(priv_)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).graph) as usize - ptr as usize },
         80usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterContext),
-        "::",
-        stringify!(graph)
+            "Offset of field: ",
+            stringify!(AVFilterContext),
+            "::",
+            stringify!(graph)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).thread_type) as usize - ptr as usize },
         88usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterContext),
-        "::",
-        stringify!(thread_type)
+            "Offset of field: ",
+            stringify!(AVFilterContext),
+            "::",
+            stringify!(thread_type)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).internal) as usize - ptr as usize },
         96usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterContext),
-        "::",
-        stringify!(internal)
+            "Offset of field: ",
+            stringify!(AVFilterContext),
+            "::",
+            stringify!(internal)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).command_queue) as usize - ptr as usize },
         104usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterContext),
-        "::",
-        stringify!(command_queue)
+            "Offset of field: ",
+            stringify!(AVFilterContext),
+            "::",
+            stringify!(command_queue)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).enable_str) as usize - ptr as usize },
         112usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterContext),
-        "::",
-        stringify!(enable_str)
+            "Offset of field: ",
+            stringify!(AVFilterContext),
+            "::",
+            stringify!(enable_str)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).enable) as usize - ptr as usize },
         120usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterContext),
-        "::",
-        stringify!(enable)
+            "Offset of field: ",
+            stringify!(AVFilterContext),
+            "::",
+            stringify!(enable)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).var_values) as usize - ptr as usize },
         128usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterContext),
-        "::",
-        stringify!(var_values)
+            "Offset of field: ",
+            stringify!(AVFilterContext),
+            "::",
+            stringify!(var_values)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).is_disabled) as usize - ptr as usize },
         136usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterContext),
-        "::",
-        stringify!(is_disabled)
+            "Offset of field: ",
+            stringify!(AVFilterContext),
+            "::",
+            stringify!(is_disabled)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).hw_device_ctx) as usize - ptr as usize },
         144usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterContext),
-        "::",
-        stringify!(hw_device_ctx)
+            "Offset of field: ",
+            stringify!(AVFilterContext),
+            "::",
+            stringify!(hw_device_ctx)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_threads) as usize - ptr as usize },
         152usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterContext),
-        "::",
-        stringify!(nb_threads)
+            "Offset of field: ",
+            stringify!(AVFilterContext),
+            "::",
+            stringify!(nb_threads)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).ready) as usize - ptr as usize },
         156usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterContext),
-        "::",
-        stringify!(ready)
+            "Offset of field: ",
+            stringify!(AVFilterContext),
+            "::",
+            stringify!(ready)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).extra_hw_frames) as usize - ptr as usize },
         160usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterContext),
-        "::",
-        stringify!(extra_hw_frames)
+            "Offset of field: ",
+            stringify!(AVFilterContext),
+            "::",
+            stringify!(extra_hw_frames)
         )
     );
 }
@@ -22094,30 +22100,30 @@ fn bindgen_test_layout_AVFilterFormatsConfig() {
         unsafe { ::std::ptr::addr_of!((*ptr).formats) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterFormatsConfig),
-        "::",
-        stringify!(formats)
+            "Offset of field: ",
+            stringify!(AVFilterFormatsConfig),
+            "::",
+            stringify!(formats)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).samplerates) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterFormatsConfig),
-        "::",
-        stringify!(samplerates)
+            "Offset of field: ",
+            stringify!(AVFilterFormatsConfig),
+            "::",
+            stringify!(samplerates)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).channel_layouts) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterFormatsConfig),
-        "::",
-        stringify!(channel_layouts)
+            "Offset of field: ",
+            stringify!(AVFilterFormatsConfig),
+            "::",
+            stringify!(channel_layouts)
         )
     );
 }
@@ -22213,310 +22219,310 @@ fn bindgen_test_layout_AVFilterLink() {
         unsafe { ::std::ptr::addr_of!((*ptr).src) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(src)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(src)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).srcpad) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(srcpad)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(srcpad)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).dst) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(dst)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(dst)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).dstpad) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(dstpad)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(dstpad)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).type_) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(type_)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(type_)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).w) as usize - ptr as usize },
         36usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(w)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(w)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).h) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(h)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(h)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).sample_aspect_ratio) as usize - ptr as usize },
         44usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(sample_aspect_ratio)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(sample_aspect_ratio)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).channel_layout) as usize - ptr as usize },
         56usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(channel_layout)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(channel_layout)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).sample_rate) as usize - ptr as usize },
         64usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(sample_rate)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(sample_rate)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).format) as usize - ptr as usize },
         68usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(format)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(format)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).time_base) as usize - ptr as usize },
         72usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(time_base)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(time_base)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).ch_layout) as usize - ptr as usize },
         80usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(ch_layout)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(ch_layout)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).incfg) as usize - ptr as usize },
         104usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(incfg)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(incfg)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).outcfg) as usize - ptr as usize },
         128usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(outcfg)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(outcfg)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).init_state) as usize - ptr as usize },
         152usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(init_state)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(init_state)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).graph) as usize - ptr as usize },
         160usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(graph)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(graph)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).current_pts) as usize - ptr as usize },
         168usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(current_pts)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(current_pts)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).current_pts_us) as usize - ptr as usize },
         176usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(current_pts_us)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(current_pts_us)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).age_index) as usize - ptr as usize },
         184usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(age_index)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(age_index)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).frame_rate) as usize - ptr as usize },
         188usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(frame_rate)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(frame_rate)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).min_samples) as usize - ptr as usize },
         196usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(min_samples)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(min_samples)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).max_samples) as usize - ptr as usize },
         200usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(max_samples)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(max_samples)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).frame_count_in) as usize - ptr as usize },
         208usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(frame_count_in)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(frame_count_in)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).frame_count_out) as usize - ptr as usize },
         216usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(frame_count_out)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(frame_count_out)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).sample_count_in) as usize - ptr as usize },
         224usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(sample_count_in)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(sample_count_in)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).sample_count_out) as usize - ptr as usize },
         232usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(sample_count_out)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(sample_count_out)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).frame_pool) as usize - ptr as usize },
         240usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(frame_pool)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(frame_pool)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).frame_wanted_out) as usize - ptr as usize },
         248usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(frame_wanted_out)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(frame_wanted_out)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).hw_frames_ctx) as usize - ptr as usize },
         256usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(hw_frames_ctx)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(hw_frames_ctx)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).reserved) as usize - ptr as usize },
         264usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterLink),
-        "::",
-        stringify!(reserved)
+            "Offset of field: ",
+            stringify!(AVFilterLink),
+            "::",
+            stringify!(reserved)
         )
     );
 }
@@ -22557,7 +22563,10 @@ extern "C" {
     #[doc = " Iterate over all registered filters.\n\n @param opaque a pointer where libavfilter will store the iteration state. Must\n               point to NULL to start the iteration.\n\n @return the next registered filter or NULL when the iteration is\n         finished"]
     pub fn av_filter_iterate(opaque: *mut *mut ::std::os::raw::c_void) -> *const AVFilter;
 }
-
+extern "C" {
+    #[doc = " Get a filter definition matching the given name.\n\n @param name the filter name to find\n @return     the filter definition, if any matching one is registered.\n             NULL if none found."]
+    pub fn avfilter_get_by_name(name: *const ::std::os::raw::c_char) -> *const AVFilter;
+}
 extern "C" {
     #[doc = " Initialize a filter with the supplied parameters.\n\n @param ctx  uninitialized filter context to initialize\n @param args Options to initialize the filter with. This must be a\n             ':'-separated list of options in the 'key=value' form.\n             May be NULL if the options have been set directly using the\n             AVOptions API or there are no options that need to be set.\n @return 0 on success, a negative AVERROR on failure"]
     pub fn avfilter_init_str(
@@ -22656,134 +22665,137 @@ fn bindgen_test_layout_AVFilterGraph() {
         unsafe { ::std::ptr::addr_of!((*ptr).av_class) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterGraph),
-        "::",
-        stringify!(av_class)
+            "Offset of field: ",
+            stringify!(AVFilterGraph),
+            "::",
+            stringify!(av_class)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).filters) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterGraph),
-        "::",
-        stringify!(filters)
+            "Offset of field: ",
+            stringify!(AVFilterGraph),
+            "::",
+            stringify!(filters)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_filters) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterGraph),
-        "::",
-        stringify!(nb_filters)
+            "Offset of field: ",
+            stringify!(AVFilterGraph),
+            "::",
+            stringify!(nb_filters)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).scale_sws_opts) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterGraph),
-        "::",
-        stringify!(scale_sws_opts)
+            "Offset of field: ",
+            stringify!(AVFilterGraph),
+            "::",
+            stringify!(scale_sws_opts)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).thread_type) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterGraph),
-        "::",
-        stringify!(thread_type)
+            "Offset of field: ",
+            stringify!(AVFilterGraph),
+            "::",
+            stringify!(thread_type)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_threads) as usize - ptr as usize },
         36usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterGraph),
-        "::",
-        stringify!(nb_threads)
+            "Offset of field: ",
+            stringify!(AVFilterGraph),
+            "::",
+            stringify!(nb_threads)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).internal) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterGraph),
-        "::",
-        stringify!(internal)
+            "Offset of field: ",
+            stringify!(AVFilterGraph),
+            "::",
+            stringify!(internal)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).opaque) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterGraph),
-        "::",
-        stringify!(opaque)
+            "Offset of field: ",
+            stringify!(AVFilterGraph),
+            "::",
+            stringify!(opaque)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).execute) as usize - ptr as usize },
         56usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterGraph),
-        "::",
-        stringify!(execute)
+            "Offset of field: ",
+            stringify!(AVFilterGraph),
+            "::",
+            stringify!(execute)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).aresample_swr_opts) as usize - ptr as usize },
         64usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterGraph),
-        "::",
-        stringify!(aresample_swr_opts)
+            "Offset of field: ",
+            stringify!(AVFilterGraph),
+            "::",
+            stringify!(aresample_swr_opts)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).sink_links) as usize - ptr as usize },
         72usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterGraph),
-        "::",
-        stringify!(sink_links)
+            "Offset of field: ",
+            stringify!(AVFilterGraph),
+            "::",
+            stringify!(sink_links)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).sink_links_count) as usize - ptr as usize },
         80usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterGraph),
-        "::",
-        stringify!(sink_links_count)
+            "Offset of field: ",
+            stringify!(AVFilterGraph),
+            "::",
+            stringify!(sink_links_count)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).disable_auto_convert) as usize - ptr as usize },
         84usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterGraph),
-        "::",
-        stringify!(disable_auto_convert)
+            "Offset of field: ",
+            stringify!(AVFilterGraph),
+            "::",
+            stringify!(disable_auto_convert)
         )
     );
 }
-
+extern "C" {
+    #[doc = " Allocate a filter graph.\n\n @return the allocated filter graph on success or NULL."]
+    pub fn avfilter_graph_alloc() -> *mut AVFilterGraph;
+}
 extern "C" {
     #[doc = " Create a new filter instance in a filter graph.\n\n @param graph graph in which the new filter will be used\n @param filter the filter to create an instance of\n @param name Name to give to the new instance (will be copied to\n             AVFilterContext.name). This may be used by the caller to identify\n             different filters, libavfilter itself assigns no semantics to\n             this parameter. May be NULL.\n\n @return the context of the newly created filter instance (note that it is\n         also retrievable directly through AVFilterGraph.filters or with\n         avfilter_graph_get_filter()) on success or NULL on failure."]
     pub fn avfilter_graph_alloc_filter(
@@ -22792,7 +22804,24 @@ extern "C" {
         name: *const ::std::os::raw::c_char,
     ) -> *mut AVFilterContext;
 }
-
+extern "C" {
+    #[doc = " Get a filter instance identified by instance name from graph.\n\n @param graph filter graph to search through.\n @param name filter instance name (should be unique in the graph).\n @return the pointer to the found filter instance or NULL if it\n cannot be found."]
+    pub fn avfilter_graph_get_filter(
+        graph: *mut AVFilterGraph,
+        name: *const ::std::os::raw::c_char,
+    ) -> *mut AVFilterContext;
+}
+extern "C" {
+    #[doc = " Create and add a filter instance into an existing graph.\n The filter instance is created from the filter filt and inited\n with the parameter args. opaque is currently ignored.\n\n In case of success put in *filt_ctx the pointer to the created\n filter instance, otherwise set *filt_ctx to NULL.\n\n @param name the instance name to give to the created filter instance\n @param graph_ctx the filter graph\n @return a negative AVERROR error code in case of failure, a non\n negative value otherwise"]
+    pub fn avfilter_graph_create_filter(
+        filt_ctx: *mut *mut AVFilterContext,
+        filt: *const AVFilter,
+        name: *const ::std::os::raw::c_char,
+        args: *const ::std::os::raw::c_char,
+        opaque: *mut ::std::os::raw::c_void,
+        graph_ctx: *mut AVFilterGraph,
+    ) -> ::std::os::raw::c_int;
+}
 extern "C" {
     #[doc = " Enable or disable automatic format conversion inside the graph.\n\n Note that format conversion can still happen inside explicitly inserted\n scale and aresample filters.\n\n @param flags  any of the AVFILTER_AUTO_CONVERT_* constants"]
     pub fn avfilter_graph_set_auto_convert(
@@ -22805,7 +22834,17 @@ pub const AVFILTER_AUTO_CONVERT_ALL: _bindgen_ty_6 = 0;
 #[doc = "< all automatic conversions disabled"]
 pub const AVFILTER_AUTO_CONVERT_NONE: _bindgen_ty_6 = -1;
 pub type _bindgen_ty_6 = ::std::os::raw::c_int;
-
+extern "C" {
+    #[doc = " Check validity and configure all the links and formats in the graph.\n\n @param graphctx the filter graph\n @param log_ctx context used for logging\n @return >= 0 in case of success, a negative AVERROR code otherwise"]
+    pub fn avfilter_graph_config(
+        graphctx: *mut AVFilterGraph,
+        log_ctx: *mut ::std::os::raw::c_void,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    #[doc = " Free a graph, destroy its links, and set *graph to NULL.\n If *graph is NULL, do nothing."]
+    pub fn avfilter_graph_free(graph: *mut *mut AVFilterGraph);
+}
 #[doc = " A linked-list of the inputs/outputs of the filter chain.\n\n This is mainly useful for avfilter_graph_parse() / avfilter_graph_parse2(),\n where it is used to communicate open (unlinked) inputs and outputs from and\n to the caller.\n This struct specifies, per each not connected pad contained in the graph, the\n filter context and the pad index required for establishing a link."]
 #[repr(C)]
 #[derive(Debug, Copy, Clone)]
@@ -22837,44 +22876,51 @@ fn bindgen_test_layout_AVFilterInOut() {
         unsafe { ::std::ptr::addr_of!((*ptr).name) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterInOut),
-        "::",
-        stringify!(name)
+            "Offset of field: ",
+            stringify!(AVFilterInOut),
+            "::",
+            stringify!(name)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).filter_ctx) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterInOut),
-        "::",
-        stringify!(filter_ctx)
+            "Offset of field: ",
+            stringify!(AVFilterInOut),
+            "::",
+            stringify!(filter_ctx)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pad_idx) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterInOut),
-        "::",
-        stringify!(pad_idx)
+            "Offset of field: ",
+            stringify!(AVFilterInOut),
+            "::",
+            stringify!(pad_idx)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).next) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterInOut),
-        "::",
-        stringify!(next)
+            "Offset of field: ",
+            stringify!(AVFilterInOut),
+            "::",
+            stringify!(next)
         )
     );
 }
-
+extern "C" {
+    #[doc = " Allocate a single AVFilterInOut entry.\n Must be freed with avfilter_inout_free().\n @return allocated AVFilterInOut on success, NULL on failure."]
+    pub fn avfilter_inout_alloc() -> *mut AVFilterInOut;
+}
+extern "C" {
+    #[doc = " Free the supplied list of AVFilterInOut and set *inout to NULL.\n If *inout is NULL, do nothing."]
+    pub fn avfilter_inout_free(inout: *mut *mut AVFilterInOut);
+}
 extern "C" {
     #[doc = " Add a graph described by a string to a graph.\n\n @note The caller must provide the lists of inputs and outputs,\n which therefore must be known before calling the function.\n\n @note The inputs parameter describes inputs of the already existing\n part of the graph; i.e. from the point of view of the newly created\n part, they are outputs. Similarly the outputs parameter describes\n outputs of the already existing filters, which are provided as\n inputs to the parsed filters.\n\n @param graph   the filter graph where to link the parsed graph context\n @param filters string to be parsed\n @param inputs  linked list to the inputs of the graph\n @param outputs linked list to the outputs of the graph\n @return zero on success, a negative AVERROR code on error"]
     pub fn avfilter_graph_parse(
@@ -22885,7 +22931,16 @@ extern "C" {
         log_ctx: *mut ::std::os::raw::c_void,
     ) -> ::std::os::raw::c_int;
 }
-
+extern "C" {
+    #[doc = " Add a graph described by a string to a graph.\n\n In the graph filters description, if the input label of the first\n filter is not specified, \"in\" is assumed; if the output label of\n the last filter is not specified, \"out\" is assumed.\n\n @param graph   the filter graph where to link the parsed graph context\n @param filters string to be parsed\n @param inputs  pointer to a linked list to the inputs of the graph, may be NULL.\n                If non-NULL, *inputs is updated to contain the list of open inputs\n                after the parsing, should be freed with avfilter_inout_free().\n @param outputs pointer to a linked list to the outputs of the graph, may be NULL.\n                If non-NULL, *outputs is updated to contain the list of open outputs\n                after the parsing, should be freed with avfilter_inout_free().\n @return non negative on success, a negative AVERROR code on error"]
+    pub fn avfilter_graph_parse_ptr(
+        graph: *mut AVFilterGraph,
+        filters: *const ::std::os::raw::c_char,
+        inputs: *mut *mut AVFilterInOut,
+        outputs: *mut *mut AVFilterInOut,
+        log_ctx: *mut ::std::os::raw::c_void,
+    ) -> ::std::os::raw::c_int;
+}
 extern "C" {
     #[doc = " Add a graph described by a string to a graph.\n\n @param[in]  graph   the filter graph where to link the parsed graph context\n @param[in]  filters string to be parsed\n @param[out] inputs  a linked list of all free (unlinked) inputs of the\n                     parsed graph will be returned here. It is to be freed\n                     by the caller using avfilter_inout_free().\n @param[out] outputs a linked list of all free (unlinked) outputs of the\n                     parsed graph will be returned here. It is to be freed by the\n                     caller using avfilter_inout_free().\n @return zero on success, a negative AVERROR code on error\n\n @note This function returns the inputs and outputs that are left\n unlinked after parsing the graph and the caller then deals with\n them.\n @note This function makes no reference whatsoever to already\n existing parts of the graph and the inputs parameter will on return\n contain inputs of the newly parsed part of the graph.  Analogously\n the outputs parameter will contain outputs of the newly created\n filters."]
     pub fn avfilter_graph_parse2(
@@ -22920,10 +22975,10 @@ fn bindgen_test_layout_AVFilterPadParams() {
         unsafe { ::std::ptr::addr_of!((*ptr).label) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterPadParams),
-        "::",
-        stringify!(label)
+            "Offset of field: ",
+            stringify!(AVFilterPadParams),
+            "::",
+            stringify!(label)
         )
     );
 }
@@ -22962,80 +23017,80 @@ fn bindgen_test_layout_AVFilterParams() {
         unsafe { ::std::ptr::addr_of!((*ptr).filter) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterParams),
-        "::",
-        stringify!(filter)
+            "Offset of field: ",
+            stringify!(AVFilterParams),
+            "::",
+            stringify!(filter)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).filter_name) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterParams),
-        "::",
-        stringify!(filter_name)
+            "Offset of field: ",
+            stringify!(AVFilterParams),
+            "::",
+            stringify!(filter_name)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).instance_name) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterParams),
-        "::",
-        stringify!(instance_name)
+            "Offset of field: ",
+            stringify!(AVFilterParams),
+            "::",
+            stringify!(instance_name)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).opts) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterParams),
-        "::",
-        stringify!(opts)
+            "Offset of field: ",
+            stringify!(AVFilterParams),
+            "::",
+            stringify!(opts)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).inputs) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterParams),
-        "::",
-        stringify!(inputs)
+            "Offset of field: ",
+            stringify!(AVFilterParams),
+            "::",
+            stringify!(inputs)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_inputs) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterParams),
-        "::",
-        stringify!(nb_inputs)
+            "Offset of field: ",
+            stringify!(AVFilterParams),
+            "::",
+            stringify!(nb_inputs)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).outputs) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterParams),
-        "::",
-        stringify!(outputs)
+            "Offset of field: ",
+            stringify!(AVFilterParams),
+            "::",
+            stringify!(outputs)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_outputs) as usize - ptr as usize },
         56usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterParams),
-        "::",
-        stringify!(nb_outputs)
+            "Offset of field: ",
+            stringify!(AVFilterParams),
+            "::",
+            stringify!(nb_outputs)
         )
     );
 }
@@ -23064,20 +23119,20 @@ fn bindgen_test_layout_AVFilterChain() {
         unsafe { ::std::ptr::addr_of!((*ptr).filters) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterChain),
-        "::",
-        stringify!(filters)
+            "Offset of field: ",
+            stringify!(AVFilterChain),
+            "::",
+            stringify!(filters)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_filters) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterChain),
-        "::",
-        stringify!(nb_filters)
+            "Offset of field: ",
+            stringify!(AVFilterChain),
+            "::",
+            stringify!(nb_filters)
         )
     );
 }
@@ -23111,40 +23166,40 @@ fn bindgen_test_layout_AVFilterGraphSegment() {
         unsafe { ::std::ptr::addr_of!((*ptr).graph) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterGraphSegment),
-        "::",
-        stringify!(graph)
+            "Offset of field: ",
+            stringify!(AVFilterGraphSegment),
+            "::",
+            stringify!(graph)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).chains) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterGraphSegment),
-        "::",
-        stringify!(chains)
+            "Offset of field: ",
+            stringify!(AVFilterGraphSegment),
+            "::",
+            stringify!(chains)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_chains) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterGraphSegment),
-        "::",
-        stringify!(nb_chains)
+            "Offset of field: ",
+            stringify!(AVFilterGraphSegment),
+            "::",
+            stringify!(nb_chains)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).scale_sws_opts) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilterGraphSegment),
-        "::",
-        stringify!(scale_sws_opts)
+            "Offset of field: ",
+            stringify!(AVFilterGraphSegment),
+            "::",
+            stringify!(scale_sws_opts)
         )
     );
 }
@@ -23234,7 +23289,14 @@ extern "C" {
     #[doc = " Request a frame on the oldest sink link.\n\n If the request returns AVERROR_EOF, try the next.\n\n Note that this function is not meant to be the sole scheduling mechanism\n of a filtergraph, only a convenience function to help drain a filtergraph\n in a balanced way under normal circumstances.\n\n Also note that AVERROR_EOF does not mean that frames did not arrive on\n some of the sinks during the process.\n When there are multiple sink links, in case the requested link\n returns an EOF, this may cause a filter to flush pending frames\n which are sent to another sink link, although unrequested.\n\n @return  the return value of ff_request_frame(),\n          or AVERROR_EOF if all links returned AVERROR_EOF"]
     pub fn avfilter_graph_request_oldest(graph: *mut AVFilterGraph) -> ::std::os::raw::c_int;
 }
-
+extern "C" {
+    #[doc = " Get a frame with filtered data from sink and put it in frame.\n\n @param ctx    pointer to a buffersink or abuffersink filter context.\n @param frame  pointer to an allocated frame that will be filled with data.\n               The data must be freed using av_frame_unref() / av_frame_free()\n @param flags  a combination of AV_BUFFERSINK_FLAG_* flags\n\n @return  >= 0 in for success, a negative AVERROR code for failure."]
+    pub fn av_buffersink_get_frame_flags(
+        ctx: *mut AVFilterContext,
+        frame: *mut AVFrame,
+        flags: ::std::os::raw::c_int,
+    ) -> ::std::os::raw::c_int;
+}
 extern "C" {
     #[doc = " Set the frame size for an audio buffer sink.\n\n All calls to av_buffersink_get_buffer_ref will return a buffer with\n exactly the specified number of samples, or AVERROR(EAGAIN) if there is\n not enough. The last buffer at EOF will be padded with 0."]
     pub fn av_buffersink_set_frame_size(
@@ -23243,7 +23305,41 @@ extern "C" {
     );
 }
 extern "C" {
+    #[doc = " @defgroup lavfi_buffersink_accessors Buffer sink accessors\n Get the properties of the stream\n @{"]
+    pub fn av_buffersink_get_type(ctx: *const AVFilterContext) -> AVMediaType;
+}
+extern "C" {
+    pub fn av_buffersink_get_time_base(ctx: *const AVFilterContext) -> AVRational;
+}
+extern "C" {
+    pub fn av_buffersink_get_format(ctx: *const AVFilterContext) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn av_buffersink_get_frame_rate(ctx: *const AVFilterContext) -> AVRational;
+}
+extern "C" {
+    pub fn av_buffersink_get_w(ctx: *const AVFilterContext) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn av_buffersink_get_h(ctx: *const AVFilterContext) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn av_buffersink_get_sample_aspect_ratio(ctx: *const AVFilterContext) -> AVRational;
+}
+extern "C" {
+    pub fn av_buffersink_get_channels(ctx: *const AVFilterContext) -> ::std::os::raw::c_int;
+}
+extern "C" {
     pub fn av_buffersink_get_channel_layout(ctx: *const AVFilterContext) -> u64;
+}
+extern "C" {
+    pub fn av_buffersink_get_ch_layout(
+        ctx: *const AVFilterContext,
+        ch_layout: *mut AVChannelLayout,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
+    pub fn av_buffersink_get_sample_rate(ctx: *const AVFilterContext) -> ::std::os::raw::c_int;
 }
 extern "C" {
     pub fn av_buffersink_get_hw_frames_ctx(ctx: *const AVFilterContext) -> *mut AVBufferRef;
@@ -23321,100 +23417,100 @@ fn bindgen_test_layout_AVBufferSrcParameters() {
         unsafe { ::std::ptr::addr_of!((*ptr).format) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBufferSrcParameters),
-        "::",
-        stringify!(format)
+            "Offset of field: ",
+            stringify!(AVBufferSrcParameters),
+            "::",
+            stringify!(format)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).time_base) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBufferSrcParameters),
-        "::",
-        stringify!(time_base)
+            "Offset of field: ",
+            stringify!(AVBufferSrcParameters),
+            "::",
+            stringify!(time_base)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).width) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBufferSrcParameters),
-        "::",
-        stringify!(width)
+            "Offset of field: ",
+            stringify!(AVBufferSrcParameters),
+            "::",
+            stringify!(width)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).height) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBufferSrcParameters),
-        "::",
-        stringify!(height)
+            "Offset of field: ",
+            stringify!(AVBufferSrcParameters),
+            "::",
+            stringify!(height)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).sample_aspect_ratio) as usize - ptr as usize },
         20usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBufferSrcParameters),
-        "::",
-        stringify!(sample_aspect_ratio)
+            "Offset of field: ",
+            stringify!(AVBufferSrcParameters),
+            "::",
+            stringify!(sample_aspect_ratio)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).frame_rate) as usize - ptr as usize },
         28usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBufferSrcParameters),
-        "::",
-        stringify!(frame_rate)
+            "Offset of field: ",
+            stringify!(AVBufferSrcParameters),
+            "::",
+            stringify!(frame_rate)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).hw_frames_ctx) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBufferSrcParameters),
-        "::",
-        stringify!(hw_frames_ctx)
+            "Offset of field: ",
+            stringify!(AVBufferSrcParameters),
+            "::",
+            stringify!(hw_frames_ctx)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).sample_rate) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBufferSrcParameters),
-        "::",
-        stringify!(sample_rate)
+            "Offset of field: ",
+            stringify!(AVBufferSrcParameters),
+            "::",
+            stringify!(sample_rate)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).channel_layout) as usize - ptr as usize },
         56usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBufferSrcParameters),
-        "::",
-        stringify!(channel_layout)
+            "Offset of field: ",
+            stringify!(AVBufferSrcParameters),
+            "::",
+            stringify!(channel_layout)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).ch_layout) as usize - ptr as usize },
         64usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBufferSrcParameters),
-        "::",
-        stringify!(ch_layout)
+            "Offset of field: ",
+            stringify!(AVBufferSrcParameters),
+            "::",
+            stringify!(ch_layout)
         )
     );
 }
@@ -23448,7 +23544,14 @@ extern "C" {
         frame: *mut AVFrame,
     ) -> ::std::os::raw::c_int;
 }
-
+extern "C" {
+    #[doc = " Add a frame to the buffer source.\n\n By default, if the frame is reference-counted, this function will take\n ownership of the reference(s) and reset the frame. This can be controlled\n using the flags.\n\n If this function returns an error, the input frame is not touched.\n\n @param buffer_src  pointer to a buffer source context\n @param frame       a frame, or NULL to mark EOF\n @param flags       a combination of AV_BUFFERSRC_FLAG_*\n @return            >= 0 in case of success, a negative AVERROR code\n                    in case of failure"]
+    pub fn av_buffersrc_add_frame_flags(
+        buffer_src: *mut AVFilterContext,
+        frame: *mut AVFrame,
+        flags: ::std::os::raw::c_int,
+    ) -> ::std::os::raw::c_int;
+}
 extern "C" {
     #[doc = " Close the buffer source after EOF.\n\n This is similar to passing NULL to av_buffersrc_add_frame_flags()\n except it takes the timestamp of the EOF, i.e. the timestamp of the end\n of the last frame."]
     pub fn av_buffersrc_close(
@@ -23572,30 +23675,30 @@ fn bindgen_test_layout_AVAmbientViewingEnvironment() {
         unsafe { ::std::ptr::addr_of!((*ptr).ambient_illuminance) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVAmbientViewingEnvironment),
-        "::",
-        stringify!(ambient_illuminance)
+            "Offset of field: ",
+            stringify!(AVAmbientViewingEnvironment),
+            "::",
+            stringify!(ambient_illuminance)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).ambient_light_x) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVAmbientViewingEnvironment),
-        "::",
-        stringify!(ambient_light_x)
+            "Offset of field: ",
+            stringify!(AVAmbientViewingEnvironment),
+            "::",
+            stringify!(ambient_light_x)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).ambient_light_y) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVAmbientViewingEnvironment),
-        "::",
-        stringify!(ambient_light_y)
+            "Offset of field: ",
+            stringify!(AVAmbientViewingEnvironment),
+            "::",
+            stringify!(ambient_light_y)
         )
     );
 }
@@ -23896,20 +23999,20 @@ fn bindgen_test_layout_AVBlowfish() {
         unsafe { ::std::ptr::addr_of!((*ptr).p) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBlowfish),
-        "::",
-        stringify!(p)
+            "Offset of field: ",
+            stringify!(AVBlowfish),
+            "::",
+            stringify!(p)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).s) as usize - ptr as usize },
         72usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBlowfish),
-        "::",
-        stringify!(s)
+            "Offset of field: ",
+            stringify!(AVBlowfish),
+            "::",
+            stringify!(s)
         )
     );
 }
@@ -23969,50 +24072,50 @@ fn bindgen_test_layout_ff_pad_helper_AVBPrint() {
         unsafe { ::std::ptr::addr_of!((*ptr).str_) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(ff_pad_helper_AVBPrint),
-        "::",
-        stringify!(str_)
+            "Offset of field: ",
+            stringify!(ff_pad_helper_AVBPrint),
+            "::",
+            stringify!(str_)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).len) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(ff_pad_helper_AVBPrint),
-        "::",
-        stringify!(len)
+            "Offset of field: ",
+            stringify!(ff_pad_helper_AVBPrint),
+            "::",
+            stringify!(len)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).size) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(ff_pad_helper_AVBPrint),
-        "::",
-        stringify!(size)
+            "Offset of field: ",
+            stringify!(ff_pad_helper_AVBPrint),
+            "::",
+            stringify!(size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).size_max) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(ff_pad_helper_AVBPrint),
-        "::",
-        stringify!(size_max)
+            "Offset of field: ",
+            stringify!(ff_pad_helper_AVBPrint),
+            "::",
+            stringify!(size_max)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).reserved_internal_buffer) as usize - ptr as usize },
         20usize,
         concat!(
-        "Offset of field: ",
-        stringify!(ff_pad_helper_AVBPrint),
-        "::",
-        stringify!(reserved_internal_buffer)
+            "Offset of field: ",
+            stringify!(ff_pad_helper_AVBPrint),
+            "::",
+            stringify!(reserved_internal_buffer)
         )
     );
 }
@@ -24045,60 +24148,60 @@ fn bindgen_test_layout_AVBPrint() {
         unsafe { ::std::ptr::addr_of!((*ptr).str_) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBPrint),
-        "::",
-        stringify!(str_)
+            "Offset of field: ",
+            stringify!(AVBPrint),
+            "::",
+            stringify!(str_)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).len) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBPrint),
-        "::",
-        stringify!(len)
+            "Offset of field: ",
+            stringify!(AVBPrint),
+            "::",
+            stringify!(len)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).size) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBPrint),
-        "::",
-        stringify!(size)
+            "Offset of field: ",
+            stringify!(AVBPrint),
+            "::",
+            stringify!(size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).size_max) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBPrint),
-        "::",
-        stringify!(size_max)
+            "Offset of field: ",
+            stringify!(AVBPrint),
+            "::",
+            stringify!(size_max)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).reserved_internal_buffer) as usize - ptr as usize },
         20usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBPrint),
-        "::",
-        stringify!(reserved_internal_buffer)
+            "Offset of field: ",
+            stringify!(AVBPrint),
+            "::",
+            stringify!(reserved_internal_buffer)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).reserved_padding) as usize - ptr as usize },
         21usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVBPrint),
-        "::",
-        stringify!(reserved_padding)
+            "Offset of field: ",
+            stringify!(AVBPrint),
+            "::",
+            stringify!(reserved_padding)
         )
     );
 }
@@ -24341,30 +24444,30 @@ fn bindgen_test_layout_AVLumaCoefficients() {
         unsafe { ::std::ptr::addr_of!((*ptr).cr) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVLumaCoefficients),
-        "::",
-        stringify!(cr)
+            "Offset of field: ",
+            stringify!(AVLumaCoefficients),
+            "::",
+            stringify!(cr)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).cg) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVLumaCoefficients),
-        "::",
-        stringify!(cg)
+            "Offset of field: ",
+            stringify!(AVLumaCoefficients),
+            "::",
+            stringify!(cg)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).cb) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVLumaCoefficients),
-        "::",
-        stringify!(cb)
+            "Offset of field: ",
+            stringify!(AVLumaCoefficients),
+            "::",
+            stringify!(cb)
         )
     );
 }
@@ -24393,20 +24496,20 @@ fn bindgen_test_layout_AVCIExy() {
         unsafe { ::std::ptr::addr_of!((*ptr).x) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCIExy),
-        "::",
-        stringify!(x)
+            "Offset of field: ",
+            stringify!(AVCIExy),
+            "::",
+            stringify!(x)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).y) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVCIExy),
-        "::",
-        stringify!(y)
+            "Offset of field: ",
+            stringify!(AVCIExy),
+            "::",
+            stringify!(y)
         )
     );
 }
@@ -24437,30 +24540,30 @@ fn bindgen_test_layout_AVPrimaryCoefficients() {
         unsafe { ::std::ptr::addr_of!((*ptr).r) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPrimaryCoefficients),
-        "::",
-        stringify!(r)
+            "Offset of field: ",
+            stringify!(AVPrimaryCoefficients),
+            "::",
+            stringify!(r)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).g) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPrimaryCoefficients),
-        "::",
-        stringify!(g)
+            "Offset of field: ",
+            stringify!(AVPrimaryCoefficients),
+            "::",
+            stringify!(g)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).b) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPrimaryCoefficients),
-        "::",
-        stringify!(b)
+            "Offset of field: ",
+            stringify!(AVPrimaryCoefficients),
+            "::",
+            stringify!(b)
         )
     );
 }
@@ -24491,20 +24594,20 @@ fn bindgen_test_layout_AVColorPrimariesDesc() {
         unsafe { ::std::ptr::addr_of!((*ptr).wp) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVColorPrimariesDesc),
-        "::",
-        stringify!(wp)
+            "Offset of field: ",
+            stringify!(AVColorPrimariesDesc),
+            "::",
+            stringify!(wp)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).prim) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVColorPrimariesDesc),
-        "::",
-        stringify!(prim)
+            "Offset of field: ",
+            stringify!(AVColorPrimariesDesc),
+            "::",
+            stringify!(prim)
         )
     );
 }
@@ -24555,20 +24658,20 @@ fn bindgen_test_layout_AVDES() {
         unsafe { ::std::ptr::addr_of!((*ptr).round_keys) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDES),
-        "::",
-        stringify!(round_keys)
+            "Offset of field: ",
+            stringify!(AVDES),
+            "::",
+            stringify!(round_keys)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).triple_des) as usize - ptr as usize },
         384usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDES),
-        "::",
-        stringify!(triple_des)
+            "Offset of field: ",
+            stringify!(AVDES),
+            "::",
+            stringify!(triple_des)
         )
     );
 }
@@ -24633,90 +24736,90 @@ fn bindgen_test_layout_AVDetectionBBox() {
         unsafe { ::std::ptr::addr_of!((*ptr).x) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDetectionBBox),
-        "::",
-        stringify!(x)
+            "Offset of field: ",
+            stringify!(AVDetectionBBox),
+            "::",
+            stringify!(x)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).y) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDetectionBBox),
-        "::",
-        stringify!(y)
+            "Offset of field: ",
+            stringify!(AVDetectionBBox),
+            "::",
+            stringify!(y)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).w) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDetectionBBox),
-        "::",
-        stringify!(w)
+            "Offset of field: ",
+            stringify!(AVDetectionBBox),
+            "::",
+            stringify!(w)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).h) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDetectionBBox),
-        "::",
-        stringify!(h)
+            "Offset of field: ",
+            stringify!(AVDetectionBBox),
+            "::",
+            stringify!(h)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).detect_label) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDetectionBBox),
-        "::",
-        stringify!(detect_label)
+            "Offset of field: ",
+            stringify!(AVDetectionBBox),
+            "::",
+            stringify!(detect_label)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).detect_confidence) as usize - ptr as usize },
         80usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDetectionBBox),
-        "::",
-        stringify!(detect_confidence)
+            "Offset of field: ",
+            stringify!(AVDetectionBBox),
+            "::",
+            stringify!(detect_confidence)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).classify_count) as usize - ptr as usize },
         88usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDetectionBBox),
-        "::",
-        stringify!(classify_count)
+            "Offset of field: ",
+            stringify!(AVDetectionBBox),
+            "::",
+            stringify!(classify_count)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).classify_labels) as usize - ptr as usize },
         92usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDetectionBBox),
-        "::",
-        stringify!(classify_labels)
+            "Offset of field: ",
+            stringify!(AVDetectionBBox),
+            "::",
+            stringify!(classify_labels)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).classify_confidences) as usize - ptr as usize },
         348usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDetectionBBox),
-        "::",
-        stringify!(classify_confidences)
+            "Offset of field: ",
+            stringify!(AVDetectionBBox),
+            "::",
+            stringify!(classify_confidences)
         )
     );
 }
@@ -24751,40 +24854,40 @@ fn bindgen_test_layout_AVDetectionBBoxHeader() {
         unsafe { ::std::ptr::addr_of!((*ptr).source) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDetectionBBoxHeader),
-        "::",
-        stringify!(source)
+            "Offset of field: ",
+            stringify!(AVDetectionBBoxHeader),
+            "::",
+            stringify!(source)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_bboxes) as usize - ptr as usize },
         256usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDetectionBBoxHeader),
-        "::",
-        stringify!(nb_bboxes)
+            "Offset of field: ",
+            stringify!(AVDetectionBBoxHeader),
+            "::",
+            stringify!(nb_bboxes)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).bboxes_offset) as usize - ptr as usize },
         264usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDetectionBBoxHeader),
-        "::",
-        stringify!(bboxes_offset)
+            "Offset of field: ",
+            stringify!(AVDetectionBBoxHeader),
+            "::",
+            stringify!(bboxes_offset)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).bbox_size) as usize - ptr as usize },
         272usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDetectionBBoxHeader),
-        "::",
-        stringify!(bbox_size)
+            "Offset of field: ",
+            stringify!(AVDetectionBBoxHeader),
+            "::",
+            stringify!(bbox_size)
         )
     );
 }
@@ -24844,78 +24947,78 @@ fn bindgen_test_layout_AVDOVIDecoderConfigurationRecord() {
         ::std::mem::align_of::<AVDOVIDecoderConfigurationRecord>(),
         1usize,
         concat!(
-        "Alignment of ",
-        stringify!(AVDOVIDecoderConfigurationRecord)
+            "Alignment of ",
+            stringify!(AVDOVIDecoderConfigurationRecord)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).dv_version_major) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIDecoderConfigurationRecord),
-        "::",
-        stringify!(dv_version_major)
+            "Offset of field: ",
+            stringify!(AVDOVIDecoderConfigurationRecord),
+            "::",
+            stringify!(dv_version_major)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).dv_version_minor) as usize - ptr as usize },
         1usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIDecoderConfigurationRecord),
-        "::",
-        stringify!(dv_version_minor)
+            "Offset of field: ",
+            stringify!(AVDOVIDecoderConfigurationRecord),
+            "::",
+            stringify!(dv_version_minor)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).dv_profile) as usize - ptr as usize },
         2usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIDecoderConfigurationRecord),
-        "::",
-        stringify!(dv_profile)
+            "Offset of field: ",
+            stringify!(AVDOVIDecoderConfigurationRecord),
+            "::",
+            stringify!(dv_profile)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).dv_level) as usize - ptr as usize },
         3usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIDecoderConfigurationRecord),
-        "::",
-        stringify!(dv_level)
+            "Offset of field: ",
+            stringify!(AVDOVIDecoderConfigurationRecord),
+            "::",
+            stringify!(dv_level)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).rpu_present_flag) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIDecoderConfigurationRecord),
-        "::",
-        stringify!(rpu_present_flag)
+            "Offset of field: ",
+            stringify!(AVDOVIDecoderConfigurationRecord),
+            "::",
+            stringify!(rpu_present_flag)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).el_present_flag) as usize - ptr as usize },
         5usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIDecoderConfigurationRecord),
-        "::",
-        stringify!(el_present_flag)
+            "Offset of field: ",
+            stringify!(AVDOVIDecoderConfigurationRecord),
+            "::",
+            stringify!(el_present_flag)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).bl_present_flag) as usize - ptr as usize },
         6usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIDecoderConfigurationRecord),
-        "::",
-        stringify!(bl_present_flag)
+            "Offset of field: ",
+            stringify!(AVDOVIDecoderConfigurationRecord),
+            "::",
+            stringify!(bl_present_flag)
         )
     );
     assert_eq!(
@@ -24924,10 +25027,10 @@ fn bindgen_test_layout_AVDOVIDecoderConfigurationRecord() {
         },
         7usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIDecoderConfigurationRecord),
-        "::",
-        stringify!(dv_bl_signal_compatibility_id)
+            "Offset of field: ",
+            stringify!(AVDOVIDecoderConfigurationRecord),
+            "::",
+            stringify!(dv_bl_signal_compatibility_id)
         )
     );
 }
@@ -24973,40 +25076,40 @@ fn bindgen_test_layout_AVDOVIRpuDataHeader() {
         unsafe { ::std::ptr::addr_of!((*ptr).rpu_type) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIRpuDataHeader),
-        "::",
-        stringify!(rpu_type)
+            "Offset of field: ",
+            stringify!(AVDOVIRpuDataHeader),
+            "::",
+            stringify!(rpu_type)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).rpu_format) as usize - ptr as usize },
         2usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIRpuDataHeader),
-        "::",
-        stringify!(rpu_format)
+            "Offset of field: ",
+            stringify!(AVDOVIRpuDataHeader),
+            "::",
+            stringify!(rpu_format)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).vdr_rpu_profile) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIRpuDataHeader),
-        "::",
-        stringify!(vdr_rpu_profile)
+            "Offset of field: ",
+            stringify!(AVDOVIRpuDataHeader),
+            "::",
+            stringify!(vdr_rpu_profile)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).vdr_rpu_level) as usize - ptr as usize },
         5usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIRpuDataHeader),
-        "::",
-        stringify!(vdr_rpu_level)
+            "Offset of field: ",
+            stringify!(AVDOVIRpuDataHeader),
+            "::",
+            stringify!(vdr_rpu_level)
         )
     );
     assert_eq!(
@@ -25016,80 +25119,80 @@ fn bindgen_test_layout_AVDOVIRpuDataHeader() {
         },
         6usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIRpuDataHeader),
-        "::",
-        stringify!(chroma_resampling_explicit_filter_flag)
+            "Offset of field: ",
+            stringify!(AVDOVIRpuDataHeader),
+            "::",
+            stringify!(chroma_resampling_explicit_filter_flag)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).coef_data_type) as usize - ptr as usize },
         7usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIRpuDataHeader),
-        "::",
-        stringify!(coef_data_type)
+            "Offset of field: ",
+            stringify!(AVDOVIRpuDataHeader),
+            "::",
+            stringify!(coef_data_type)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).coef_log2_denom) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIRpuDataHeader),
-        "::",
-        stringify!(coef_log2_denom)
+            "Offset of field: ",
+            stringify!(AVDOVIRpuDataHeader),
+            "::",
+            stringify!(coef_log2_denom)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).vdr_rpu_normalized_idc) as usize - ptr as usize },
         9usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIRpuDataHeader),
-        "::",
-        stringify!(vdr_rpu_normalized_idc)
+            "Offset of field: ",
+            stringify!(AVDOVIRpuDataHeader),
+            "::",
+            stringify!(vdr_rpu_normalized_idc)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).bl_video_full_range_flag) as usize - ptr as usize },
         10usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIRpuDataHeader),
-        "::",
-        stringify!(bl_video_full_range_flag)
+            "Offset of field: ",
+            stringify!(AVDOVIRpuDataHeader),
+            "::",
+            stringify!(bl_video_full_range_flag)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).bl_bit_depth) as usize - ptr as usize },
         11usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIRpuDataHeader),
-        "::",
-        stringify!(bl_bit_depth)
+            "Offset of field: ",
+            stringify!(AVDOVIRpuDataHeader),
+            "::",
+            stringify!(bl_bit_depth)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).el_bit_depth) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIRpuDataHeader),
-        "::",
-        stringify!(el_bit_depth)
+            "Offset of field: ",
+            stringify!(AVDOVIRpuDataHeader),
+            "::",
+            stringify!(el_bit_depth)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).vdr_bit_depth) as usize - ptr as usize },
         13usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIRpuDataHeader),
-        "::",
-        stringify!(vdr_bit_depth)
+            "Offset of field: ",
+            stringify!(AVDOVIRpuDataHeader),
+            "::",
+            stringify!(vdr_bit_depth)
         )
     );
     assert_eq!(
@@ -25098,10 +25201,10 @@ fn bindgen_test_layout_AVDOVIRpuDataHeader() {
         },
         14usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIRpuDataHeader),
-        "::",
-        stringify!(spatial_resampling_filter_flag)
+            "Offset of field: ",
+            stringify!(AVDOVIRpuDataHeader),
+            "::",
+            stringify!(spatial_resampling_filter_flag)
         )
     );
     assert_eq!(
@@ -25110,20 +25213,20 @@ fn bindgen_test_layout_AVDOVIRpuDataHeader() {
         },
         15usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIRpuDataHeader),
-        "::",
-        stringify!(el_spatial_resampling_filter_flag)
+            "Offset of field: ",
+            stringify!(AVDOVIRpuDataHeader),
+            "::",
+            stringify!(el_spatial_resampling_filter_flag)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).disable_residual_flag) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIRpuDataHeader),
-        "::",
-        stringify!(disable_residual_flag)
+            "Offset of field: ",
+            stringify!(AVDOVIRpuDataHeader),
+            "::",
+            stringify!(disable_residual_flag)
         )
     );
 }
@@ -25160,80 +25263,80 @@ fn bindgen_test_layout_AVDOVIReshapingCurve() {
         unsafe { ::std::ptr::addr_of!((*ptr).num_pivots) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIReshapingCurve),
-        "::",
-        stringify!(num_pivots)
+            "Offset of field: ",
+            stringify!(AVDOVIReshapingCurve),
+            "::",
+            stringify!(num_pivots)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pivots) as usize - ptr as usize },
         2usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIReshapingCurve),
-        "::",
-        stringify!(pivots)
+            "Offset of field: ",
+            stringify!(AVDOVIReshapingCurve),
+            "::",
+            stringify!(pivots)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).mapping_idc) as usize - ptr as usize },
         20usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIReshapingCurve),
-        "::",
-        stringify!(mapping_idc)
+            "Offset of field: ",
+            stringify!(AVDOVIReshapingCurve),
+            "::",
+            stringify!(mapping_idc)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).poly_order) as usize - ptr as usize },
         52usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIReshapingCurve),
-        "::",
-        stringify!(poly_order)
+            "Offset of field: ",
+            stringify!(AVDOVIReshapingCurve),
+            "::",
+            stringify!(poly_order)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).poly_coef) as usize - ptr as usize },
         64usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIReshapingCurve),
-        "::",
-        stringify!(poly_coef)
+            "Offset of field: ",
+            stringify!(AVDOVIReshapingCurve),
+            "::",
+            stringify!(poly_coef)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).mmr_order) as usize - ptr as usize },
         256usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIReshapingCurve),
-        "::",
-        stringify!(mmr_order)
+            "Offset of field: ",
+            stringify!(AVDOVIReshapingCurve),
+            "::",
+            stringify!(mmr_order)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).mmr_constant) as usize - ptr as usize },
         264usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIReshapingCurve),
-        "::",
-        stringify!(mmr_constant)
+            "Offset of field: ",
+            stringify!(AVDOVIReshapingCurve),
+            "::",
+            stringify!(mmr_constant)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).mmr_coef) as usize - ptr as usize },
         328usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIReshapingCurve),
-        "::",
-        stringify!(mmr_coef)
+            "Offset of field: ",
+            stringify!(AVDOVIReshapingCurve),
+            "::",
+            stringify!(mmr_coef)
         )
     );
 }
@@ -25267,40 +25370,40 @@ fn bindgen_test_layout_AVDOVINLQParams() {
         unsafe { ::std::ptr::addr_of!((*ptr).nlq_offset) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVINLQParams),
-        "::",
-        stringify!(nlq_offset)
+            "Offset of field: ",
+            stringify!(AVDOVINLQParams),
+            "::",
+            stringify!(nlq_offset)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).vdr_in_max) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVINLQParams),
-        "::",
-        stringify!(vdr_in_max)
+            "Offset of field: ",
+            stringify!(AVDOVINLQParams),
+            "::",
+            stringify!(vdr_in_max)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).linear_deadzone_slope) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVINLQParams),
-        "::",
-        stringify!(linear_deadzone_slope)
+            "Offset of field: ",
+            stringify!(AVDOVINLQParams),
+            "::",
+            stringify!(linear_deadzone_slope)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).linear_deadzone_threshold) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVINLQParams),
-        "::",
-        stringify!(linear_deadzone_threshold)
+            "Offset of field: ",
+            stringify!(AVDOVINLQParams),
+            "::",
+            stringify!(linear_deadzone_threshold)
         )
     );
 }
@@ -25335,80 +25438,80 @@ fn bindgen_test_layout_AVDOVIDataMapping() {
         unsafe { ::std::ptr::addr_of!((*ptr).vdr_rpu_id) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIDataMapping),
-        "::",
-        stringify!(vdr_rpu_id)
+            "Offset of field: ",
+            stringify!(AVDOVIDataMapping),
+            "::",
+            stringify!(vdr_rpu_id)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).mapping_color_space) as usize - ptr as usize },
         1usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIDataMapping),
-        "::",
-        stringify!(mapping_color_space)
+            "Offset of field: ",
+            stringify!(AVDOVIDataMapping),
+            "::",
+            stringify!(mapping_color_space)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).mapping_chroma_format_idc) as usize - ptr as usize },
         2usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIDataMapping),
-        "::",
-        stringify!(mapping_chroma_format_idc)
+            "Offset of field: ",
+            stringify!(AVDOVIDataMapping),
+            "::",
+            stringify!(mapping_chroma_format_idc)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).curves) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIDataMapping),
-        "::",
-        stringify!(curves)
+            "Offset of field: ",
+            stringify!(AVDOVIDataMapping),
+            "::",
+            stringify!(curves)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nlq_method_idc) as usize - ptr as usize },
         5024usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIDataMapping),
-        "::",
-        stringify!(nlq_method_idc)
+            "Offset of field: ",
+            stringify!(AVDOVIDataMapping),
+            "::",
+            stringify!(nlq_method_idc)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).num_x_partitions) as usize - ptr as usize },
         5028usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIDataMapping),
-        "::",
-        stringify!(num_x_partitions)
+            "Offset of field: ",
+            stringify!(AVDOVIDataMapping),
+            "::",
+            stringify!(num_x_partitions)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).num_y_partitions) as usize - ptr as usize },
         5032usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIDataMapping),
-        "::",
-        stringify!(num_y_partitions)
+            "Offset of field: ",
+            stringify!(AVDOVIDataMapping),
+            "::",
+            stringify!(num_y_partitions)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nlq) as usize - ptr as usize },
         5040usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIDataMapping),
-        "::",
-        stringify!(nlq)
+            "Offset of field: ",
+            stringify!(AVDOVIDataMapping),
+            "::",
+            stringify!(nlq)
         )
     );
 }
@@ -25453,160 +25556,160 @@ fn bindgen_test_layout_AVDOVIColorMetadata() {
         unsafe { ::std::ptr::addr_of!((*ptr).dm_metadata_id) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIColorMetadata),
-        "::",
-        stringify!(dm_metadata_id)
+            "Offset of field: ",
+            stringify!(AVDOVIColorMetadata),
+            "::",
+            stringify!(dm_metadata_id)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).scene_refresh_flag) as usize - ptr as usize },
         1usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIColorMetadata),
-        "::",
-        stringify!(scene_refresh_flag)
+            "Offset of field: ",
+            stringify!(AVDOVIColorMetadata),
+            "::",
+            stringify!(scene_refresh_flag)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).ycc_to_rgb_matrix) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIColorMetadata),
-        "::",
-        stringify!(ycc_to_rgb_matrix)
+            "Offset of field: ",
+            stringify!(AVDOVIColorMetadata),
+            "::",
+            stringify!(ycc_to_rgb_matrix)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).ycc_to_rgb_offset) as usize - ptr as usize },
         76usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIColorMetadata),
-        "::",
-        stringify!(ycc_to_rgb_offset)
+            "Offset of field: ",
+            stringify!(AVDOVIColorMetadata),
+            "::",
+            stringify!(ycc_to_rgb_offset)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).rgb_to_lms_matrix) as usize - ptr as usize },
         100usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIColorMetadata),
-        "::",
-        stringify!(rgb_to_lms_matrix)
+            "Offset of field: ",
+            stringify!(AVDOVIColorMetadata),
+            "::",
+            stringify!(rgb_to_lms_matrix)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).signal_eotf) as usize - ptr as usize },
         172usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIColorMetadata),
-        "::",
-        stringify!(signal_eotf)
+            "Offset of field: ",
+            stringify!(AVDOVIColorMetadata),
+            "::",
+            stringify!(signal_eotf)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).signal_eotf_param0) as usize - ptr as usize },
         174usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIColorMetadata),
-        "::",
-        stringify!(signal_eotf_param0)
+            "Offset of field: ",
+            stringify!(AVDOVIColorMetadata),
+            "::",
+            stringify!(signal_eotf_param0)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).signal_eotf_param1) as usize - ptr as usize },
         176usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIColorMetadata),
-        "::",
-        stringify!(signal_eotf_param1)
+            "Offset of field: ",
+            stringify!(AVDOVIColorMetadata),
+            "::",
+            stringify!(signal_eotf_param1)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).signal_eotf_param2) as usize - ptr as usize },
         180usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIColorMetadata),
-        "::",
-        stringify!(signal_eotf_param2)
+            "Offset of field: ",
+            stringify!(AVDOVIColorMetadata),
+            "::",
+            stringify!(signal_eotf_param2)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).signal_bit_depth) as usize - ptr as usize },
         184usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIColorMetadata),
-        "::",
-        stringify!(signal_bit_depth)
+            "Offset of field: ",
+            stringify!(AVDOVIColorMetadata),
+            "::",
+            stringify!(signal_bit_depth)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).signal_color_space) as usize - ptr as usize },
         185usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIColorMetadata),
-        "::",
-        stringify!(signal_color_space)
+            "Offset of field: ",
+            stringify!(AVDOVIColorMetadata),
+            "::",
+            stringify!(signal_color_space)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).signal_chroma_format) as usize - ptr as usize },
         186usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIColorMetadata),
-        "::",
-        stringify!(signal_chroma_format)
+            "Offset of field: ",
+            stringify!(AVDOVIColorMetadata),
+            "::",
+            stringify!(signal_chroma_format)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).signal_full_range_flag) as usize - ptr as usize },
         187usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIColorMetadata),
-        "::",
-        stringify!(signal_full_range_flag)
+            "Offset of field: ",
+            stringify!(AVDOVIColorMetadata),
+            "::",
+            stringify!(signal_full_range_flag)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).source_min_pq) as usize - ptr as usize },
         188usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIColorMetadata),
-        "::",
-        stringify!(source_min_pq)
+            "Offset of field: ",
+            stringify!(AVDOVIColorMetadata),
+            "::",
+            stringify!(source_min_pq)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).source_max_pq) as usize - ptr as usize },
         190usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIColorMetadata),
-        "::",
-        stringify!(source_max_pq)
+            "Offset of field: ",
+            stringify!(AVDOVIColorMetadata),
+            "::",
+            stringify!(source_max_pq)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).source_diagonal) as usize - ptr as usize },
         192usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIColorMetadata),
-        "::",
-        stringify!(source_diagonal)
+            "Offset of field: ",
+            stringify!(AVDOVIColorMetadata),
+            "::",
+            stringify!(source_diagonal)
         )
     );
 }
@@ -25637,30 +25740,30 @@ fn bindgen_test_layout_AVDOVIMetadata() {
         unsafe { ::std::ptr::addr_of!((*ptr).header_offset) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIMetadata),
-        "::",
-        stringify!(header_offset)
+            "Offset of field: ",
+            stringify!(AVDOVIMetadata),
+            "::",
+            stringify!(header_offset)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).mapping_offset) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIMetadata),
-        "::",
-        stringify!(mapping_offset)
+            "Offset of field: ",
+            stringify!(AVDOVIMetadata),
+            "::",
+            stringify!(mapping_offset)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).color_offset) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDOVIMetadata),
-        "::",
-        stringify!(color_offset)
+            "Offset of field: ",
+            stringify!(AVDOVIMetadata),
+            "::",
+            stringify!(color_offset)
         )
     );
 }
@@ -25715,60 +25818,60 @@ fn bindgen_test_layout_AVDownmixInfo() {
         unsafe { ::std::ptr::addr_of!((*ptr).preferred_downmix_type) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDownmixInfo),
-        "::",
-        stringify!(preferred_downmix_type)
+            "Offset of field: ",
+            stringify!(AVDownmixInfo),
+            "::",
+            stringify!(preferred_downmix_type)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).center_mix_level) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDownmixInfo),
-        "::",
-        stringify!(center_mix_level)
+            "Offset of field: ",
+            stringify!(AVDownmixInfo),
+            "::",
+            stringify!(center_mix_level)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).center_mix_level_ltrt) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDownmixInfo),
-        "::",
-        stringify!(center_mix_level_ltrt)
+            "Offset of field: ",
+            stringify!(AVDownmixInfo),
+            "::",
+            stringify!(center_mix_level_ltrt)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).surround_mix_level) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDownmixInfo),
-        "::",
-        stringify!(surround_mix_level)
+            "Offset of field: ",
+            stringify!(AVDownmixInfo),
+            "::",
+            stringify!(surround_mix_level)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).surround_mix_level_ltrt) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDownmixInfo),
-        "::",
-        stringify!(surround_mix_level_ltrt)
+            "Offset of field: ",
+            stringify!(AVDownmixInfo),
+            "::",
+            stringify!(surround_mix_level_ltrt)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).lfe_mix_level) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDownmixInfo),
-        "::",
-        stringify!(lfe_mix_level)
+            "Offset of field: ",
+            stringify!(AVDownmixInfo),
+            "::",
+            stringify!(lfe_mix_level)
         )
     );
 }
@@ -25803,20 +25906,20 @@ fn bindgen_test_layout_AVSubsampleEncryptionInfo() {
         unsafe { ::std::ptr::addr_of!((*ptr).bytes_of_clear_data) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVSubsampleEncryptionInfo),
-        "::",
-        stringify!(bytes_of_clear_data)
+            "Offset of field: ",
+            stringify!(AVSubsampleEncryptionInfo),
+            "::",
+            stringify!(bytes_of_clear_data)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).bytes_of_protected_data) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVSubsampleEncryptionInfo),
-        "::",
-        stringify!(bytes_of_protected_data)
+            "Offset of field: ",
+            stringify!(AVSubsampleEncryptionInfo),
+            "::",
+            stringify!(bytes_of_protected_data)
         )
     );
 }
@@ -25858,90 +25961,90 @@ fn bindgen_test_layout_AVEncryptionInfo() {
         unsafe { ::std::ptr::addr_of!((*ptr).scheme) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVEncryptionInfo),
-        "::",
-        stringify!(scheme)
+            "Offset of field: ",
+            stringify!(AVEncryptionInfo),
+            "::",
+            stringify!(scheme)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).crypt_byte_block) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVEncryptionInfo),
-        "::",
-        stringify!(crypt_byte_block)
+            "Offset of field: ",
+            stringify!(AVEncryptionInfo),
+            "::",
+            stringify!(crypt_byte_block)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).skip_byte_block) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVEncryptionInfo),
-        "::",
-        stringify!(skip_byte_block)
+            "Offset of field: ",
+            stringify!(AVEncryptionInfo),
+            "::",
+            stringify!(skip_byte_block)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).key_id) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVEncryptionInfo),
-        "::",
-        stringify!(key_id)
+            "Offset of field: ",
+            stringify!(AVEncryptionInfo),
+            "::",
+            stringify!(key_id)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).key_id_size) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVEncryptionInfo),
-        "::",
-        stringify!(key_id_size)
+            "Offset of field: ",
+            stringify!(AVEncryptionInfo),
+            "::",
+            stringify!(key_id_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).iv) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVEncryptionInfo),
-        "::",
-        stringify!(iv)
+            "Offset of field: ",
+            stringify!(AVEncryptionInfo),
+            "::",
+            stringify!(iv)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).iv_size) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVEncryptionInfo),
-        "::",
-        stringify!(iv_size)
+            "Offset of field: ",
+            stringify!(AVEncryptionInfo),
+            "::",
+            stringify!(iv_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).subsamples) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVEncryptionInfo),
-        "::",
-        stringify!(subsamples)
+            "Offset of field: ",
+            stringify!(AVEncryptionInfo),
+            "::",
+            stringify!(subsamples)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).subsample_count) as usize - ptr as usize },
         56usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVEncryptionInfo),
-        "::",
-        stringify!(subsample_count)
+            "Offset of field: ",
+            stringify!(AVEncryptionInfo),
+            "::",
+            stringify!(subsample_count)
         )
     );
 }
@@ -25982,80 +26085,80 @@ fn bindgen_test_layout_AVEncryptionInitInfo() {
         unsafe { ::std::ptr::addr_of!((*ptr).system_id) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVEncryptionInitInfo),
-        "::",
-        stringify!(system_id)
+            "Offset of field: ",
+            stringify!(AVEncryptionInitInfo),
+            "::",
+            stringify!(system_id)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).system_id_size) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVEncryptionInitInfo),
-        "::",
-        stringify!(system_id_size)
+            "Offset of field: ",
+            stringify!(AVEncryptionInitInfo),
+            "::",
+            stringify!(system_id_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).key_ids) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVEncryptionInitInfo),
-        "::",
-        stringify!(key_ids)
+            "Offset of field: ",
+            stringify!(AVEncryptionInitInfo),
+            "::",
+            stringify!(key_ids)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).num_key_ids) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVEncryptionInitInfo),
-        "::",
-        stringify!(num_key_ids)
+            "Offset of field: ",
+            stringify!(AVEncryptionInitInfo),
+            "::",
+            stringify!(num_key_ids)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).key_id_size) as usize - ptr as usize },
         28usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVEncryptionInitInfo),
-        "::",
-        stringify!(key_id_size)
+            "Offset of field: ",
+            stringify!(AVEncryptionInitInfo),
+            "::",
+            stringify!(key_id_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).data) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVEncryptionInitInfo),
-        "::",
-        stringify!(data)
+            "Offset of field: ",
+            stringify!(AVEncryptionInitInfo),
+            "::",
+            stringify!(data)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).data_size) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVEncryptionInitInfo),
-        "::",
-        stringify!(data_size)
+            "Offset of field: ",
+            stringify!(AVEncryptionInitInfo),
+            "::",
+            stringify!(data_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).next) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVEncryptionInitInfo),
-        "::",
-        stringify!(next)
+            "Offset of field: ",
+            stringify!(AVEncryptionInitInfo),
+            "::",
+            stringify!(next)
         )
     );
 }
@@ -26223,10 +26326,10 @@ fn bindgen_test_layout_AVTask() {
         unsafe { ::std::ptr::addr_of!((*ptr).next) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVTask),
-        "::",
-        stringify!(next)
+            "Offset of field: ",
+            stringify!(AVTask),
+            "::",
+            stringify!(next)
         )
     );
 }
@@ -26270,50 +26373,50 @@ fn bindgen_test_layout_AVTaskCallbacks() {
         unsafe { ::std::ptr::addr_of!((*ptr).user_data) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVTaskCallbacks),
-        "::",
-        stringify!(user_data)
+            "Offset of field: ",
+            stringify!(AVTaskCallbacks),
+            "::",
+            stringify!(user_data)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).local_context_size) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVTaskCallbacks),
-        "::",
-        stringify!(local_context_size)
+            "Offset of field: ",
+            stringify!(AVTaskCallbacks),
+            "::",
+            stringify!(local_context_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).priority_higher) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVTaskCallbacks),
-        "::",
-        stringify!(priority_higher)
+            "Offset of field: ",
+            stringify!(AVTaskCallbacks),
+            "::",
+            stringify!(priority_higher)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).ready) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVTaskCallbacks),
-        "::",
-        stringify!(ready)
+            "Offset of field: ",
+            stringify!(AVTaskCallbacks),
+            "::",
+            stringify!(ready)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).run) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVTaskCallbacks),
-        "::",
-        stringify!(run)
+            "Offset of field: ",
+            stringify!(AVTaskCallbacks),
+            "::",
+            stringify!(run)
         )
     );
 }
@@ -26465,60 +26568,60 @@ fn bindgen_test_layout_AVFifoBuffer() {
         unsafe { ::std::ptr::addr_of!((*ptr).buffer) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFifoBuffer),
-        "::",
-        stringify!(buffer)
+            "Offset of field: ",
+            stringify!(AVFifoBuffer),
+            "::",
+            stringify!(buffer)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).rptr) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFifoBuffer),
-        "::",
-        stringify!(rptr)
+            "Offset of field: ",
+            stringify!(AVFifoBuffer),
+            "::",
+            stringify!(rptr)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).wptr) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFifoBuffer),
-        "::",
-        stringify!(wptr)
+            "Offset of field: ",
+            stringify!(AVFifoBuffer),
+            "::",
+            stringify!(wptr)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).end) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFifoBuffer),
-        "::",
-        stringify!(end)
+            "Offset of field: ",
+            stringify!(AVFifoBuffer),
+            "::",
+            stringify!(end)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).rndx) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFifoBuffer),
-        "::",
-        stringify!(rndx)
+            "Offset of field: ",
+            stringify!(AVFifoBuffer),
+            "::",
+            stringify!(rndx)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).wndx) as usize - ptr as usize },
         36usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFifoBuffer),
-        "::",
-        stringify!(wndx)
+            "Offset of field: ",
+            stringify!(AVFifoBuffer),
+            "::",
+            stringify!(wndx)
         )
     );
 }
@@ -26710,160 +26813,160 @@ fn bindgen_test_layout_AVFilmGrainAOMParams() {
         unsafe { ::std::ptr::addr_of!((*ptr).num_y_points) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainAOMParams),
-        "::",
-        stringify!(num_y_points)
+            "Offset of field: ",
+            stringify!(AVFilmGrainAOMParams),
+            "::",
+            stringify!(num_y_points)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).y_points) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainAOMParams),
-        "::",
-        stringify!(y_points)
+            "Offset of field: ",
+            stringify!(AVFilmGrainAOMParams),
+            "::",
+            stringify!(y_points)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).chroma_scaling_from_luma) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainAOMParams),
-        "::",
-        stringify!(chroma_scaling_from_luma)
+            "Offset of field: ",
+            stringify!(AVFilmGrainAOMParams),
+            "::",
+            stringify!(chroma_scaling_from_luma)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).num_uv_points) as usize - ptr as usize },
         36usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainAOMParams),
-        "::",
-        stringify!(num_uv_points)
+            "Offset of field: ",
+            stringify!(AVFilmGrainAOMParams),
+            "::",
+            stringify!(num_uv_points)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).uv_points) as usize - ptr as usize },
         44usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainAOMParams),
-        "::",
-        stringify!(uv_points)
+            "Offset of field: ",
+            stringify!(AVFilmGrainAOMParams),
+            "::",
+            stringify!(uv_points)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).scaling_shift) as usize - ptr as usize },
         84usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainAOMParams),
-        "::",
-        stringify!(scaling_shift)
+            "Offset of field: ",
+            stringify!(AVFilmGrainAOMParams),
+            "::",
+            stringify!(scaling_shift)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).ar_coeff_lag) as usize - ptr as usize },
         88usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainAOMParams),
-        "::",
-        stringify!(ar_coeff_lag)
+            "Offset of field: ",
+            stringify!(AVFilmGrainAOMParams),
+            "::",
+            stringify!(ar_coeff_lag)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).ar_coeffs_y) as usize - ptr as usize },
         92usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainAOMParams),
-        "::",
-        stringify!(ar_coeffs_y)
+            "Offset of field: ",
+            stringify!(AVFilmGrainAOMParams),
+            "::",
+            stringify!(ar_coeffs_y)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).ar_coeffs_uv) as usize - ptr as usize },
         116usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainAOMParams),
-        "::",
-        stringify!(ar_coeffs_uv)
+            "Offset of field: ",
+            stringify!(AVFilmGrainAOMParams),
+            "::",
+            stringify!(ar_coeffs_uv)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).ar_coeff_shift) as usize - ptr as usize },
         168usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainAOMParams),
-        "::",
-        stringify!(ar_coeff_shift)
+            "Offset of field: ",
+            stringify!(AVFilmGrainAOMParams),
+            "::",
+            stringify!(ar_coeff_shift)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).grain_scale_shift) as usize - ptr as usize },
         172usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainAOMParams),
-        "::",
-        stringify!(grain_scale_shift)
+            "Offset of field: ",
+            stringify!(AVFilmGrainAOMParams),
+            "::",
+            stringify!(grain_scale_shift)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).uv_mult) as usize - ptr as usize },
         176usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainAOMParams),
-        "::",
-        stringify!(uv_mult)
+            "Offset of field: ",
+            stringify!(AVFilmGrainAOMParams),
+            "::",
+            stringify!(uv_mult)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).uv_mult_luma) as usize - ptr as usize },
         184usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainAOMParams),
-        "::",
-        stringify!(uv_mult_luma)
+            "Offset of field: ",
+            stringify!(AVFilmGrainAOMParams),
+            "::",
+            stringify!(uv_mult_luma)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).uv_offset) as usize - ptr as usize },
         192usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainAOMParams),
-        "::",
-        stringify!(uv_offset)
+            "Offset of field: ",
+            stringify!(AVFilmGrainAOMParams),
+            "::",
+            stringify!(uv_offset)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).overlap_flag) as usize - ptr as usize },
         200usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainAOMParams),
-        "::",
-        stringify!(overlap_flag)
+            "Offset of field: ",
+            stringify!(AVFilmGrainAOMParams),
+            "::",
+            stringify!(overlap_flag)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).limit_output_range) as usize - ptr as usize },
         204usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainAOMParams),
-        "::",
-        stringify!(limit_output_range)
+            "Offset of field: ",
+            stringify!(AVFilmGrainAOMParams),
+            "::",
+            stringify!(limit_output_range)
         )
     );
 }
@@ -26917,120 +27020,120 @@ fn bindgen_test_layout_AVFilmGrainH274Params() {
         unsafe { ::std::ptr::addr_of!((*ptr).model_id) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainH274Params),
-        "::",
-        stringify!(model_id)
+            "Offset of field: ",
+            stringify!(AVFilmGrainH274Params),
+            "::",
+            stringify!(model_id)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).bit_depth_luma) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainH274Params),
-        "::",
-        stringify!(bit_depth_luma)
+            "Offset of field: ",
+            stringify!(AVFilmGrainH274Params),
+            "::",
+            stringify!(bit_depth_luma)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).bit_depth_chroma) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainH274Params),
-        "::",
-        stringify!(bit_depth_chroma)
+            "Offset of field: ",
+            stringify!(AVFilmGrainH274Params),
+            "::",
+            stringify!(bit_depth_chroma)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).color_range) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainH274Params),
-        "::",
-        stringify!(color_range)
+            "Offset of field: ",
+            stringify!(AVFilmGrainH274Params),
+            "::",
+            stringify!(color_range)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).color_primaries) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainH274Params),
-        "::",
-        stringify!(color_primaries)
+            "Offset of field: ",
+            stringify!(AVFilmGrainH274Params),
+            "::",
+            stringify!(color_primaries)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).color_trc) as usize - ptr as usize },
         20usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainH274Params),
-        "::",
-        stringify!(color_trc)
+            "Offset of field: ",
+            stringify!(AVFilmGrainH274Params),
+            "::",
+            stringify!(color_trc)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).color_space) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainH274Params),
-        "::",
-        stringify!(color_space)
+            "Offset of field: ",
+            stringify!(AVFilmGrainH274Params),
+            "::",
+            stringify!(color_space)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).blending_mode_id) as usize - ptr as usize },
         28usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainH274Params),
-        "::",
-        stringify!(blending_mode_id)
+            "Offset of field: ",
+            stringify!(AVFilmGrainH274Params),
+            "::",
+            stringify!(blending_mode_id)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).log2_scale_factor) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainH274Params),
-        "::",
-        stringify!(log2_scale_factor)
+            "Offset of field: ",
+            stringify!(AVFilmGrainH274Params),
+            "::",
+            stringify!(log2_scale_factor)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).component_model_present) as usize - ptr as usize },
         36usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainH274Params),
-        "::",
-        stringify!(component_model_present)
+            "Offset of field: ",
+            stringify!(AVFilmGrainH274Params),
+            "::",
+            stringify!(component_model_present)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).num_intensity_intervals) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainH274Params),
-        "::",
-        stringify!(num_intensity_intervals)
+            "Offset of field: ",
+            stringify!(AVFilmGrainH274Params),
+            "::",
+            stringify!(num_intensity_intervals)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).num_model_values) as usize - ptr as usize },
         54usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainH274Params),
-        "::",
-        stringify!(num_model_values)
+            "Offset of field: ",
+            stringify!(AVFilmGrainH274Params),
+            "::",
+            stringify!(num_model_values)
         )
     );
     assert_eq!(
@@ -27039,10 +27142,10 @@ fn bindgen_test_layout_AVFilmGrainH274Params() {
         },
         57usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainH274Params),
-        "::",
-        stringify!(intensity_interval_lower_bound)
+            "Offset of field: ",
+            stringify!(AVFilmGrainH274Params),
+            "::",
+            stringify!(intensity_interval_lower_bound)
         )
     );
     assert_eq!(
@@ -27051,20 +27154,20 @@ fn bindgen_test_layout_AVFilmGrainH274Params() {
         },
         825usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainH274Params),
-        "::",
-        stringify!(intensity_interval_upper_bound)
+            "Offset of field: ",
+            stringify!(AVFilmGrainH274Params),
+            "::",
+            stringify!(intensity_interval_upper_bound)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).comp_model_value) as usize - ptr as usize },
         1594usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainH274Params),
-        "::",
-        stringify!(comp_model_value)
+            "Offset of field: ",
+            stringify!(AVFilmGrainH274Params),
+            "::",
+            stringify!(comp_model_value)
         )
     );
 }
@@ -27104,20 +27207,20 @@ fn bindgen_test_layout_AVFilmGrainParams__bindgen_ty_1() {
         unsafe { ::std::ptr::addr_of!((*ptr).aom) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainParams__bindgen_ty_1),
-        "::",
-        stringify!(aom)
+            "Offset of field: ",
+            stringify!(AVFilmGrainParams__bindgen_ty_1),
+            "::",
+            stringify!(aom)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).h274) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainParams__bindgen_ty_1),
-        "::",
-        stringify!(h274)
+            "Offset of field: ",
+            stringify!(AVFilmGrainParams__bindgen_ty_1),
+            "::",
+            stringify!(h274)
         )
     );
 }
@@ -27144,30 +27247,30 @@ fn bindgen_test_layout_AVFilmGrainParams() {
         unsafe { ::std::ptr::addr_of!((*ptr).type_) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainParams),
-        "::",
-        stringify!(type_)
+            "Offset of field: ",
+            stringify!(AVFilmGrainParams),
+            "::",
+            stringify!(type_)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).seed) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainParams),
-        "::",
-        stringify!(seed)
+            "Offset of field: ",
+            stringify!(AVFilmGrainParams),
+            "::",
+            stringify!(seed)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).codec) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVFilmGrainParams),
-        "::",
-        stringify!(codec)
+            "Offset of field: ",
+            stringify!(AVFilmGrainParams),
+            "::",
+            stringify!(codec)
         )
     );
 }
@@ -27272,20 +27375,20 @@ fn bindgen_test_layout_AVHDRPlusPercentile() {
         unsafe { ::std::ptr::addr_of!((*ptr).percentage) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRPlusPercentile),
-        "::",
-        stringify!(percentage)
+            "Offset of field: ",
+            stringify!(AVHDRPlusPercentile),
+            "::",
+            stringify!(percentage)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).percentile) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRPlusPercentile),
-        "::",
-        stringify!(percentile)
+            "Offset of field: ",
+            stringify!(AVHDRPlusPercentile),
+            "::",
+            stringify!(percentile)
         )
     );
 }
@@ -27359,70 +27462,70 @@ fn bindgen_test_layout_AVHDRPlusColorTransformParams() {
         unsafe { ::std::ptr::addr_of!((*ptr).window_upper_left_corner_x) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRPlusColorTransformParams),
-        "::",
-        stringify!(window_upper_left_corner_x)
+            "Offset of field: ",
+            stringify!(AVHDRPlusColorTransformParams),
+            "::",
+            stringify!(window_upper_left_corner_x)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).window_upper_left_corner_y) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRPlusColorTransformParams),
-        "::",
-        stringify!(window_upper_left_corner_y)
+            "Offset of field: ",
+            stringify!(AVHDRPlusColorTransformParams),
+            "::",
+            stringify!(window_upper_left_corner_y)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).window_lower_right_corner_x) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRPlusColorTransformParams),
-        "::",
-        stringify!(window_lower_right_corner_x)
+            "Offset of field: ",
+            stringify!(AVHDRPlusColorTransformParams),
+            "::",
+            stringify!(window_lower_right_corner_x)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).window_lower_right_corner_y) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRPlusColorTransformParams),
-        "::",
-        stringify!(window_lower_right_corner_y)
+            "Offset of field: ",
+            stringify!(AVHDRPlusColorTransformParams),
+            "::",
+            stringify!(window_lower_right_corner_y)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).center_of_ellipse_x) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRPlusColorTransformParams),
-        "::",
-        stringify!(center_of_ellipse_x)
+            "Offset of field: ",
+            stringify!(AVHDRPlusColorTransformParams),
+            "::",
+            stringify!(center_of_ellipse_x)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).center_of_ellipse_y) as usize - ptr as usize },
         34usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRPlusColorTransformParams),
-        "::",
-        stringify!(center_of_ellipse_y)
+            "Offset of field: ",
+            stringify!(AVHDRPlusColorTransformParams),
+            "::",
+            stringify!(center_of_ellipse_y)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).rotation_angle) as usize - ptr as usize },
         36usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRPlusColorTransformParams),
-        "::",
-        stringify!(rotation_angle)
+            "Offset of field: ",
+            stringify!(AVHDRPlusColorTransformParams),
+            "::",
+            stringify!(rotation_angle)
         )
     );
     assert_eq!(
@@ -27431,10 +27534,10 @@ fn bindgen_test_layout_AVHDRPlusColorTransformParams() {
         },
         38usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRPlusColorTransformParams),
-        "::",
-        stringify!(semimajor_axis_internal_ellipse)
+            "Offset of field: ",
+            stringify!(AVHDRPlusColorTransformParams),
+            "::",
+            stringify!(semimajor_axis_internal_ellipse)
         )
     );
     assert_eq!(
@@ -27443,10 +27546,10 @@ fn bindgen_test_layout_AVHDRPlusColorTransformParams() {
         },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRPlusColorTransformParams),
-        "::",
-        stringify!(semimajor_axis_external_ellipse)
+            "Offset of field: ",
+            stringify!(AVHDRPlusColorTransformParams),
+            "::",
+            stringify!(semimajor_axis_external_ellipse)
         )
     );
     assert_eq!(
@@ -27455,40 +27558,40 @@ fn bindgen_test_layout_AVHDRPlusColorTransformParams() {
         },
         42usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRPlusColorTransformParams),
-        "::",
-        stringify!(semiminor_axis_external_ellipse)
+            "Offset of field: ",
+            stringify!(AVHDRPlusColorTransformParams),
+            "::",
+            stringify!(semiminor_axis_external_ellipse)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).overlap_process_option) as usize - ptr as usize },
         44usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRPlusColorTransformParams),
-        "::",
-        stringify!(overlap_process_option)
+            "Offset of field: ",
+            stringify!(AVHDRPlusColorTransformParams),
+            "::",
+            stringify!(overlap_process_option)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).maxscl) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRPlusColorTransformParams),
-        "::",
-        stringify!(maxscl)
+            "Offset of field: ",
+            stringify!(AVHDRPlusColorTransformParams),
+            "::",
+            stringify!(maxscl)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).average_maxrgb) as usize - ptr as usize },
         72usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRPlusColorTransformParams),
-        "::",
-        stringify!(average_maxrgb)
+            "Offset of field: ",
+            stringify!(AVHDRPlusColorTransformParams),
+            "::",
+            stringify!(average_maxrgb)
         )
     );
     assert_eq!(
@@ -27497,80 +27600,80 @@ fn bindgen_test_layout_AVHDRPlusColorTransformParams() {
         },
         80usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRPlusColorTransformParams),
-        "::",
-        stringify!(num_distribution_maxrgb_percentiles)
+            "Offset of field: ",
+            stringify!(AVHDRPlusColorTransformParams),
+            "::",
+            stringify!(num_distribution_maxrgb_percentiles)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).distribution_maxrgb) as usize - ptr as usize },
         84usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRPlusColorTransformParams),
-        "::",
-        stringify!(distribution_maxrgb)
+            "Offset of field: ",
+            stringify!(AVHDRPlusColorTransformParams),
+            "::",
+            stringify!(distribution_maxrgb)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).fraction_bright_pixels) as usize - ptr as usize },
         264usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRPlusColorTransformParams),
-        "::",
-        stringify!(fraction_bright_pixels)
+            "Offset of field: ",
+            stringify!(AVHDRPlusColorTransformParams),
+            "::",
+            stringify!(fraction_bright_pixels)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).tone_mapping_flag) as usize - ptr as usize },
         272usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRPlusColorTransformParams),
-        "::",
-        stringify!(tone_mapping_flag)
+            "Offset of field: ",
+            stringify!(AVHDRPlusColorTransformParams),
+            "::",
+            stringify!(tone_mapping_flag)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).knee_point_x) as usize - ptr as usize },
         276usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRPlusColorTransformParams),
-        "::",
-        stringify!(knee_point_x)
+            "Offset of field: ",
+            stringify!(AVHDRPlusColorTransformParams),
+            "::",
+            stringify!(knee_point_x)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).knee_point_y) as usize - ptr as usize },
         284usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRPlusColorTransformParams),
-        "::",
-        stringify!(knee_point_y)
+            "Offset of field: ",
+            stringify!(AVHDRPlusColorTransformParams),
+            "::",
+            stringify!(knee_point_y)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).num_bezier_curve_anchors) as usize - ptr as usize },
         292usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRPlusColorTransformParams),
-        "::",
-        stringify!(num_bezier_curve_anchors)
+            "Offset of field: ",
+            stringify!(AVHDRPlusColorTransformParams),
+            "::",
+            stringify!(num_bezier_curve_anchors)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).bezier_curve_anchors) as usize - ptr as usize },
         296usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRPlusColorTransformParams),
-        "::",
-        stringify!(bezier_curve_anchors)
+            "Offset of field: ",
+            stringify!(AVHDRPlusColorTransformParams),
+            "::",
+            stringify!(bezier_curve_anchors)
         )
     );
     assert_eq!(
@@ -27579,20 +27682,20 @@ fn bindgen_test_layout_AVHDRPlusColorTransformParams() {
         },
         416usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRPlusColorTransformParams),
-        "::",
-        stringify!(color_saturation_mapping_flag)
+            "Offset of field: ",
+            stringify!(AVHDRPlusColorTransformParams),
+            "::",
+            stringify!(color_saturation_mapping_flag)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).color_saturation_weight) as usize - ptr as usize },
         420usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRPlusColorTransformParams),
-        "::",
-        stringify!(color_saturation_weight)
+            "Offset of field: ",
+            stringify!(AVHDRPlusColorTransformParams),
+            "::",
+            stringify!(color_saturation_weight)
         )
     );
 }
@@ -27645,40 +27748,40 @@ fn bindgen_test_layout_AVDynamicHDRPlus() {
         unsafe { ::std::ptr::addr_of!((*ptr).itu_t_t35_country_code) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDynamicHDRPlus),
-        "::",
-        stringify!(itu_t_t35_country_code)
+            "Offset of field: ",
+            stringify!(AVDynamicHDRPlus),
+            "::",
+            stringify!(itu_t_t35_country_code)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).application_version) as usize - ptr as usize },
         1usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDynamicHDRPlus),
-        "::",
-        stringify!(application_version)
+            "Offset of field: ",
+            stringify!(AVDynamicHDRPlus),
+            "::",
+            stringify!(application_version)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).num_windows) as usize - ptr as usize },
         2usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDynamicHDRPlus),
-        "::",
-        stringify!(num_windows)
+            "Offset of field: ",
+            stringify!(AVDynamicHDRPlus),
+            "::",
+            stringify!(num_windows)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).params) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDynamicHDRPlus),
-        "::",
-        stringify!(params)
+            "Offset of field: ",
+            stringify!(AVDynamicHDRPlus),
+            "::",
+            stringify!(params)
         )
     );
     assert_eq!(
@@ -27688,10 +27791,10 @@ fn bindgen_test_layout_AVDynamicHDRPlus() {
         },
         1288usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDynamicHDRPlus),
-        "::",
-        stringify!(targeted_system_display_maximum_luminance)
+            "Offset of field: ",
+            stringify!(AVDynamicHDRPlus),
+            "::",
+            stringify!(targeted_system_display_maximum_luminance)
         )
     );
     assert_eq!(
@@ -27701,10 +27804,10 @@ fn bindgen_test_layout_AVDynamicHDRPlus() {
         },
         1296usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDynamicHDRPlus),
-        "::",
-        stringify!(targeted_system_display_actual_peak_luminance_flag)
+            "Offset of field: ",
+            stringify!(AVDynamicHDRPlus),
+            "::",
+            stringify!(targeted_system_display_actual_peak_luminance_flag)
         )
     );
     assert_eq!(
@@ -27715,10 +27818,10 @@ fn bindgen_test_layout_AVDynamicHDRPlus() {
         },
         1297usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDynamicHDRPlus),
-        "::",
-        stringify!(num_rows_targeted_system_display_actual_peak_luminance)
+            "Offset of field: ",
+            stringify!(AVDynamicHDRPlus),
+            "::",
+            stringify!(num_rows_targeted_system_display_actual_peak_luminance)
         )
     );
     assert_eq!(
@@ -27729,10 +27832,10 @@ fn bindgen_test_layout_AVDynamicHDRPlus() {
         },
         1298usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDynamicHDRPlus),
-        "::",
-        stringify!(num_cols_targeted_system_display_actual_peak_luminance)
+            "Offset of field: ",
+            stringify!(AVDynamicHDRPlus),
+            "::",
+            stringify!(num_cols_targeted_system_display_actual_peak_luminance)
         )
     );
     assert_eq!(
@@ -27742,10 +27845,10 @@ fn bindgen_test_layout_AVDynamicHDRPlus() {
         },
         1300usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDynamicHDRPlus),
-        "::",
-        stringify!(targeted_system_display_actual_peak_luminance)
+            "Offset of field: ",
+            stringify!(AVDynamicHDRPlus),
+            "::",
+            stringify!(targeted_system_display_actual_peak_luminance)
         )
     );
     assert_eq!(
@@ -27755,10 +27858,10 @@ fn bindgen_test_layout_AVDynamicHDRPlus() {
         },
         6300usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDynamicHDRPlus),
-        "::",
-        stringify!(mastering_display_actual_peak_luminance_flag)
+            "Offset of field: ",
+            stringify!(AVDynamicHDRPlus),
+            "::",
+            stringify!(mastering_display_actual_peak_luminance_flag)
         )
     );
     assert_eq!(
@@ -27768,10 +27871,10 @@ fn bindgen_test_layout_AVDynamicHDRPlus() {
         },
         6301usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDynamicHDRPlus),
-        "::",
-        stringify!(num_rows_mastering_display_actual_peak_luminance)
+            "Offset of field: ",
+            stringify!(AVDynamicHDRPlus),
+            "::",
+            stringify!(num_rows_mastering_display_actual_peak_luminance)
         )
     );
     assert_eq!(
@@ -27781,10 +27884,10 @@ fn bindgen_test_layout_AVDynamicHDRPlus() {
         },
         6302usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDynamicHDRPlus),
-        "::",
-        stringify!(num_cols_mastering_display_actual_peak_luminance)
+            "Offset of field: ",
+            stringify!(AVDynamicHDRPlus),
+            "::",
+            stringify!(num_cols_mastering_display_actual_peak_luminance)
         )
     );
     assert_eq!(
@@ -27794,10 +27897,10 @@ fn bindgen_test_layout_AVDynamicHDRPlus() {
         },
         6304usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDynamicHDRPlus),
-        "::",
-        stringify!(mastering_display_actual_peak_luminance)
+            "Offset of field: ",
+            stringify!(AVDynamicHDRPlus),
+            "::",
+            stringify!(mastering_display_actual_peak_luminance)
         )
     );
 }
@@ -27861,60 +27964,60 @@ fn bindgen_test_layout_AVHDRVivid3SplineParams() {
         unsafe { ::std::ptr::addr_of!((*ptr).th_mode) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVivid3SplineParams),
-        "::",
-        stringify!(th_mode)
+            "Offset of field: ",
+            stringify!(AVHDRVivid3SplineParams),
+            "::",
+            stringify!(th_mode)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).th_enable_mb) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVivid3SplineParams),
-        "::",
-        stringify!(th_enable_mb)
+            "Offset of field: ",
+            stringify!(AVHDRVivid3SplineParams),
+            "::",
+            stringify!(th_enable_mb)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).th_enable) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVivid3SplineParams),
-        "::",
-        stringify!(th_enable)
+            "Offset of field: ",
+            stringify!(AVHDRVivid3SplineParams),
+            "::",
+            stringify!(th_enable)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).th_delta1) as usize - ptr as usize },
         20usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVivid3SplineParams),
-        "::",
-        stringify!(th_delta1)
+            "Offset of field: ",
+            stringify!(AVHDRVivid3SplineParams),
+            "::",
+            stringify!(th_delta1)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).th_delta2) as usize - ptr as usize },
         28usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVivid3SplineParams),
-        "::",
-        stringify!(th_delta2)
+            "Offset of field: ",
+            stringify!(AVHDRVivid3SplineParams),
+            "::",
+            stringify!(th_delta2)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).enable_strength) as usize - ptr as usize },
         36usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVivid3SplineParams),
-        "::",
-        stringify!(enable_strength)
+            "Offset of field: ",
+            stringify!(AVHDRVivid3SplineParams),
+            "::",
+            stringify!(enable_strength)
         )
     );
 }
@@ -27978,8 +28081,8 @@ fn bindgen_test_layout_AVHDRVividColorToneMappingParams() {
         ::std::mem::align_of::<AVHDRVividColorToneMappingParams>(),
         4usize,
         concat!(
-        "Alignment of ",
-        stringify!(AVHDRVividColorToneMappingParams)
+            "Alignment of ",
+            stringify!(AVHDRVividColorToneMappingParams)
         )
     );
     assert_eq!(
@@ -27989,100 +28092,100 @@ fn bindgen_test_layout_AVHDRVividColorToneMappingParams() {
         },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorToneMappingParams),
-        "::",
-        stringify!(targeted_system_display_maximum_luminance)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorToneMappingParams),
+            "::",
+            stringify!(targeted_system_display_maximum_luminance)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).base_enable_flag) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorToneMappingParams),
-        "::",
-        stringify!(base_enable_flag)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorToneMappingParams),
+            "::",
+            stringify!(base_enable_flag)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).base_param_m_p) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorToneMappingParams),
-        "::",
-        stringify!(base_param_m_p)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorToneMappingParams),
+            "::",
+            stringify!(base_param_m_p)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).base_param_m_m) as usize - ptr as usize },
         20usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorToneMappingParams),
-        "::",
-        stringify!(base_param_m_m)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorToneMappingParams),
+            "::",
+            stringify!(base_param_m_m)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).base_param_m_a) as usize - ptr as usize },
         28usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorToneMappingParams),
-        "::",
-        stringify!(base_param_m_a)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorToneMappingParams),
+            "::",
+            stringify!(base_param_m_a)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).base_param_m_b) as usize - ptr as usize },
         36usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorToneMappingParams),
-        "::",
-        stringify!(base_param_m_b)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorToneMappingParams),
+            "::",
+            stringify!(base_param_m_b)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).base_param_m_n) as usize - ptr as usize },
         44usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorToneMappingParams),
-        "::",
-        stringify!(base_param_m_n)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorToneMappingParams),
+            "::",
+            stringify!(base_param_m_n)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).base_param_k1) as usize - ptr as usize },
         52usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorToneMappingParams),
-        "::",
-        stringify!(base_param_k1)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorToneMappingParams),
+            "::",
+            stringify!(base_param_k1)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).base_param_k2) as usize - ptr as usize },
         56usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorToneMappingParams),
-        "::",
-        stringify!(base_param_k2)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorToneMappingParams),
+            "::",
+            stringify!(base_param_k2)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).base_param_k3) as usize - ptr as usize },
         60usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorToneMappingParams),
-        "::",
-        stringify!(base_param_k3)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorToneMappingParams),
+            "::",
+            stringify!(base_param_k3)
         )
     );
     assert_eq!(
@@ -28091,90 +28194,90 @@ fn bindgen_test_layout_AVHDRVividColorToneMappingParams() {
         },
         64usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorToneMappingParams),
-        "::",
-        stringify!(base_param_Delta_enable_mode)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorToneMappingParams),
+            "::",
+            stringify!(base_param_Delta_enable_mode)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).base_param_Delta) as usize - ptr as usize },
         68usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorToneMappingParams),
-        "::",
-        stringify!(base_param_Delta)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorToneMappingParams),
+            "::",
+            stringify!(base_param_Delta)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).three_Spline_enable_flag) as usize - ptr as usize },
         76usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorToneMappingParams),
-        "::",
-        stringify!(three_Spline_enable_flag)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorToneMappingParams),
+            "::",
+            stringify!(three_Spline_enable_flag)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).three_Spline_num) as usize - ptr as usize },
         80usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorToneMappingParams),
-        "::",
-        stringify!(three_Spline_num)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorToneMappingParams),
+            "::",
+            stringify!(three_Spline_num)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).three_Spline_TH_mode) as usize - ptr as usize },
         84usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorToneMappingParams),
-        "::",
-        stringify!(three_Spline_TH_mode)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorToneMappingParams),
+            "::",
+            stringify!(three_Spline_TH_mode)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).three_Spline_TH_enable_MB) as usize - ptr as usize },
         88usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorToneMappingParams),
-        "::",
-        stringify!(three_Spline_TH_enable_MB)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorToneMappingParams),
+            "::",
+            stringify!(three_Spline_TH_enable_MB)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).three_Spline_TH_enable) as usize - ptr as usize },
         96usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorToneMappingParams),
-        "::",
-        stringify!(three_Spline_TH_enable)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorToneMappingParams),
+            "::",
+            stringify!(three_Spline_TH_enable)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).three_Spline_TH_Delta1) as usize - ptr as usize },
         104usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorToneMappingParams),
-        "::",
-        stringify!(three_Spline_TH_Delta1)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorToneMappingParams),
+            "::",
+            stringify!(three_Spline_TH_Delta1)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).three_Spline_TH_Delta2) as usize - ptr as usize },
         112usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorToneMappingParams),
-        "::",
-        stringify!(three_Spline_TH_Delta2)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorToneMappingParams),
+            "::",
+            stringify!(three_Spline_TH_Delta2)
         )
     );
     assert_eq!(
@@ -28183,20 +28286,20 @@ fn bindgen_test_layout_AVHDRVividColorToneMappingParams() {
         },
         120usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorToneMappingParams),
-        "::",
-        stringify!(three_Spline_enable_Strength)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorToneMappingParams),
+            "::",
+            stringify!(three_Spline_enable_Strength)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).three_spline) as usize - ptr as usize },
         128usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorToneMappingParams),
-        "::",
-        stringify!(three_spline)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorToneMappingParams),
+            "::",
+            stringify!(three_spline)
         )
     );
 }
@@ -28244,70 +28347,70 @@ fn bindgen_test_layout_AVHDRVividColorTransformParams() {
         unsafe { ::std::ptr::addr_of!((*ptr).minimum_maxrgb) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorTransformParams),
-        "::",
-        stringify!(minimum_maxrgb)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorTransformParams),
+            "::",
+            stringify!(minimum_maxrgb)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).average_maxrgb) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorTransformParams),
-        "::",
-        stringify!(average_maxrgb)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorTransformParams),
+            "::",
+            stringify!(average_maxrgb)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).variance_maxrgb) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorTransformParams),
-        "::",
-        stringify!(variance_maxrgb)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorTransformParams),
+            "::",
+            stringify!(variance_maxrgb)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).maximum_maxrgb) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorTransformParams),
-        "::",
-        stringify!(maximum_maxrgb)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorTransformParams),
+            "::",
+            stringify!(maximum_maxrgb)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).tone_mapping_mode_flag) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorTransformParams),
-        "::",
-        stringify!(tone_mapping_mode_flag)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorTransformParams),
+            "::",
+            stringify!(tone_mapping_mode_flag)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).tone_mapping_param_num) as usize - ptr as usize },
         36usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorTransformParams),
-        "::",
-        stringify!(tone_mapping_param_num)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorTransformParams),
+            "::",
+            stringify!(tone_mapping_param_num)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).tm_params) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorTransformParams),
-        "::",
-        stringify!(tm_params)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorTransformParams),
+            "::",
+            stringify!(tm_params)
         )
     );
     assert_eq!(
@@ -28316,30 +28419,30 @@ fn bindgen_test_layout_AVHDRVividColorTransformParams() {
         },
         472usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorTransformParams),
-        "::",
-        stringify!(color_saturation_mapping_flag)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorTransformParams),
+            "::",
+            stringify!(color_saturation_mapping_flag)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).color_saturation_num) as usize - ptr as usize },
         476usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorTransformParams),
-        "::",
-        stringify!(color_saturation_num)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorTransformParams),
+            "::",
+            stringify!(color_saturation_num)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).color_saturation_gain) as usize - ptr as usize },
         480usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVHDRVividColorTransformParams),
-        "::",
-        stringify!(color_saturation_gain)
+            "Offset of field: ",
+            stringify!(AVHDRVividColorTransformParams),
+            "::",
+            stringify!(color_saturation_gain)
         )
     );
 }
@@ -28372,30 +28475,30 @@ fn bindgen_test_layout_AVDynamicHDRVivid() {
         unsafe { ::std::ptr::addr_of!((*ptr).system_start_code) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDynamicHDRVivid),
-        "::",
-        stringify!(system_start_code)
+            "Offset of field: ",
+            stringify!(AVDynamicHDRVivid),
+            "::",
+            stringify!(system_start_code)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).num_windows) as usize - ptr as usize },
         1usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDynamicHDRVivid),
-        "::",
-        stringify!(num_windows)
+            "Offset of field: ",
+            stringify!(AVDynamicHDRVivid),
+            "::",
+            stringify!(num_windows)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).params) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVDynamicHDRVivid),
-        "::",
-        stringify!(params)
+            "Offset of field: ",
+            stringify!(AVDynamicHDRVivid),
+            "::",
+            stringify!(params)
         )
     );
 }
@@ -28489,50 +28592,50 @@ fn bindgen_test_layout_AVComponentDescriptor() {
         unsafe { ::std::ptr::addr_of!((*ptr).plane) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVComponentDescriptor),
-        "::",
-        stringify!(plane)
+            "Offset of field: ",
+            stringify!(AVComponentDescriptor),
+            "::",
+            stringify!(plane)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).step) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVComponentDescriptor),
-        "::",
-        stringify!(step)
+            "Offset of field: ",
+            stringify!(AVComponentDescriptor),
+            "::",
+            stringify!(step)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).offset) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVComponentDescriptor),
-        "::",
-        stringify!(offset)
+            "Offset of field: ",
+            stringify!(AVComponentDescriptor),
+            "::",
+            stringify!(offset)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).shift) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVComponentDescriptor),
-        "::",
-        stringify!(shift)
+            "Offset of field: ",
+            stringify!(AVComponentDescriptor),
+            "::",
+            stringify!(shift)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).depth) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVComponentDescriptor),
-        "::",
-        stringify!(depth)
+            "Offset of field: ",
+            stringify!(AVComponentDescriptor),
+            "::",
+            stringify!(depth)
         )
     );
 }
@@ -28572,70 +28675,70 @@ fn bindgen_test_layout_AVPixFmtDescriptor() {
         unsafe { ::std::ptr::addr_of!((*ptr).name) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPixFmtDescriptor),
-        "::",
-        stringify!(name)
+            "Offset of field: ",
+            stringify!(AVPixFmtDescriptor),
+            "::",
+            stringify!(name)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).nb_components) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPixFmtDescriptor),
-        "::",
-        stringify!(nb_components)
+            "Offset of field: ",
+            stringify!(AVPixFmtDescriptor),
+            "::",
+            stringify!(nb_components)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).log2_chroma_w) as usize - ptr as usize },
         9usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPixFmtDescriptor),
-        "::",
-        stringify!(log2_chroma_w)
+            "Offset of field: ",
+            stringify!(AVPixFmtDescriptor),
+            "::",
+            stringify!(log2_chroma_w)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).log2_chroma_h) as usize - ptr as usize },
         10usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPixFmtDescriptor),
-        "::",
-        stringify!(log2_chroma_h)
+            "Offset of field: ",
+            stringify!(AVPixFmtDescriptor),
+            "::",
+            stringify!(log2_chroma_h)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).flags) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPixFmtDescriptor),
-        "::",
-        stringify!(flags)
+            "Offset of field: ",
+            stringify!(AVPixFmtDescriptor),
+            "::",
+            stringify!(flags)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).comp) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPixFmtDescriptor),
-        "::",
-        stringify!(comp)
+            "Offset of field: ",
+            stringify!(AVPixFmtDescriptor),
+            "::",
+            stringify!(comp)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).alias) as usize - ptr as usize },
         104usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVPixFmtDescriptor),
-        "::",
-        stringify!(alias)
+            "Offset of field: ",
+            stringify!(AVPixFmtDescriptor),
+            "::",
+            stringify!(alias)
         )
     );
 }
@@ -29029,60 +29132,60 @@ fn bindgen_test_layout_av_alias64() {
         unsafe { ::std::ptr::addr_of!((*ptr).u64_) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(av_alias64),
-        "::",
-        stringify!(u64_)
+            "Offset of field: ",
+            stringify!(av_alias64),
+            "::",
+            stringify!(u64_)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).u32_) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(av_alias64),
-        "::",
-        stringify!(u32_)
+            "Offset of field: ",
+            stringify!(av_alias64),
+            "::",
+            stringify!(u32_)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).u16_) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(av_alias64),
-        "::",
-        stringify!(u16_)
+            "Offset of field: ",
+            stringify!(av_alias64),
+            "::",
+            stringify!(u16_)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).u8_) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(av_alias64),
-        "::",
-        stringify!(u8_)
+            "Offset of field: ",
+            stringify!(av_alias64),
+            "::",
+            stringify!(u8_)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).f64_) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(av_alias64),
-        "::",
-        stringify!(f64_)
+            "Offset of field: ",
+            stringify!(av_alias64),
+            "::",
+            stringify!(f64_)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).f32_) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(av_alias64),
-        "::",
-        stringify!(f32_)
+            "Offset of field: ",
+            stringify!(av_alias64),
+            "::",
+            stringify!(f32_)
         )
     );
 }
@@ -29117,40 +29220,40 @@ fn bindgen_test_layout_av_alias32() {
         unsafe { ::std::ptr::addr_of!((*ptr).u32_) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(av_alias32),
-        "::",
-        stringify!(u32_)
+            "Offset of field: ",
+            stringify!(av_alias32),
+            "::",
+            stringify!(u32_)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).u16_) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(av_alias32),
-        "::",
-        stringify!(u16_)
+            "Offset of field: ",
+            stringify!(av_alias32),
+            "::",
+            stringify!(u16_)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).u8_) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(av_alias32),
-        "::",
-        stringify!(u8_)
+            "Offset of field: ",
+            stringify!(av_alias32),
+            "::",
+            stringify!(u8_)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).f32_) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(av_alias32),
-        "::",
-        stringify!(f32_)
+            "Offset of field: ",
+            stringify!(av_alias32),
+            "::",
+            stringify!(f32_)
         )
     );
 }
@@ -29183,20 +29286,20 @@ fn bindgen_test_layout_av_alias16() {
         unsafe { ::std::ptr::addr_of!((*ptr).u16_) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(av_alias16),
-        "::",
-        stringify!(u16_)
+            "Offset of field: ",
+            stringify!(av_alias16),
+            "::",
+            stringify!(u16_)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).u8_) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(av_alias16),
-        "::",
-        stringify!(u8_)
+            "Offset of field: ",
+            stringify!(av_alias16),
+            "::",
+            stringify!(u8_)
         )
     );
 }
@@ -29228,10 +29331,10 @@ fn bindgen_test_layout_unaligned_64() {
         unsafe { ::std::ptr::addr_of!((*ptr).l) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(unaligned_64),
-        "::",
-        stringify!(l)
+            "Offset of field: ",
+            stringify!(unaligned_64),
+            "::",
+            stringify!(l)
         )
     );
 }
@@ -29263,10 +29366,10 @@ fn bindgen_test_layout_unaligned_32() {
         unsafe { ::std::ptr::addr_of!((*ptr).l) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(unaligned_32),
-        "::",
-        stringify!(l)
+            "Offset of field: ",
+            stringify!(unaligned_32),
+            "::",
+            stringify!(l)
         )
     );
 }
@@ -29298,10 +29401,10 @@ fn bindgen_test_layout_unaligned_16() {
         unsafe { ::std::ptr::addr_of!((*ptr).l) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(unaligned_16),
-        "::",
-        stringify!(l)
+            "Offset of field: ",
+            stringify!(unaligned_16),
+            "::",
+            stringify!(l)
         )
     );
 }
@@ -29335,20 +29438,20 @@ fn bindgen_test_layout_AVLFG() {
         unsafe { ::std::ptr::addr_of!((*ptr).state) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVLFG),
-        "::",
-        stringify!(state)
+            "Offset of field: ",
+            stringify!(AVLFG),
+            "::",
+            stringify!(state)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).index) as usize - ptr as usize },
         256usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVLFG),
-        "::",
-        stringify!(index)
+            "Offset of field: ",
+            stringify!(AVLFG),
+            "::",
+            stringify!(index)
         )
     );
 }
@@ -29412,60 +29515,60 @@ fn bindgen_test_layout_AVMasteringDisplayMetadata() {
         unsafe { ::std::ptr::addr_of!((*ptr).display_primaries) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVMasteringDisplayMetadata),
-        "::",
-        stringify!(display_primaries)
+            "Offset of field: ",
+            stringify!(AVMasteringDisplayMetadata),
+            "::",
+            stringify!(display_primaries)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).white_point) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVMasteringDisplayMetadata),
-        "::",
-        stringify!(white_point)
+            "Offset of field: ",
+            stringify!(AVMasteringDisplayMetadata),
+            "::",
+            stringify!(white_point)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).min_luminance) as usize - ptr as usize },
         64usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVMasteringDisplayMetadata),
-        "::",
-        stringify!(min_luminance)
+            "Offset of field: ",
+            stringify!(AVMasteringDisplayMetadata),
+            "::",
+            stringify!(min_luminance)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).max_luminance) as usize - ptr as usize },
         72usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVMasteringDisplayMetadata),
-        "::",
-        stringify!(max_luminance)
+            "Offset of field: ",
+            stringify!(AVMasteringDisplayMetadata),
+            "::",
+            stringify!(max_luminance)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).has_primaries) as usize - ptr as usize },
         80usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVMasteringDisplayMetadata),
-        "::",
-        stringify!(has_primaries)
+            "Offset of field: ",
+            stringify!(AVMasteringDisplayMetadata),
+            "::",
+            stringify!(has_primaries)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).has_luminance) as usize - ptr as usize },
         84usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVMasteringDisplayMetadata),
-        "::",
-        stringify!(has_luminance)
+            "Offset of field: ",
+            stringify!(AVMasteringDisplayMetadata),
+            "::",
+            stringify!(has_luminance)
         )
     );
 }
@@ -29507,20 +29610,20 @@ fn bindgen_test_layout_AVContentLightMetadata() {
         unsafe { ::std::ptr::addr_of!((*ptr).MaxCLL) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVContentLightMetadata),
-        "::",
-        stringify!(MaxCLL)
+            "Offset of field: ",
+            stringify!(AVContentLightMetadata),
+            "::",
+            stringify!(MaxCLL)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).MaxFALL) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVContentLightMetadata),
-        "::",
-        stringify!(MaxFALL)
+            "Offset of field: ",
+            stringify!(AVContentLightMetadata),
+            "::",
+            stringify!(MaxFALL)
         )
     );
 }
@@ -29606,110 +29709,110 @@ fn bindgen_test_layout_AVMotionVector() {
         unsafe { ::std::ptr::addr_of!((*ptr).source) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVMotionVector),
-        "::",
-        stringify!(source)
+            "Offset of field: ",
+            stringify!(AVMotionVector),
+            "::",
+            stringify!(source)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).w) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVMotionVector),
-        "::",
-        stringify!(w)
+            "Offset of field: ",
+            stringify!(AVMotionVector),
+            "::",
+            stringify!(w)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).h) as usize - ptr as usize },
         5usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVMotionVector),
-        "::",
-        stringify!(h)
+            "Offset of field: ",
+            stringify!(AVMotionVector),
+            "::",
+            stringify!(h)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).src_x) as usize - ptr as usize },
         6usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVMotionVector),
-        "::",
-        stringify!(src_x)
+            "Offset of field: ",
+            stringify!(AVMotionVector),
+            "::",
+            stringify!(src_x)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).src_y) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVMotionVector),
-        "::",
-        stringify!(src_y)
+            "Offset of field: ",
+            stringify!(AVMotionVector),
+            "::",
+            stringify!(src_y)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).dst_x) as usize - ptr as usize },
         10usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVMotionVector),
-        "::",
-        stringify!(dst_x)
+            "Offset of field: ",
+            stringify!(AVMotionVector),
+            "::",
+            stringify!(dst_x)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).dst_y) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVMotionVector),
-        "::",
-        stringify!(dst_y)
+            "Offset of field: ",
+            stringify!(AVMotionVector),
+            "::",
+            stringify!(dst_y)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).flags) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVMotionVector),
-        "::",
-        stringify!(flags)
+            "Offset of field: ",
+            stringify!(AVMotionVector),
+            "::",
+            stringify!(flags)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).motion_x) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVMotionVector),
-        "::",
-        stringify!(motion_x)
+            "Offset of field: ",
+            stringify!(AVMotionVector),
+            "::",
+            stringify!(motion_x)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).motion_y) as usize - ptr as usize },
         28usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVMotionVector),
-        "::",
-        stringify!(motion_y)
+            "Offset of field: ",
+            stringify!(AVMotionVector),
+            "::",
+            stringify!(motion_y)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).motion_scale) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVMotionVector),
-        "::",
-        stringify!(motion_scale)
+            "Offset of field: ",
+            stringify!(AVMotionVector),
+            "::",
+            stringify!(motion_scale)
         )
     );
 }
@@ -29771,110 +29874,110 @@ fn bindgen_test_layout_tm() {
         unsafe { ::std::ptr::addr_of!((*ptr).tm_sec) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(tm),
-        "::",
-        stringify!(tm_sec)
+            "Offset of field: ",
+            stringify!(tm),
+            "::",
+            stringify!(tm_sec)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).tm_min) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(tm),
-        "::",
-        stringify!(tm_min)
+            "Offset of field: ",
+            stringify!(tm),
+            "::",
+            stringify!(tm_min)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).tm_hour) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(tm),
-        "::",
-        stringify!(tm_hour)
+            "Offset of field: ",
+            stringify!(tm),
+            "::",
+            stringify!(tm_hour)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).tm_mday) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(tm),
-        "::",
-        stringify!(tm_mday)
+            "Offset of field: ",
+            stringify!(tm),
+            "::",
+            stringify!(tm_mday)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).tm_mon) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(tm),
-        "::",
-        stringify!(tm_mon)
+            "Offset of field: ",
+            stringify!(tm),
+            "::",
+            stringify!(tm_mon)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).tm_year) as usize - ptr as usize },
         20usize,
         concat!(
-        "Offset of field: ",
-        stringify!(tm),
-        "::",
-        stringify!(tm_year)
+            "Offset of field: ",
+            stringify!(tm),
+            "::",
+            stringify!(tm_year)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).tm_wday) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(tm),
-        "::",
-        stringify!(tm_wday)
+            "Offset of field: ",
+            stringify!(tm),
+            "::",
+            stringify!(tm_wday)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).tm_yday) as usize - ptr as usize },
         28usize,
         concat!(
-        "Offset of field: ",
-        stringify!(tm),
-        "::",
-        stringify!(tm_yday)
+            "Offset of field: ",
+            stringify!(tm),
+            "::",
+            stringify!(tm_yday)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).tm_isdst) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(tm),
-        "::",
-        stringify!(tm_isdst)
+            "Offset of field: ",
+            stringify!(tm),
+            "::",
+            stringify!(tm_isdst)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).tm_gmtoff) as usize - ptr as usize },
         40usize,
         concat!(
-        "Offset of field: ",
-        stringify!(tm),
-        "::",
-        stringify!(tm_gmtoff)
+            "Offset of field: ",
+            stringify!(tm),
+            "::",
+            stringify!(tm_gmtoff)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).tm_zone) as usize - ptr as usize },
         48usize,
         concat!(
-        "Offset of field: ",
-        stringify!(tm),
-        "::",
-        stringify!(tm_zone)
+            "Offset of field: ",
+            stringify!(tm),
+            "::",
+            stringify!(tm_zone)
         )
     );
 }
@@ -29902,20 +30005,20 @@ fn bindgen_test_layout_itimerspec() {
         unsafe { ::std::ptr::addr_of!((*ptr).it_interval) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(itimerspec),
-        "::",
-        stringify!(it_interval)
+            "Offset of field: ",
+            stringify!(itimerspec),
+            "::",
+            stringify!(it_interval)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).it_value) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(itimerspec),
-        "::",
-        stringify!(it_value)
+            "Offset of field: ",
+            stringify!(itimerspec),
+            "::",
+            stringify!(it_value)
         )
     );
 }
@@ -30191,10 +30294,10 @@ fn bindgen_test_layout_AVRC4() {
         unsafe { ::std::ptr::addr_of!((*ptr).state) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVRC4),
-        "::",
-        stringify!(state)
+            "Offset of field: ",
+            stringify!(AVRC4),
+            "::",
+            stringify!(state)
         )
     );
     assert_eq!(
@@ -30263,40 +30366,40 @@ fn bindgen_test_layout_AVReplayGain() {
         unsafe { ::std::ptr::addr_of!((*ptr).track_gain) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVReplayGain),
-        "::",
-        stringify!(track_gain)
+            "Offset of field: ",
+            stringify!(AVReplayGain),
+            "::",
+            stringify!(track_gain)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).track_peak) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVReplayGain),
-        "::",
-        stringify!(track_peak)
+            "Offset of field: ",
+            stringify!(AVReplayGain),
+            "::",
+            stringify!(track_peak)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).album_gain) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVReplayGain),
-        "::",
-        stringify!(album_gain)
+            "Offset of field: ",
+            stringify!(AVReplayGain),
+            "::",
+            stringify!(album_gain)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).album_peak) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVReplayGain),
-        "::",
-        stringify!(album_peak)
+            "Offset of field: ",
+            stringify!(AVReplayGain),
+            "::",
+            stringify!(album_peak)
         )
     );
 }
@@ -30430,90 +30533,90 @@ fn bindgen_test_layout_AVSphericalMapping() {
         unsafe { ::std::ptr::addr_of!((*ptr).projection) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVSphericalMapping),
-        "::",
-        stringify!(projection)
+            "Offset of field: ",
+            stringify!(AVSphericalMapping),
+            "::",
+            stringify!(projection)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).yaw) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVSphericalMapping),
-        "::",
-        stringify!(yaw)
+            "Offset of field: ",
+            stringify!(AVSphericalMapping),
+            "::",
+            stringify!(yaw)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).pitch) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVSphericalMapping),
-        "::",
-        stringify!(pitch)
+            "Offset of field: ",
+            stringify!(AVSphericalMapping),
+            "::",
+            stringify!(pitch)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).roll) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVSphericalMapping),
-        "::",
-        stringify!(roll)
+            "Offset of field: ",
+            stringify!(AVSphericalMapping),
+            "::",
+            stringify!(roll)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).bound_left) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVSphericalMapping),
-        "::",
-        stringify!(bound_left)
+            "Offset of field: ",
+            stringify!(AVSphericalMapping),
+            "::",
+            stringify!(bound_left)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).bound_top) as usize - ptr as usize },
         20usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVSphericalMapping),
-        "::",
-        stringify!(bound_top)
+            "Offset of field: ",
+            stringify!(AVSphericalMapping),
+            "::",
+            stringify!(bound_top)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).bound_right) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVSphericalMapping),
-        "::",
-        stringify!(bound_right)
+            "Offset of field: ",
+            stringify!(AVSphericalMapping),
+            "::",
+            stringify!(bound_right)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).bound_bottom) as usize - ptr as usize },
         28usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVSphericalMapping),
-        "::",
-        stringify!(bound_bottom)
+            "Offset of field: ",
+            stringify!(AVSphericalMapping),
+            "::",
+            stringify!(bound_bottom)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).padding) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVSphericalMapping),
-        "::",
-        stringify!(padding)
+            "Offset of field: ",
+            stringify!(AVSphericalMapping),
+            "::",
+            stringify!(padding)
         )
     );
 }
@@ -30598,30 +30701,30 @@ fn bindgen_test_layout_AVStereo3D() {
         unsafe { ::std::ptr::addr_of!((*ptr).type_) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVStereo3D),
-        "::",
-        stringify!(type_)
+            "Offset of field: ",
+            stringify!(AVStereo3D),
+            "::",
+            stringify!(type_)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).flags) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVStereo3D),
-        "::",
-        stringify!(flags)
+            "Offset of field: ",
+            stringify!(AVStereo3D),
+            "::",
+            stringify!(flags)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).view) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVStereo3D),
-        "::",
-        stringify!(view)
+            "Offset of field: ",
+            stringify!(AVStereo3D),
+            "::",
+            stringify!(view)
         )
     );
 }
@@ -30729,7 +30832,7 @@ extern "C" {
 extern "C" {
     #[doc = " Return the current number of messages in the queue.\n\n @return the current number of messages or AVERROR(ENOSYS) if lavu was built\n         without thread support"]
     pub fn av_thread_message_queue_nb_elems(mq: *mut AVThreadMessageQueue)
-                                            -> ::std::os::raw::c_int;
+        -> ::std::os::raw::c_int;
 }
 extern "C" {
     #[doc = " Flush the message queue\n\n This function is mostly equivalent to reading and free-ing every message\n except that it will be done in a single operation (no lock/unlock between\n reads)."]
@@ -30788,40 +30891,40 @@ fn bindgen_test_layout_AVTimecode() {
         unsafe { ::std::ptr::addr_of!((*ptr).start) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVTimecode),
-        "::",
-        stringify!(start)
+            "Offset of field: ",
+            stringify!(AVTimecode),
+            "::",
+            stringify!(start)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).flags) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVTimecode),
-        "::",
-        stringify!(flags)
+            "Offset of field: ",
+            stringify!(AVTimecode),
+            "::",
+            stringify!(flags)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).rate) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVTimecode),
-        "::",
-        stringify!(rate)
+            "Offset of field: ",
+            stringify!(AVTimecode),
+            "::",
+            stringify!(rate)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).fps) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVTimecode),
-        "::",
-        stringify!(fps)
+            "Offset of field: ",
+            stringify!(AVTimecode),
+            "::",
+            stringify!(fps)
         )
     );
 }
@@ -31043,20 +31146,20 @@ fn bindgen_test_layout_AVComplexFloat() {
         unsafe { ::std::ptr::addr_of!((*ptr).re) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVComplexFloat),
-        "::",
-        stringify!(re)
+            "Offset of field: ",
+            stringify!(AVComplexFloat),
+            "::",
+            stringify!(re)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).im) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVComplexFloat),
-        "::",
-        stringify!(im)
+            "Offset of field: ",
+            stringify!(AVComplexFloat),
+            "::",
+            stringify!(im)
         )
     );
 }
@@ -31084,20 +31187,20 @@ fn bindgen_test_layout_AVComplexDouble() {
         unsafe { ::std::ptr::addr_of!((*ptr).re) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVComplexDouble),
-        "::",
-        stringify!(re)
+            "Offset of field: ",
+            stringify!(AVComplexDouble),
+            "::",
+            stringify!(re)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).im) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVComplexDouble),
-        "::",
-        stringify!(im)
+            "Offset of field: ",
+            stringify!(AVComplexDouble),
+            "::",
+            stringify!(im)
         )
     );
 }
@@ -31125,20 +31228,20 @@ fn bindgen_test_layout_AVComplexInt32() {
         unsafe { ::std::ptr::addr_of!((*ptr).re) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVComplexInt32),
-        "::",
-        stringify!(re)
+            "Offset of field: ",
+            stringify!(AVComplexInt32),
+            "::",
+            stringify!(re)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).im) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVComplexInt32),
-        "::",
-        stringify!(im)
+            "Offset of field: ",
+            stringify!(AVComplexInt32),
+            "::",
+            stringify!(im)
         )
     );
 }
@@ -31284,60 +31387,60 @@ fn bindgen_test_layout_AVVideoEncParams() {
         unsafe { ::std::ptr::addr_of!((*ptr).nb_blocks) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVVideoEncParams),
-        "::",
-        stringify!(nb_blocks)
+            "Offset of field: ",
+            stringify!(AVVideoEncParams),
+            "::",
+            stringify!(nb_blocks)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).blocks_offset) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVVideoEncParams),
-        "::",
-        stringify!(blocks_offset)
+            "Offset of field: ",
+            stringify!(AVVideoEncParams),
+            "::",
+            stringify!(blocks_offset)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).block_size) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVVideoEncParams),
-        "::",
-        stringify!(block_size)
+            "Offset of field: ",
+            stringify!(AVVideoEncParams),
+            "::",
+            stringify!(block_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).type_) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVVideoEncParams),
-        "::",
-        stringify!(type_)
+            "Offset of field: ",
+            stringify!(AVVideoEncParams),
+            "::",
+            stringify!(type_)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).qp) as usize - ptr as usize },
         28usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVVideoEncParams),
-        "::",
-        stringify!(qp)
+            "Offset of field: ",
+            stringify!(AVVideoEncParams),
+            "::",
+            stringify!(qp)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).delta_qp) as usize - ptr as usize },
         32usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVVideoEncParams),
-        "::",
-        stringify!(delta_qp)
+            "Offset of field: ",
+            stringify!(AVVideoEncParams),
+            "::",
+            stringify!(delta_qp)
         )
     );
 }
@@ -31374,50 +31477,50 @@ fn bindgen_test_layout_AVVideoBlockParams() {
         unsafe { ::std::ptr::addr_of!((*ptr).src_x) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVVideoBlockParams),
-        "::",
-        stringify!(src_x)
+            "Offset of field: ",
+            stringify!(AVVideoBlockParams),
+            "::",
+            stringify!(src_x)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).src_y) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVVideoBlockParams),
-        "::",
-        stringify!(src_y)
+            "Offset of field: ",
+            stringify!(AVVideoBlockParams),
+            "::",
+            stringify!(src_y)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).w) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVVideoBlockParams),
-        "::",
-        stringify!(w)
+            "Offset of field: ",
+            stringify!(AVVideoBlockParams),
+            "::",
+            stringify!(w)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).h) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVVideoBlockParams),
-        "::",
-        stringify!(h)
+            "Offset of field: ",
+            stringify!(AVVideoBlockParams),
+            "::",
+            stringify!(h)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).delta_qp) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVVideoBlockParams),
-        "::",
-        stringify!(delta_qp)
+            "Offset of field: ",
+            stringify!(AVVideoBlockParams),
+            "::",
+            stringify!(delta_qp)
         )
     );
 }
@@ -31463,40 +31566,40 @@ fn bindgen_test_layout_AVVideoRect() {
         unsafe { ::std::ptr::addr_of!((*ptr).x) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVVideoRect),
-        "::",
-        stringify!(x)
+            "Offset of field: ",
+            stringify!(AVVideoRect),
+            "::",
+            stringify!(x)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).y) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVVideoRect),
-        "::",
-        stringify!(y)
+            "Offset of field: ",
+            stringify!(AVVideoRect),
+            "::",
+            stringify!(y)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).width) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVVideoRect),
-        "::",
-        stringify!(width)
+            "Offset of field: ",
+            stringify!(AVVideoRect),
+            "::",
+            stringify!(width)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).height) as usize - ptr as usize },
         12usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVVideoRect),
-        "::",
-        stringify!(height)
+            "Offset of field: ",
+            stringify!(AVVideoRect),
+            "::",
+            stringify!(height)
         )
     );
 }
@@ -31532,40 +31635,40 @@ fn bindgen_test_layout_AVVideoHint() {
         unsafe { ::std::ptr::addr_of!((*ptr).nb_rects) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVVideoHint),
-        "::",
-        stringify!(nb_rects)
+            "Offset of field: ",
+            stringify!(AVVideoHint),
+            "::",
+            stringify!(nb_rects)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).rect_offset) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVVideoHint),
-        "::",
-        stringify!(rect_offset)
+            "Offset of field: ",
+            stringify!(AVVideoHint),
+            "::",
+            stringify!(rect_offset)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).rect_size) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVVideoHint),
-        "::",
-        stringify!(rect_size)
+            "Offset of field: ",
+            stringify!(AVVideoHint),
+            "::",
+            stringify!(rect_size)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).type_) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVVideoHint),
-        "::",
-        stringify!(type_)
+            "Offset of field: ",
+            stringify!(AVVideoHint),
+            "::",
+            stringify!(type_)
         )
     );
 }
@@ -31576,7 +31679,7 @@ extern "C" {
 extern "C" {
     #[doc = " Same as av_video_hint_alloc(), except newly-allocated AVVideoHint is attached\n as side data of type AV_FRAME_DATA_VIDEO_HINT_INFO to frame."]
     pub fn av_video_hint_create_side_data(frame: *mut AVFrame, nb_rects: usize)
-                                          -> *mut AVVideoHint;
+        -> *mut AVVideoHint;
 }
 #[doc = " @file\n @brief Public header for libavutil XTEA algorithm\n @defgroup lavu_xtea XTEA\n @ingroup lavu_crypto\n @{"]
 #[repr(C)]
@@ -31602,10 +31705,10 @@ fn bindgen_test_layout_AVXTEA() {
         unsafe { ::std::ptr::addr_of!((*ptr).key) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(AVXTEA),
-        "::",
-        stringify!(key)
+            "Offset of field: ",
+            stringify!(AVXTEA),
+            "::",
+            stringify!(key)
         )
     );
 }
@@ -31897,20 +32000,20 @@ fn bindgen_test_layout_SwsVector() {
         unsafe { ::std::ptr::addr_of!((*ptr).coeff) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(SwsVector),
-        "::",
-        stringify!(coeff)
+            "Offset of field: ",
+            stringify!(SwsVector),
+            "::",
+            stringify!(coeff)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).length) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(SwsVector),
-        "::",
-        stringify!(length)
+            "Offset of field: ",
+            stringify!(SwsVector),
+            "::",
+            stringify!(length)
         )
     );
 }
@@ -31940,40 +32043,40 @@ fn bindgen_test_layout_SwsFilter() {
         unsafe { ::std::ptr::addr_of!((*ptr).lumH) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(SwsFilter),
-        "::",
-        stringify!(lumH)
+            "Offset of field: ",
+            stringify!(SwsFilter),
+            "::",
+            stringify!(lumH)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).lumV) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(SwsFilter),
-        "::",
-        stringify!(lumV)
+            "Offset of field: ",
+            stringify!(SwsFilter),
+            "::",
+            stringify!(lumV)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).chrH) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(SwsFilter),
-        "::",
-        stringify!(chrH)
+            "Offset of field: ",
+            stringify!(SwsFilter),
+            "::",
+            stringify!(chrH)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).chrV) as usize - ptr as usize },
         24usize,
         concat!(
-        "Offset of field: ",
-        stringify!(SwsFilter),
-        "::",
-        stringify!(chrV)
+            "Offset of field: ",
+            stringify!(SwsFilter),
+            "::",
+            stringify!(chrV)
         )
     );
 }
@@ -32006,7 +32109,37 @@ extern "C" {
         dstFilter: *mut SwsFilter,
     ) -> ::std::os::raw::c_int;
 }
-
+extern "C" {
+    #[doc = " Free the swscaler context swsContext.\n If swsContext is NULL, then does nothing."]
+    pub fn sws_freeContext(swsContext: *mut SwsContext);
+}
+extern "C" {
+    #[doc = " Allocate and return an SwsContext. You need it to perform\n scaling/conversion operations using sws_scale().\n\n @param srcW the width of the source image\n @param srcH the height of the source image\n @param srcFormat the source image format\n @param dstW the width of the destination image\n @param dstH the height of the destination image\n @param dstFormat the destination image format\n @param flags specify which algorithm and options to use for rescaling\n @param param extra parameters to tune the used scaler\n              For SWS_BICUBIC param[0] and [1] tune the shape of the basis\n              function, param[0] tunes f(1) and param[1] f´(1)\n              For SWS_GAUSS param[0] tunes the exponent and thus cutoff\n              frequency\n              For SWS_LANCZOS param[0] tunes the width of the window function\n @return a pointer to an allocated context, or NULL in case of error\n @note this function is to be removed after a saner alternative is\n       written"]
+    pub fn sws_getContext(
+        srcW: ::std::os::raw::c_int,
+        srcH: ::std::os::raw::c_int,
+        srcFormat: AVPixelFormat,
+        dstW: ::std::os::raw::c_int,
+        dstH: ::std::os::raw::c_int,
+        dstFormat: AVPixelFormat,
+        flags: ::std::os::raw::c_int,
+        srcFilter: *mut SwsFilter,
+        dstFilter: *mut SwsFilter,
+        param: *const f64,
+    ) -> *mut SwsContext;
+}
+extern "C" {
+    #[doc = " Scale the image slice in srcSlice and put the resulting scaled\n slice in the image in dst. A slice is a sequence of consecutive\n rows in an image.\n\n Slices have to be provided in sequential order, either in\n top-bottom or bottom-top order. If slices are provided in\n non-sequential order the behavior of the function is undefined.\n\n @param c         the scaling context previously created with\n                  sws_getContext()\n @param srcSlice  the array containing the pointers to the planes of\n                  the source slice\n @param srcStride the array containing the strides for each plane of\n                  the source image\n @param srcSliceY the position in the source image of the slice to\n                  process, that is the number (counted starting from\n                  zero) in the image of the first row of the slice\n @param srcSliceH the height of the source slice, that is the number\n                  of rows in the slice\n @param dst       the array containing the pointers to the planes of\n                  the destination image\n @param dstStride the array containing the strides for each plane of\n                  the destination image\n @return          the height of the output slice"]
+    pub fn sws_scale(
+        c: *mut SwsContext,
+        srcSlice: *const *const u8,
+        srcStride: *const ::std::os::raw::c_int,
+        srcSliceY: ::std::os::raw::c_int,
+        srcSliceH: ::std::os::raw::c_int,
+        dst: *const *mut u8,
+        dstStride: *const ::std::os::raw::c_int,
+    ) -> ::std::os::raw::c_int;
+}
 extern "C" {
     #[doc = " Scale source data from src and write the output to dst.\n\n This is merely a convenience wrapper around\n - sws_frame_start()\n - sws_send_slice(0, src->height)\n - sws_receive_slice(0, dst->height)\n - sws_frame_end()\n\n @param c   The scaling context\n @param dst The destination frame. See documentation for sws_frame_start() for\n            more details.\n @param src The source frame.\n\n @return 0 on success, a negative AVERROR code on failure"]
     pub fn sws_scale_frame(
@@ -32073,7 +32206,55 @@ extern "C" {
         saturation: *mut ::std::os::raw::c_int,
     ) -> ::std::os::raw::c_int;
 }
-
+extern "C" {
+    #[doc = " Allocate and return an uninitialized vector with length coefficients."]
+    pub fn sws_allocVec(length: ::std::os::raw::c_int) -> *mut SwsVector;
+}
+extern "C" {
+    #[doc = " Return a normalized Gaussian curve used to filter stuff\n quality = 3 is high quality, lower is lower quality."]
+    pub fn sws_getGaussianVec(variance: f64, quality: f64) -> *mut SwsVector;
+}
+extern "C" {
+    #[doc = " Scale all the coefficients of a by the scalar value."]
+    pub fn sws_scaleVec(a: *mut SwsVector, scalar: f64);
+}
+extern "C" {
+    #[doc = " Scale all the coefficients of a so that their sum equals height."]
+    pub fn sws_normalizeVec(a: *mut SwsVector, height: f64);
+}
+extern "C" {
+    pub fn sws_freeVec(a: *mut SwsVector);
+}
+extern "C" {
+    pub fn sws_getDefaultFilter(
+        lumaGBlur: f32,
+        chromaGBlur: f32,
+        lumaSharpen: f32,
+        chromaSharpen: f32,
+        chromaHShift: f32,
+        chromaVShift: f32,
+        verbose: ::std::os::raw::c_int,
+    ) -> *mut SwsFilter;
+}
+extern "C" {
+    pub fn sws_freeFilter(filter: *mut SwsFilter);
+}
+extern "C" {
+    #[doc = " Check if context can be reused, otherwise reallocate a new one.\n\n If context is NULL, just calls sws_getContext() to get a new\n context. Otherwise, checks if the parameters are the ones already\n saved in context. If that is the case, returns the current\n context. Otherwise, frees context and gets a new context with\n the new parameters.\n\n Be warned that srcFilter and dstFilter are not checked, they\n are assumed to remain the same."]
+    pub fn sws_getCachedContext(
+        context: *mut SwsContext,
+        srcW: ::std::os::raw::c_int,
+        srcH: ::std::os::raw::c_int,
+        srcFormat: AVPixelFormat,
+        dstW: ::std::os::raw::c_int,
+        dstH: ::std::os::raw::c_int,
+        dstFormat: AVPixelFormat,
+        flags: ::std::os::raw::c_int,
+        srcFilter: *mut SwsFilter,
+        dstFilter: *mut SwsFilter,
+        param: *const f64,
+    ) -> *mut SwsContext;
+}
 extern "C" {
     #[doc = " Convert an 8-bit paletted frame into a frame with a color depth of 32 bits.\n\n The output frame will have the same packed format as the palette.\n\n @param src        source frame buffer\n @param dst        destination frame buffer\n @param num_pixels number of pixels to convert\n @param palette    array with [256] entries, which must match color arrangement (RGB or BGR) of src"]
     pub fn sws_convertPalette8ToPacked32(
@@ -32123,40 +32304,40 @@ fn bindgen_test_layout___va_list_tag() {
         unsafe { ::std::ptr::addr_of!((*ptr).gp_offset) as usize - ptr as usize },
         0usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__va_list_tag),
-        "::",
-        stringify!(gp_offset)
+            "Offset of field: ",
+            stringify!(__va_list_tag),
+            "::",
+            stringify!(gp_offset)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).fp_offset) as usize - ptr as usize },
         4usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__va_list_tag),
-        "::",
-        stringify!(fp_offset)
+            "Offset of field: ",
+            stringify!(__va_list_tag),
+            "::",
+            stringify!(fp_offset)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).overflow_arg_area) as usize - ptr as usize },
         8usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__va_list_tag),
-        "::",
-        stringify!(overflow_arg_area)
+            "Offset of field: ",
+            stringify!(__va_list_tag),
+            "::",
+            stringify!(overflow_arg_area)
         )
     );
     assert_eq!(
         unsafe { ::std::ptr::addr_of!((*ptr).reg_save_area) as usize - ptr as usize },
         16usize,
         concat!(
-        "Offset of field: ",
-        stringify!(__va_list_tag),
-        "::",
-        stringify!(reg_save_area)
+            "Offset of field: ",
+            stringify!(__va_list_tag),
+            "::",
+            stringify!(reg_save_area)
         )
     );
 }
