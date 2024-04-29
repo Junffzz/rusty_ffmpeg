@@ -334,7 +334,7 @@ mod windows {
 fn dynamic_linking(env_vars: &EnvVars) {
     let ffmpeg_dll_path = env_vars.ffmpeg_dll_path.as_ref().unwrap();
 
-    let output_binding_path = &env_vars.out_dir.as_ref().unwrap().join("binding-bak");
+    let output_binding_path = &env_vars.out_dir.as_ref().unwrap().join("binding");
 
     // Extract dll name and the dir the dll is in.
     let (ffmpeg_dll_name, ffmpeg_dll_dir) = {
@@ -369,7 +369,7 @@ fn dynamic_linking(env_vars: &EnvVars) {
 }
 
 fn static_linking(env_vars: &EnvVars) {
-    let output_binding_path = &env_vars.out_dir.as_ref().unwrap().join("binding-bak");
+    let output_binding_path = &env_vars.out_dir.as_ref().unwrap().join("binding");
 
     #[cfg(not(target_os = "windows"))]
     {
@@ -456,8 +456,8 @@ fn docs_rs_linking(env_vars: &EnvVars) {
     // 10MB, which is not enough to fit in FFmpeg source files. So the only
     // thing we can do is copying the locally generated binding files to the
     // `OUT_DIR`.
-    let binding_file_path = &env_vars.out_dir.as_ref().unwrap().join("binding-bak");
-    use_prebuilt_binding(Path::new("src/binding-bak"), binding_file_path);
+    let binding_file_path = &env_vars.out_dir.as_ref().unwrap().join("binding");
+    use_prebuilt_binding(Path::new("src/binding"), binding_file_path);
 }
 
 fn main() {
