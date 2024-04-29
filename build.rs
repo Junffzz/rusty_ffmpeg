@@ -418,7 +418,7 @@ fn static_linking(env_vars: &EnvVars) {
             panic!("No linking method set!");
         };
     }
-    [cfg(target_os = "windows")]
+    #[cfg(target_os = "windows")]
     {
         use windows::*;
         if env_vars.ffmpeg_custom_libs_dir.as_ref().is_some(){
